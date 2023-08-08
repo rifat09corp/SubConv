@@ -4,7 +4,6 @@ And it's automatically generalted by GitHub Action
 """
 
 cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
-  - DOMAIN-SUFFIX,ai.com,🤖 ChatBot
   - DOMAIN-SUFFIX,auth0.com,🤖 ChatBot
   - DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 ChatBot
   - DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 ChatBot
@@ -74,11 +73,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN,app.adjust.com,🎯 全球直连
   - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
   - DOMAIN,rewards.hypixel.net,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
   - DOMAIN-KEYWORD,admarvel,🛑 广告拦截
   - DOMAIN-KEYWORD,admaster,🛑 广告拦截
   - DOMAIN-KEYWORD,adsage,🛑 广告拦截
   - DOMAIN-KEYWORD,adsensor,🛑 广告拦截
-  - DOMAIN-KEYWORD,adservice,🛑 广告拦截
   - DOMAIN-KEYWORD,adsmogo,🛑 广告拦截
   - DOMAIN-KEYWORD,adsrvmedia,🛑 广告拦截
   - DOMAIN-KEYWORD,adsserving,🛑 广告拦截
@@ -1690,6 +1690,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,up.qingdaonews.com,🍃 应用净化
   - DOMAIN-SUFFIX,vaserviece.10jqka.com.cn,🍃 应用净化
   - DOMAIN-SUFFIX,0-000.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,0008d6ba2e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,004809f9da.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0083334e84.com,🛑 广告拦截
   - DOMAIN-SUFFIX,00aaa2d81c1d174.com,🛑 广告拦截
@@ -1709,7 +1710,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,03f128fb44.com,🛑 广告拦截
   - DOMAIN-SUFFIX,04-f-bmf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,04663d5831.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,04a5e62d40.com,🛑 广告拦截
   - DOMAIN-SUFFIX,04cbf4193b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,04ce379e7a.com,🛑 广告拦截
   - DOMAIN-SUFFIX,04fce94137.com,🛑 广告拦截
@@ -1762,6 +1762,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,0f659ec191.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0f6f763bf7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0fc32b5283.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,0fc7ac6ea7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0fd4e46de3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0fd94232df.com,🛑 广告拦截
   - DOMAIN-SUFFIX,0fmm.com,🛑 广告拦截
@@ -1779,7 +1780,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,101m3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,103092804.com,🛑 广告拦截
   - DOMAIN-SUFFIX,106c6423c3.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1077519983.rsc.cdn77.org,🛑 广告拦截
   - DOMAIN-SUFFIX,1080872514.rsc.cdn77.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,1090pjopm.de,🛑 广告拦截
   - DOMAIN-SUFFIX,109c957fb6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,10b883b3d61d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,10c20aedf4.com,🛑 广告拦截
@@ -1787,12 +1790,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,10desires.com,🛑 广告拦截
   - DOMAIN-SUFFIX,10eafd09d6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,10fbb07a4b0.se,🛑 广告拦截
-  - DOMAIN-SUFFIX,10kasbkda100.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,10kjdbkfsdf10.monster,🛑 广告拦截
-  - DOMAIN-SUFFIX,10ksjdbfjksdf00.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,10nvejhblhha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,10q6e9ne5.de,🛑 广告拦截
-  - DOMAIN-SUFFIX,10skdbfks010.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,10skhbdhjfsdf100.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,10skhdbfjsf10.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,10skjdbfkjs10.monster,🛑 广告拦截
@@ -1809,17 +1809,21 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1221e236c3f8703.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1223f33efe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,123-movies.bz,🛑 广告拦截
+  - DOMAIN-SUFFIX,123.manga1001.top,🛑 广告拦截
   - DOMAIN-SUFFIX,123camquiz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,123feb4327.com,🛑 广告拦截
   - DOMAIN-SUFFIX,123movies.to,🛑 广告拦截
+  - DOMAIN-SUFFIX,123w0w.com,🛑 广告拦截
   - DOMAIN-SUFFIX,12573ddd51.com,🛑 广告拦截
   - DOMAIN-SUFFIX,12805b86d6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,12d59da1e2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,12dc71b7cb820f2a.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,12ezo5v60.com,🛑 广告拦截
   - DOMAIN-SUFFIX,130gelh8q.de,🛑 广告拦截
   - DOMAIN-SUFFIX,13646d7b78.com,🛑 广告拦截
   - DOMAIN-SUFFIX,136dd8678f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,137kfj65k.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,13p76nnir.de,🛑 广告拦截
   - DOMAIN-SUFFIX,148dfe140d0f3d5e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1493c7cc8b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,14a5cd0cd8.com,🛑 广告拦截
@@ -1840,6 +1844,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1736253261.rsc.cdn77.org,🛑 广告拦截
   - DOMAIN-SUFFIX,177c156af9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,17co2k5a.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,17do048qm.de,🛑 广告拦截
   - DOMAIN-SUFFIX,17f0ec344c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,18113407f3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,181m2fscr.de,🛑 广告拦截
@@ -1861,8 +1866,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1aqi93ml4.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1b14e0ee42d5e195c9aa1a2f5b42c710.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1b264a0ca0.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1b3tmfcbq.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1b73a49a1b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1b9cvfi0nwxqelxu.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,1betandgonow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1bm3n8sld.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1c09d36b99.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1c174d5fe7.com,🛑 广告拦截
@@ -1875,10 +1882,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1d5d7fb584.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1dtdsln1j.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1empiredirect.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1ep2l1253.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1ex4oemg99mv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1f1c1d50fe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1f6f6bfb05.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1f95b058c0.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1fb655fd03.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1fd92n6t8.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1fr33styl3d0main.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1fr33styl3domain.com,🛑 广告拦截
@@ -1887,7 +1896,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1g46ls536.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1gbjadpsq.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1gettherefaster1.monster,🛑 广告拦截
-  - DOMAIN-SUFFIX,1gldnstrofhkybypdsknubjobaleestranre24.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1gnyn1v3ak78.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1hkmr7jb0.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1i8c0f11.de,🛑 广告拦截
@@ -1897,6 +1905,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1knhg4mmq.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1lbk62l5c.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1lj11b2ii.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,1m72cfole.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1niao20230410.live,🛑 广告拦截
   - DOMAIN-SUFFIX,1nimo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1nqrqa.de,🛑 广告拦截
@@ -1904,6 +1913,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1p1eqpotato.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1p8ln1dtr.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1phads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1pqfa71mc.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,1push.io,🛑 广告拦截
   - DOMAIN-SUFFIX,1r4g65b63.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1r8435gsqldr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1redira.com,🛑 广告拦截
@@ -1916,12 +1927,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,1startfiledownload1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1starwarstx1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1talking.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,1tds26q95.de,🛑 广告拦截
   - DOMAIN-SUFFIX,1ts03.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1ts07.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1ts17.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1ts19.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1upload43ver1.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,1web.me,🛑 广告拦截
+  - DOMAIN-SUFFIX,1xlite-208883.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1xlite-510677.top,🛑 广告拦截
   - DOMAIN-SUFFIX,1xroom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,200088d4e2.com,🛑 广告拦截
@@ -1931,6 +1944,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,206ads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2085145ac8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,20a840a14a0ef7d6.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,20asvjdhasd20.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,20dollars2surf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,20tracks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2137dc12f9d8.com,🛑 广告拦截
@@ -1963,7 +1977,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,259luxu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,25b09661f2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,25obpfr.de,🛑 广告拦截
-  - DOMAIN-SUFFIX,2629ff5ff5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2639iqjkl.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2685da0b4d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,268stephe5en3king.com,🛑 广告拦截
@@ -1991,6 +2004,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,2ade7d2008.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2aefgbf.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2ajhsduasd22.monster,🛑 广告拦截
+  - DOMAIN-SUFFIX,2askjbdjkasd22.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,2aus34sie6po5m.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2b037d5d4d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2b26a9e96e.com,🛑 广告拦截
@@ -2013,14 +2027,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,2d12b2f25b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2d32e2d54e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2d77c9dd09.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,2dc9f59586.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2e8dgn8n0e0l.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2f09c4f4cb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,2f1969b0e8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2f488993d1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2fb8or7ai.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2fd8c0e9fc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2fnptjci.de,🛑 广告拦截
-  - DOMAIN-SUFFIX,2g6gj3aojcrj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2gg6ebbhh.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2go7v1nes8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2h6skj2da.de,🛑 广告拦截
@@ -2050,6 +2063,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,2re6rpip2.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2rlgdkf7s.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2rmifan7n.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,2smarttracker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,2spdo6g9h.de,🛑 广告拦截
   - DOMAIN-SUFFIX,2track.info,🛑 广告拦截
   - DOMAIN-SUFFIX,2trafficcmpny.com,🛑 广告拦截
@@ -2100,6 +2114,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,37e5693aa7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,3819544f76.com,🛑 广告拦截
   - DOMAIN-SUFFIX,3841f4b0c4.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,389a96ae44.com,🛑 广告拦截
   - DOMAIN-SUFFIX,39irqwnzlv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,3a29f8bf84.com,🛑 广告拦截
   - DOMAIN-SUFFIX,3a3614d13f.com,🛑 广告拦截
@@ -2157,6 +2172,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,41f6f373a2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,41fcd2b939.com,🛑 广告拦截
   - DOMAIN-SUFFIX,421npyd4nd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,4254b072bf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,42a5d530ec972d8994.com,🛑 广告拦截
   - DOMAIN-SUFFIX,42d61f012e27b36d53.com,🛑 广告拦截
   - DOMAIN-SUFFIX,42e44b2b6e.com,🛑 广告拦截
@@ -2194,6 +2210,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,49af7cee19.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4a23cbe845.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4a956e69ff.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,4ahgvhsdas14.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,4b05b6a5e7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4b31707500.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4b6994dfa47cee4.com,🛑 广告拦截
@@ -2203,6 +2220,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,4c935d6a244f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4cd6c4dceb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4d2a483049.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,4d3278a1fa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4d3dc84aec.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4dex.io,🛑 广告拦截
   - DOMAIN-SUFFIX,4dfdf752cc.com,🛑 广告拦截
@@ -2244,6 +2262,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,535a855e66.com,🛑 广告拦截
   - DOMAIN-SUFFIX,53c2dtzsj7t1.top,🛑 广告拦截
   - DOMAIN-SUFFIX,54ec30c53d.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,54y3eh34y3wh34y3h.com,🛑 广告拦截
   - DOMAIN-SUFFIX,550b3ikb9j.com,🛑 广告拦截
   - DOMAIN-SUFFIX,550c970411.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5534edee5a.com,🛑 广告拦截
@@ -2262,12 +2281,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,57fd2911f09b76.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5886316040.com,🛑 广告拦截
   - DOMAIN-SUFFIX,58915e0a30.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,589aa99d18.com,🛑 广告拦截
   - DOMAIN-SUFFIX,58gs7b32jy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,590578zugbr8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5913757eb5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5937081273.com,🛑 广告拦截
   - DOMAIN-SUFFIX,59987d951d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,59a3e34c69.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,59e5e13578.com,🛑 广告拦截
   - DOMAIN-SUFFIX,59e6ea7248001c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,59eb44884d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5advertise.com,🛑 广告拦截
@@ -2303,10 +2324,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,5fcc5e7d92.com,🛑 广告拦截
   - DOMAIN-SUFFIX,5fet4fni.de,🛑 广告拦截
   - DOMAIN-SUFFIX,5hagsvgdas56.monster,🛑 广告拦截
+  - DOMAIN-SUFFIX,5hvsdhgvahsd15.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,5icim50.de,🛑 广告拦截
   - DOMAIN-SUFFIX,5jahbsjdasd15.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,5jdhbfjdfg4.monster,🛑 广告拦截
-  - DOMAIN-SUFFIX,5jhdbfjgdfg5.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,5jhsbdjfsdf5.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,5jshbdjfsdf55.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,5jshdbjfsdf55.monster,🛑 广告拦截
@@ -2326,7 +2347,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,5xd3jfwl9e8v.com,🛑 广告拦截
   - DOMAIN-SUFFIX,600z.com,🛑 广告拦截
   - DOMAIN-SUFFIX,6016799644.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,6064cb4b81.com,🛑 广告拦截
   - DOMAIN-SUFFIX,6068a17eed25.com,🛑 广告拦截
   - DOMAIN-SUFFIX,60e19222e9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,61-nmobads.com,🛑 广告拦截
@@ -2356,6 +2376,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,65mjvw6i1z.com,🛑 广告拦截
   - DOMAIN-SUFFIX,65vk1fba34.com,🛑 广告拦截
   - DOMAIN-SUFFIX,660cba7db1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,662dd9bb1a.com,🛑 广告拦截
   - DOMAIN-SUFFIX,669fb3128e4b4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,66e7b94f96.com,🛑 广告拦截
   - DOMAIN-SUFFIX,66f66dd865.com,🛑 广告拦截
@@ -2410,6 +2431,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,71692fai4cc0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,71a30cae934e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,71d7511a4861068.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,71ec0646e6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,729dcbaa57e80c1e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,72d77336c1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,72hdgb5o.de,🛑 广告拦截
@@ -2419,7 +2441,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,749cad1027.com,🛑 广告拦截
   - DOMAIN-SUFFIX,74c5a46eeb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,754999acdc.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,75a3d7c68d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,75abf77682.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7618590057.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7676f1cc6c.com,🛑 广告拦截
@@ -2455,7 +2476,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,7db44be9a6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7df1f04330.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7dshfewr-0ewfivjkys.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,7e1e8f3eba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7e625f490775b155.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7e7574cea0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7f403e402a.com,🛑 广告拦截
@@ -2466,6 +2486,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,7hor9gul4s.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7hu8e1u001.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7insight.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,7jahvsjdasd17.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,7jrahgc.de,🛑 广告拦截
   - DOMAIN-SUFFIX,7lyonline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,7me0ssd6.de,🛑 广告拦截
@@ -2478,11 +2499,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,8170a1da9e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,81ac5b609b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,81f49d8375.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,82308721ac.com,🛑 广告拦截
   - DOMAIN-SUFFIX,823bc1a6cd3f1657.com,🛑 广告拦截
   - DOMAIN-SUFFIX,82448dceaaa13034.com,🛑 广告拦截
   - DOMAIN-SUFFIX,824fde6e63.com,🛑 广告拦截
   - DOMAIN-SUFFIX,827fa7c868b4b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,82a89f6527.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,82b5cc6199.com,🛑 广告拦截
   - DOMAIN-SUFFIX,83032d92a4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,830ea3f4ac.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8353e36c2a.com,🛑 广告拦截
@@ -2491,6 +2514,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,847h7f51.de,🛑 广告拦截
   - DOMAIN-SUFFIX,8499583.com,🛑 广告拦截
   - DOMAIN-SUFFIX,84a196ebc5.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,84c08fdae0.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,84cd8c4d7e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,84d5acbe01.com,🛑 广告拦截
   - DOMAIN-SUFFIX,84de26794f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,851ae974fe.com,🛑 广告拦截
@@ -2520,10 +2545,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,89522f8d3f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8964c6de00.com,🛑 广告拦截
   - DOMAIN-SUFFIX,89968199c6.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,899h3.top,🛑 广告拦截
   - DOMAIN-SUFFIX,8a6549cded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8aaee039a0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8abf43d6ad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8b98b1a05a.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,8bb92fbed8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8bc4888880.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8d26e3a7f3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8d3e6ea132.com,🛑 广告拦截
@@ -2532,13 +2559,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,8dfc9560e0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8dkjfkgdfg88.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,8e41249557.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,8e6d77310c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8e9d62ac9b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8f2587daa3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8f28049c79.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8f74e1229c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8fc511071c.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,8gs4unh05aq6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8jay04c4q7te.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8kj1ldt1.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,8kjdbfkgdfgdd88.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,8po6fdwjsym3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8s32e590un.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8sbdjfsdf88.monster,🛑 广告拦截
@@ -2548,6 +2578,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,8wtkfxiss1o2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,9001476746.com,🛑 广告拦截
   - DOMAIN-SUFFIX,90935ff0ea.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,90f2a627a3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,91cd3khn.de,🛑 广告拦截
   - DOMAIN-SUFFIX,92245a1d7e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,92f77b89a1b2df1b539ff2772282e19b.com,🛑 广告拦截
@@ -2609,7 +2640,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,9kjabjksdas00.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,9kkf51ovqex1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,9kshbdjhfsdf99.monster,🛑 广告拦截
-  - DOMAIN-SUFFIX,9ksubdufsdf99.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,9purdfe9xg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,9r7i9bo06157.top,🛑 广告拦截
   - DOMAIN-SUFFIX,9rendezvous-l.com,🛑 广告拦截
@@ -2659,12 +2689,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,a5ca949458.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a5e04df959f1af34.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a5ff528ff9.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,a5g.oves.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,a6436650df.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a67z.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a6c606db45.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a7165aaaf6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a718917a44.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,a752b63c6b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a81ae971fb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a8858f6631.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a8rm1m4msbbh.com,🛑 广告拦截
@@ -2712,6 +2742,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,abattoirpleatsprinkle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abazelfan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abbagh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,abberantdoggie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abbeyintervalfetched.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abbeyoverdue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abbgrysbok.store,🛑 广告拦截
@@ -2782,6 +2813,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,abroniamarkup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abruptcompliments.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abruptlyinstitution.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,abruptlyretortedbat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abruptnesscarrier.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abruptradishnotwithstanding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abruth.com,🛑 广告拦截
@@ -2804,11 +2836,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,absorbingconstitution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,absorbinginject.com,🛑 广告拦截
   - DOMAIN-SUFFIX,absors.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,abstaininquisitive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,absump.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abtaurosa.club,🛑 广告拦截
   - DOMAIN-SUFFIX,abtyroguer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abuleiasafflow.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,abundanceforfeit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abundled.club,🛑 广告拦截
   - DOMAIN-SUFFIX,abuqxvuy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abusedbabysitters.com,🛑 广告拦截
@@ -2816,6 +2848,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,abuseewarlock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abusiveserving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abvwyuaskikol.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,abwattfrutex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abwhyag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abyamaskor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,abyssesbathman.com,🛑 广告拦截
@@ -2827,9 +2860,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,acalraiz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,acaussee.net,🛑 广告拦截
   - DOMAIN-SUFFIX,acc5a261f3.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,accedeethnic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accedenonre.club,🛑 广告拦截
   - DOMAIN-SUFFIX,accedenonre.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,acceleratedrummer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,acceleratemouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accentamong.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accentneglectporter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acceptable-progress.pro,🛑 广告拦截
@@ -2850,6 +2885,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,accommodatingremindauntie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accompanimentcouldsurprisingly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accompanycollapse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,accompanyingjean.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,accomplicepeach.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accomplishedgradual.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accomplishmentailmentinsane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accomplishmentformation.com,🛑 广告拦截
@@ -2858,6 +2895,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,accomplishobserved.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accordaudienceeducational.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accordinglyvenisonelse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,accountdolphinframe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accountsadultssane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accountsdead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,accruefierceheartache.com,🛑 广告拦截
@@ -2888,6 +2926,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,achievablecpmrevenue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,achievehardboiledheap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,achilles-par.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,achmic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,achnic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,achunogo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,achuphaube.com,🛑 广告拦截
@@ -2902,11 +2941,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ackuotagowr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aclcdxkukaa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aclickads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aclktrkr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acloudvideos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acme.vidox.net,🛑 广告拦截
   - DOMAIN-SUFFIX,acmoldhuwsi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acofrnsr44es3954b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acollo.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,acoolreknit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acpwmktsfhtep.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acquaintanceexemptspinach.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acquaintedexpectations.com,🛑 广告拦截
@@ -2918,6 +2959,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,acridylpinhold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acrossbrittle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acrosscrash.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,acrossgigantic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acrossheadquartersanchovy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acrote.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acrowl.com,🛑 广告拦截
@@ -2945,6 +2987,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,acuityplatform.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acutepropose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,acvhfltsolocor.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,acvx.host,🛑 广告拦截
   - DOMAIN-SUFFIX,acwislrmwtetkuj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad-back.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ad-balancer.net,🛑 广告拦截
@@ -2974,6 +3017,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ad.bitmedia.io,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.edugram.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.gt,🛑 广告拦截
+  - DOMAIN-SUFFIX,ad.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.intl.xiaomi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.itweb.co.za,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.khan.co.kr,🛑 广告拦截
@@ -2993,7 +3037,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ad.mox.tv,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.netmedia.hu,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.nettvservices.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ad.outsidehub.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ad.pornutopia.org,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.reklamport.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.samsungadhub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ad.video-mech.ru,🛑 广告拦截
@@ -3015,6 +3059,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ad999.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,adactioner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adalw-qfm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,adalw-rch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adaptationbodilypairs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adaptcunning.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adaptonnerve.xyz,🛑 广告拦截
@@ -3071,6 +3116,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adcron.com,🛑 广告拦截
   - DOMAIN-SUFFIX,addelive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,addictedsweetness.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,addin.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,addinginstancesroadmap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,addiply.com,🛑 广告拦截
   - DOMAIN-SUFFIX,additionalcasualcabinet.com,🛑 广告拦截
@@ -3136,11 +3182,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adherenceenmitycentury.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adhoc4.net,🛑 广告拦截
   - DOMAIN-SUFFIX,adhub.digital,🛑 广告拦截
-  - DOMAIN-SUFFIX,adhwxdnpiyohe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adiquity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adirtlseividwhik.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,adjectivedollaralmost.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,adjmpfrbhed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adjoincomprise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adjoincultivatedrussian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adjoiningrolesuspicious.com,🛑 广告拦截
@@ -3215,6 +3259,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adop.pw,🛑 广告拦截
   - DOMAIN-SUFFIX,adoperatorx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adopexchange.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,adoptdischarged.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adoptum.net,🛑 广告拦截
   - DOMAIN-SUFFIX,adorableold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adorablespace.pro,🛑 广告拦截
@@ -3227,6 +3272,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adotube.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adovr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adpacks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,adpartner.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,adpass.co.uk,🛑 广告拦截
   - DOMAIN-SUFFIX,adpatrof.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adperium.com,🛑 广告拦截
@@ -3259,6 +3305,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adrotic.girlonthenet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adrunnr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ads-delivery.b-cdn.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,ads-static.conde.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,ads-yallo-production.imgix.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ads.betfair.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ads.rd.linksynergy.com,🛑 广告拦截
@@ -3327,6 +3374,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,adshort.space,🛑 广告拦截
   - DOMAIN-SUFFIX,adsignals.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adsilo.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,adsilo.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,adsimilis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adsinimages.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adsinstant.com,🛑 广告拦截
@@ -3436,6 +3484,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,advard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,advast.sibnet.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,adventory.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,adventureprojectiononly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adventurercraft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adventureurgently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,adventurouscomprehendhold.com,🛑 广告拦截
@@ -3532,6 +3581,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aeneasclosure.website,🛑 广告拦截
   - DOMAIN-SUFFIX,aeolismtact.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aequvplo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aerariacongoni.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,aerialmistaken.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aerobiabassing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aeroplaneversion.com,🛑 广告拦截
@@ -3602,6 +3652,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,affinity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,affiz.net,🛑 广告拦截
   - DOMAIN-SUFFIX,afflat3a1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,afflat3d2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afflictionpetulant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,affluencesoap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,affluentmirth.com,🛑 广告拦截
@@ -3617,7 +3668,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,affyrolo.info,🛑 广告拦截
   - DOMAIN-SUFFIX,afgham.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afgjbleiuoqt.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,afgotpyb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afgr1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afgr10.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afgr11.com,🛑 广告拦截
@@ -3643,6 +3693,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,afptpyarwa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afqdcfbgpaj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,afr4g5.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,afrage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afraid-standard.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,afrant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afre.guru,🛑 广告拦截
@@ -3658,10 +3709,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aftenn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afterdownload.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afterdownloads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,afterpastimebottled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afterwardcounsel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afterwardspenal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afterwardstationquestions.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aftrangale.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aftrk1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aftrk3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,afwpc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agabreloomr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agacelebir.com,🛑 广告拦截
@@ -3697,7 +3751,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ageandinone.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ageismvipery.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agency2.ru,🛑 广告拦截
-  - DOMAIN-SUFFIX,agenduret.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ageory.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ageteexomis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agfdapqal.com,🛑 广告拦截
@@ -3745,7 +3798,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,agregadorcode.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agriculturaltacticautobiography.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agriculturealso.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,agrrjyugyjdb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,agrilusingest.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,agszinmraj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,agukalty.net,🛑 广告拦截
   - DOMAIN-SUFFIX,agurgeed.net,🛑 广告拦截
   - DOMAIN-SUFFIX,agvmfgsdaotjmoq.com,🛑 广告拦截
@@ -3773,7 +3827,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ahjrinrucmp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ahlbhiaq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ahlefind.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ahlhsxdxy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ahnioppshfwq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ahoxirsy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ahpnraljf.com,🛑 广告拦截
@@ -3825,7 +3878,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aircraftairliner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,airdempu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,airdoamoord.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,airdropemboil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,airlessquotationtroubled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,airlinerappetizingcoast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,airlinerlibrariesfavour.com,🛑 广告拦截
@@ -3840,6 +3892,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aistgsgxvsrywhf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aistolsu.net,🛑 广告拦截
   - DOMAIN-SUFFIX,aistthatheha.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,aitarsou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aivoonsa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,aiwhiksy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aixcdn.com,🛑 广告拦截
@@ -3867,7 +3920,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aj2550.bid,🛑 广告拦截
   - DOMAIN-SUFFIX,ajaltoly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ajar-substance.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ajastlyirf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ajbvvvyupv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ajestigie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ajflwavi.com,🛑 广告拦截
@@ -3881,7 +3933,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ajwbkgejrxxrr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ajxx98.online,🛑 广告拦截
   - DOMAIN-SUFFIX,ak-tracker.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ak.imgaft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akaiksots.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akazginhapping.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akbpwhdbdgtlilq.com,🛑 广告拦截
@@ -3891,6 +3942,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,akeedser.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akefhxav.top,🛑 广告拦截
   - DOMAIN-SUFFIX,akelandord.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,akenacngmnj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akfftagyhxn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akgltsptchpq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akilifox.com,🛑 广告拦截
@@ -3905,6 +3957,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,akwhrqkkol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,akwxtceohbmu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,akzvponimot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,alacrityimitation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alanibelen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alanticgecking.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,alargeredrubygsw.com,🛑 广告拦截
@@ -3912,13 +3965,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,alas4kanmfa6a4mubte.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alaskan4kleeskai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alasvow.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,alatedsoccers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alban-mro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,albaneverard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,albaniablandly.space,🛑 广告拦截
   - DOMAIN-SUFFIX,albeitinflame.com,🛑 广告拦截
   - DOMAIN-SUFFIX,albercascorse.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,albertgently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,albertonne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,albireo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,albraixentor.com,🛑 广告拦截
@@ -3936,11 +3987,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aleailarm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alecanjan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alecclause.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,alecupknuffe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alefrfobkoxbgaf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alegnoackerg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aleilu.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,alemitezabtie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alertlogsemployer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alespeonor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alexasrandy.website,🛑 广告拦截
@@ -3951,13 +4000,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,alfkiel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alfonsino.top,🛑 广告拦截
   - DOMAIN-SUFFIX,alfpair.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,alfredpoleshipwreck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alfurtembe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,algalileac.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,algbalisny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,algeriabruges.life,🛑 广告拦截
   - DOMAIN-SUFFIX,algothitaon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,algovid.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,alhose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alhypnoom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alia-iso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aliadvert.ru,🛑 广告拦截
@@ -3991,6 +4039,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,allactualstories.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allayravage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allcommonblog.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,allcommonstories.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allcoolnewz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allcoolposts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allegationhamperexit.com,🛑 广告拦截
@@ -4016,11 +4065,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,allianceoffender.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allicinarenig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allmt.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,allmygreatestlife.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,allmyverygreatlife.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allobarpepped.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,alloha.tv,🛑 广告拦截
-  - DOMAIN-SUFFIX,allornamenti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allotupwardmalicious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alloverwiththinl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allow-to-continue.com,🛑 广告拦截
@@ -4031,6 +4077,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,allowsscaffold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allowsuccess.org,🛑 广告拦截
   - DOMAIN-SUFFIX,alloydigital.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,alloyrounded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alloysoftballcrushing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allpipestay.live,🛑 广告拦截
   - DOMAIN-SUFFIX,allpornovids.com,🛑 广告拦截
@@ -4038,6 +4085,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,allstat-pp.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,alltopnewz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alltopposts.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,alludedapexdepression.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alludedgrinbanquet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allure-ng.net,🛑 广告拦截
   - DOMAIN-SUFFIX,allureencourage.com,🛑 广告拦截
@@ -4045,6 +4093,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,allyenitwasbr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allyes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,allypublicity.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,allywasnothyc.info,🛑 广告拦截
   - DOMAIN-SUFFIX,almapa2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,almareepom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,almasatten.com,🛑 广告拦截
@@ -4066,6 +4115,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,alpacaempover.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,alpenchalet.space,🛑 广告拦截
   - DOMAIN-SUFFIX,alpha-news.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,alphabetlayout.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alphabird.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alphagodaddy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alphonso.tv,🛑 广告拦截
@@ -4096,7 +4146,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,altpubli.com,🛑 广告拦截
   - DOMAIN-SUFFIX,altrk.net,🛑 广告拦截
   - DOMAIN-SUFFIX,altronopubacc.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,altruisticcost.com,🛑 广告拦截
   - DOMAIN-SUFFIX,altynamoan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alulimprowess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,alunitemoste.com,🛑 广告拦截
@@ -4120,6 +4169,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,amarceusan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amassesvoteen.website,🛑 广告拦截
   - DOMAIN-SUFFIX,amasssentimentaldamaging.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,amassweightpun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amateurcouplewebcam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amativeunnoble.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amattepush.com,🛑 广告拦截
@@ -4167,7 +4217,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,amiablebackscertified.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amicithoron.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amiddespair.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,amijagayy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amiltineinct.homes,🛑 广告拦截
   - DOMAIN-SUFFIX,aminjhoiecytyu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,aminopay.net,🛑 广告拦截
@@ -4177,6 +4226,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,amjtizfeqwz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amlatiosa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ammankeyan.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ammits.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ammunitionconsiderinstitution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amnoctowlan.club,🛑 广告拦截
   - DOMAIN-SUFFIX,amntryowzak.com,🛑 广告拦截
@@ -4184,6 +4234,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,amoddishor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amonar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amonor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,amontp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amountdonutproxy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amourmelilot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amouroachoo.com,🛑 广告拦截
@@ -4192,6 +4243,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,amp.services,🛑 广告拦截
   - DOMAIN-SUFFIX,ampcr.io,🛑 广告拦截
   - DOMAIN-SUFFIX,amplefeed.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,amplitudesheriff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amplitudewassnap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ampugi334f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,amputeeinvenit.space,🛑 广告拦截
@@ -4277,9 +4329,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,anglended.club,🛑 广告拦截
   - DOMAIN-SUFFIX,anglesadjoiningbloodless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anglezinccompassionate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,anglingdacker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anglingflyting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anglishreasts.site,🛑 广告拦截
-  - DOMAIN-SUFFIX,angoisehohn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,angprobinsyano.su,🛑 广告拦截
   - DOMAIN-SUFFIX,anguished-child.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,anguishexperimental.com,🛑 广告拦截
@@ -4298,9 +4350,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,animikii-ana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,animits.com,🛑 广告拦截
   - DOMAIN-SUFFIX,animosityknockedgorgeous.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,animositysofa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,animusmisform.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aninter.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,aniyae.net,🛑 广告拦截
   - DOMAIN-SUFFIX,anjlkkyhpp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ankhspreses.space,🛑 广告拦截
   - DOMAIN-SUFFIX,ankleproposedomicile.com,🛑 广告拦截
@@ -4308,6 +4360,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,anlhcenruea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anlytics.co,🛑 广告拦截
   - DOMAIN-SUFFIX,anmdr.link,🛑 广告拦截
+  - DOMAIN-SUFFIX,anmfweogja.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anncmq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,annesuspense.com,🛑 广告拦截
   - DOMAIN-SUFFIX,annihilationefficient.com,🛑 广告拦截
@@ -4321,6 +4374,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,annualbubble.com,🛑 广告拦截
   - DOMAIN-SUFFIX,annuentleers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,annulichasm.digital,🛑 广告拦截
+  - DOMAIN-SUFFIX,anodicvarnish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anomalousmelt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anomalousporch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anonymestupes.website,🛑 广告拦截
@@ -4340,19 +4394,22 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,answeredthec.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,answerroad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,answig.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,antalithate.website,🛑 广告拦截
   - DOMAIN-SUFFIX,antananarbdivu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antapexthecia.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,antarcticoffended.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,antcxk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antecedentexcited.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antecedentponderoverweight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antelintere.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,antennarollcellar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anteroomcrap.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,antetestingstooped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anthe-vsf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antheladixy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,anthembroadcastingbitty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anthemspeg.space,🛑 广告拦截
   - DOMAIN-SUFFIX,anti-adblock.herokuapp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,antiadblock.info,🛑 广告拦截
   - DOMAIN-SUFFIX,antiadblocksystems.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antiarachoo.live,🛑 广告拦截
   - DOMAIN-SUFFIX,antibioticborough.com,🛑 广告拦截
@@ -4364,6 +4421,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,antidotesurvivorausterity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antijamburet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antiliajizzen.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,antipathymenudeduce.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,antiquariancapricorn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antiquariangerm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antiquitytissuepod.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antiredgarbel.website,🛑 广告拦截
@@ -4374,12 +4433,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,antonysurface.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antpeelpiston.com,🛑 广告拦截
   - DOMAIN-SUFFIX,antyoubelike.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,antyoubeliket.info,🛑 广告拦截
   - DOMAIN-SUFFIX,antyoubeliketheap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anubinbrewed.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,anvilcompetitivepills.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anwhic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anxioushatedconservation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anxiouslyconsistencytearing.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,anxiouslywonderexcitement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anxioussituation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anybodytoldsieve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anyhowunplat.uno,🛑 广告拦截
@@ -4391,6 +4452,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,anyplaceagency.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anytimeoutstandingcharges.com,🛑 广告拦截
   - DOMAIN-SUFFIX,anytimesuggestion.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,anywaybreeches.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aofzkovajqti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aogkfujgtmfwp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,aojgggbwish.xyz,🛑 广告拦截
@@ -4449,14 +4511,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,apologiesneedleworkrising.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apologiseproposed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apologizingrigorousmorally.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,apologyjaguar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aponiaonmarch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apooyvfpky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aporasal.net,🛑 广告拦截
   - DOMAIN-SUFFIX,apotomebegot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,app.tippp.io,🛑 广告拦截
   - DOMAIN-SUFFIX,appads.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,apparelchildplash.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,apparentlyhandbook.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apparest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appbetnewapp.top,🛑 广告拦截
   - DOMAIN-SUFFIX,appcdn02.xyz,🛑 广告拦截
@@ -4480,11 +4541,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,applandlight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applaudmaturityasunder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applausesuch.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,apple.analnoe24.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applesometimes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applicantpoachmeat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applicationsattaindevastated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applicationscombine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,applicationsluck.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,applicationsrapacity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appnow.sbs,🛑 广告拦截
   - DOMAIN-SUFFIX,appointedchildorchestra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appointedman.com,🛑 广告拦截
@@ -4498,6 +4561,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,approachproperachieve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appropriateloathefewer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appropriatepurse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,approximatelyseats.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apps.media-lab.ai,🛑 广告拦截
   - DOMAIN-SUFFIX,apps1cdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,appsli.me,🛑 广告拦截
@@ -4528,6 +4592,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,apvdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apxlv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,apzcudhwu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,apzdfakiso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aq7ua5ma85rddeinve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aqdha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aqdhacjwiat.com,🛑 广告拦截
@@ -4557,8 +4622,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,archipelagobelongings.com,🛑 广告拦截
   - DOMAIN-SUFFIX,architectwithdraw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,archseebloated.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,arcodpcmoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arcost54ujkaphylosuvaursi.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,arcquestioningjersey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arcticwarningtraffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arcualstymie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ardourineptlavender.com,🛑 广告拦截
@@ -4587,6 +4652,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ariadnethreadmin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aribut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aricianvrocht.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aridplaincol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arielpri2nce8ss09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arikhwglvc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ariotgribble.com,🛑 广告拦截
@@ -4603,6 +4669,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,armashair.site,🛑 广告拦截
   - DOMAIN-SUFFIX,armedgroin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,armetsremoved.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,armiesinvolve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arminius.io,🛑 广告拦截
   - DOMAIN-SUFFIX,armisticedesigning.com,🛑 广告拦截
   - DOMAIN-SUFFIX,armisticeexpress.com,🛑 广告拦截
@@ -4625,6 +4692,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,arousedimitateplane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arousestatic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arouth.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aroyiise.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,arqrzyowta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arquilavaan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arrearsexplicit.com,🛑 广告拦截
@@ -4652,6 +4720,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,arswabluchan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arterybasin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,artespipe.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,artfulparrotnobody.com,🛑 广告拦截
   - DOMAIN-SUFFIX,arthyadtrack.online,🛑 广告拦截
   - DOMAIN-SUFFIX,arthyredir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,articlegarlandferment.com,🛑 广告拦截
@@ -4705,15 +4774,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,asemskull.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asev.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,asewlfjqwlflkew.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,asfofpfmu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asg.bhabhiporn.pro,🛑 广告拦截
-  - DOMAIN-SUFFIX,asgardrecatch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgclickkl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgclickpop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgclickpp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgg.ghostbin.me,🛑 广告拦截
   - DOMAIN-SUFFIX,asgildedall.info,🛑 广告拦截
   - DOMAIN-SUFFIX,asgildedalloverw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,asgmtalconde.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgorebysschan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asgust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ashadofe.com,🛑 广告拦截
@@ -4730,7 +4798,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,asiapushstan17.click,🛑 广告拦截
   - DOMAIN-SUFFIX,asidefeetsergeant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asidegoswillingness.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,asiepuqvs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asifgsyky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,asifiwoeryesterda.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,askancefinfoot.website,🛑 广告拦截
@@ -4785,9 +4852,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,assistancespectacles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,assistantelizabethraw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,assistedadultrib.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,assistedsquall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,assisteggs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,assisthollowted.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,assistspell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,assithdisseat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,associationwish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,associeta.com,🛑 广告拦截
@@ -4813,6 +4880,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,astkyureman.com,🛑 广告拦截
   - DOMAIN-SUFFIX,astmuka.com,🛑 广告拦截
   - DOMAIN-SUFFIX,astnoivernan.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,astoapsu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,astoecia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,astogepian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,astonebehap.com,🛑 广告拦截
@@ -4855,6 +4923,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,atedmonastyd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,atelegendinflected.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atemda.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aterhouse.info,🛑 广告拦截
   - DOMAIN-SUFFIX,atesbrotheres.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atevaccination.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atgallader.com,🛑 广告拦截
@@ -4870,7 +4939,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,atinsolutions.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atjgljqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atjigglypuffor.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,atkmmepquia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atmalinks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atmandilo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,atmasroofy.com,🛑 广告拦截
@@ -4991,7 +5059,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,august15download.com,🛑 广告拦截
   - DOMAIN-SUFFIX,augusticky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aujooxoo.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,aujxjunasp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aukalerim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aukarosizox.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aukirtoo.com,🛑 广告拦截
@@ -5029,6 +5096,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,auspiceguile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,auspipe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ausrjuwwohbbu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,austaits.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,austow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,autchoog.net,🛑 广告拦截
   - DOMAIN-SUFFIX,auteboon.net,🛑 广告拦截
@@ -5071,6 +5139,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,avhtaapxml.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avhxnasqeo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avickcarob.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,avidheroismgelatine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aviesanct.website,🛑 广告拦截
   - DOMAIN-SUFFIX,aviewrodlet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aviewtoolmen.com,🛑 广告拦截
@@ -5083,6 +5152,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,avouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avowalssnivel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avppuqrudc.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,avprotect.store,🛑 广告拦截
   - DOMAIN-SUFFIX,avtklwruejfr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avtvcuofgz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avulsedcherty.com,🛑 广告拦截
@@ -5091,12 +5161,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,avwdyjwtnpc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avwfilgticz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,avwjhap.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,avxeifhivmerku.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awafthealer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awaitbackseatprod.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awaitdetestableitem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awaitifregularly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awaitingharshlyweakness.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,awaitingutilize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awakeexterior.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awaltundo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,award.sitekeuring.net,🛑 广告拦截
@@ -5145,6 +5215,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,awltovhc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awmbed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awmdelivery.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,awmplus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awmserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awmsufodrob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awnexus.com,🛑 广告拦截
@@ -5160,6 +5231,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,awsnjsduyhgpk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awstaticdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,awsurveys.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,awugxvrmsdalpx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,awutohkhu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awvnhoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,awxczujifw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,axalgyof.xyz,🛑 广告拦截
@@ -5184,6 +5257,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ayanpleasek.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ayassociallya.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ayboll.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,aybvfvlyrtbskvy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aydsvrikr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ayelpacle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ayhereabit.xyz,🛑 广告拦截
@@ -5201,10 +5275,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,azbodrmufaq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azelaiclawyer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azeriondigital.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,azgdgypodyulx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azj57rjy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azjmp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azkcqs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azmrimo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,azmsmufimw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aznapoz.info,🛑 广告拦截
   - DOMAIN-SUFFIX,azoaltou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,azoogleads.com,🛑 广告拦截
@@ -5227,7 +5303,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,b094e3477d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b0a0bb3621.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b0aed10e06.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,b0b96fffc2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b0c9248dab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b0fea47e81.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b0oie4xjeb4ite.com,🛑 广告拦截
@@ -5240,11 +5315,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,b1de17f978.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b1f6fe5e3f0c3c8ba6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b1fb813dc806b7d.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,b225.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,b2261a9931.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b25c1fa74d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b2acafb3a3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b2be2dbdc8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b2f227b09e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b2o6b39taril.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,b30674b49e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b30da4e330.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b325a35aa1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b32e499621.com,🛑 广告拦截
@@ -5262,6 +5340,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,b5903af9fd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b59812ee54afcabd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b5e75c56.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,b6143975c9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b6750bc2a1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b6880ffb9a.com,🛑 广告拦截
   - DOMAIN-SUFFIX,b719c1d1e8.com,🛑 广告拦截
@@ -5281,6 +5360,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,b97482f4b9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ba01520b8b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ba0182aa75.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,baannre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,baaomenaltho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bab706e31e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,babadnmak.com,🛑 广告拦截
@@ -5307,7 +5387,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,backseatrunners.com,🛑 广告拦截
   - DOMAIN-SUFFIX,backstageconfide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,backstagedeputy.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,backstagefreakish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,backupcelebritygrave.com,🛑 广告拦截
   - DOMAIN-SUFFIX,backwardkneesencroach.com,🛑 广告拦截
   - DOMAIN-SUFFIX,backwget99.com,🛑 广告拦截
@@ -5322,6 +5401,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,badexplainimmigrant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,badgegirdle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,badgemagnificentblubber.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,badgreenssucceed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,badjocks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,badlymaggot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,badsabs.com,🛑 广告拦截
@@ -5397,6 +5477,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ballinghelonin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ballnotre.space,🛑 广告拦截
   - DOMAIN-SUFFIX,balloonnails.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ballotsevicts.space,🛑 广告拦截
   - DOMAIN-SUFFIX,ballroomexhibitionmid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,balneasoucars.website,🛑 广告拦截
   - DOMAIN-SUFFIX,balspaulite.com,🛑 广告拦截
@@ -5408,7 +5489,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,banagonatural.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,banclip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bancmuriel.space,🛑 广告拦截
-  - DOMAIN-SUFFIX,bande1az.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bande2az.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bandelcot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bandovincas.com,🛑 广告拦截
@@ -5421,6 +5501,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bangedprone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bangedwouldrecorded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bangingpunk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bangrighteous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bangtopads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bangtyranclank.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bangute.xyz,🛑 广告拦截
@@ -5509,6 +5590,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bassdyemanipulate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bassengravefascinated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bassistscrap.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bastardminims.com,🛑 广告拦截
   - DOMAIN-SUFFIX,baste-znl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bastesgaltrap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bastingestival.com,🛑 广告拦截
@@ -5560,6 +5642,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bbgickdocf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bbgtranst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bbmlhsehxwi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bbmrraevnevnk.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bbyavrykjopnnx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bc.coupons.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bc5c04eefb.com,🛑 广告拦截
@@ -5597,7 +5680,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bearingpreoccupationadmonish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bearoner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bearpawclouty.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bearsdisdainmathematics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beassilentasaf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,beastintruder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beastsclassbiscuit.com,🛑 广告拦截
@@ -5639,11 +5721,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bedmantaximan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bedodrioer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bedrapiona.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bedriddenbare.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bedrugsisle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bedsideseller.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beeaimaid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beedifficultyending.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,beefeggspin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beefypolitics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beegotou.net,🛑 广告拦截
   - DOMAIN-SUFFIX,beehivefestivesolve.com,🛑 广告拦截
@@ -5663,11 +5745,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,beewakiy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bef62233f1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,befirstcdn.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,befloutsneaks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beforehanddonkeyannouncement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beforehandeccentricinhospitable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,befretscathood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,befriendgenialviscount.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,befrx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,befuglago.live,🛑 广告拦截
   - DOMAIN-SUFFIX,begantotireo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,beggarlyfilmingabreast.com,🛑 广告拦截
@@ -5676,6 +5758,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,beginpocketcement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,begrimdos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,begripecheatee.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,beguat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,begunwomanwhiskey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,behalfplead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beharmalted.info,🛑 广告拦截
@@ -5683,6 +5766,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,behick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,behink.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beholdascared.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,beholdsalmonsituated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,behootpokeys.com,🛑 广告拦截
   - DOMAIN-SUFFIX,behoppipan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,behowlcapa.com,🛑 广告拦截
@@ -5704,13 +5788,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,belickitungchan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beliet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,believemefly.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,believerillegible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,believersheet.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,belikeabreed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,belittlepads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bellamyawardinfallible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bellmandrawbar.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bellybloodlessweight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,belombrea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,belongadrenaline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,belongedshark.com,🛑 广告拦截
@@ -5759,6 +5840,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,benumelan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,benureko.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,benzolescabrin.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,benzolsflask.website,🛑 广告拦截
   - DOMAIN-SUFFIX,beonixom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bepapersurmise.space,🛑 广告拦截
   - DOMAIN-SUFFIX,beparaspr.com,🛑 广告拦截
@@ -5768,6 +5850,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bergculpae.life,🛑 广告拦截
   - DOMAIN-SUFFIX,bergsmouflon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,berhima.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,berinsestoray.com,🛑 广告拦截
   - DOMAIN-SUFFIX,berkshiretoday.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,berlipurplin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bermudaamowt.com,🛑 广告拦截
@@ -5775,6 +5858,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,berses.com,🛑 广告拦截
   - DOMAIN-SUFFIX,berthformttet.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,berthsorry.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bertrammontleymontleyexists.com,🛑 广告拦截
   - DOMAIN-SUFFIX,berush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,besequda.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,beserte.pro,🛑 广告拦截
@@ -5782,6 +5866,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,besguses.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,beshellspitous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,besidesaffluentcurrently.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,besighcaman.com,🛑 广告拦截
   - DOMAIN-SUFFIX,besinpbx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beskittyan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,besmeargleor.com,🛑 广告拦截
@@ -5869,6 +5954,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,betxerneastor.club,🛑 广告拦截
   - DOMAIN-SUFFIX,betzapdoson.com,🛑 广告拦截
   - DOMAIN-SUFFIX,beunblkd.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,beverleyprowlpreparing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bevuelabium.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,bewailindigestionunhappy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bewallreflair.com,🛑 广告拦截
@@ -5879,6 +5965,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,beyedortostr.info,🛑 广告拦截
   - DOMAIN-SUFFIX,beylicbesmile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bezettescanner.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bezoardawdles.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,bezuka.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bf-ad.net,🛑 广告拦截
   - DOMAIN-SUFFIX,bf358948d7.com,🛑 广告拦截
@@ -5886,6 +5973,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bf9c1dc8ca.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bfast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bfbcb7a235.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bfcfbgalx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bfda839646.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bfkvwuhyoingpmf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bfqcx.xyz,🛑 广告拦截
@@ -5894,6 +5982,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bfts.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bfxytxdpnk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bg4nxu2u5t.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bgcold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bgcoll.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bgdieyiho.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bgevhldiekl.xyz,🛑 广告拦截
@@ -5911,7 +6000,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bhqhxbrmd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bhuvzyaqts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bhvpdupimb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bhyysbpapbx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,biancasunlit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bibberbummler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bibbybegazes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,biblesausage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bibtu.com,🛑 广告拦截
@@ -5953,13 +6044,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,biggestgainsurvey.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bigheartedresentfulailment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bigneptunesept.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bignutty.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bigog.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bigotpenniless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bigprizesonline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bigrourg.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,bihake.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bihunekus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bijitsoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bijwawr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bike-adsbidding.org,🛑 广告拦截
   - DOMAIN-SUFFIX,bikehowfaded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bikesformallycopper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bikesmachineryi.com,🛑 广告拦截
@@ -5985,11 +6079,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,binalbamp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bincatracs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bindingguessingconfessed.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bineukdwithmef.info,🛑 广告拦截
   - DOMAIN-SUFFIX,binhwheyey.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,biniprobit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,binmenkollast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,binomnet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,binomnet3.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,binomtrcks.site,🛑 广告拦截
   - DOMAIN-SUFFIX,binorf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,binoticprotea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bioces.com,🛑 广告拦截
@@ -6038,6 +6134,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bizarrewhereupon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,biznewsinsider.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bizographics.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bizonads-ssp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bizrotator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bj1110.online,🛑 广告拦截
   - DOMAIN-SUFFIX,bjaiibzmget.com,🛑 广告拦截
@@ -6069,6 +6166,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,blacknesskeepplan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blacurlik.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bladeforbes.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bladesteenycheerfully.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bladestressfuldeference.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bladswetis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blaghfpd.com,🛑 广告拦截
@@ -6076,13 +6174,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,blaketommyecology.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blamads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blamedbuckie.fun,🛑 广告拦截
+  - DOMAIN-SUFFIX,blancheavily.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,bland-husband.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blaneo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blastcahs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,blastedlurched.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blastsbigener.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blatwalm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blazeobservancebough.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blazingswatstated.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bldvxzxdpsrjla.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bleandworld.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,blebbymyst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bleedingofficecontagion.com,🛑 广告拦截
@@ -6137,7 +6238,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,blueadvertise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bluecuphoch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bluedawning.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bluedcrwth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bluejayfacette.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bluelinknow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blueomatic.com,🛑 广告拦截
@@ -6150,6 +6250,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,blurbigdoable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blushbuiltonboard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,blushmossy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bmaahwahpofp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmcdn1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmcdn2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmcdn3.com,🛑 广告拦截
@@ -6159,6 +6260,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bmkz57b79pxk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmpgkspo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bmybkeo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bmycupptafr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmzmeugzar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bn5x.net,🛑 广告拦截
   - DOMAIN-SUFFIX,bncloudfl.com,🛑 广告拦截
@@ -6184,6 +6286,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bnrslks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bnserving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bnster.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bnxydwdgr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bo2ffe45ss4gie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boagloozee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boahoupi.com,🛑 广告拦截
@@ -6214,6 +6317,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bodyguardencouraged.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boffinsoft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boffoadsfeeds.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,boffosgemeled.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,boftogro.net,🛑 广告拦截
   - DOMAIN-SUFFIX,boggyamrit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bognunub.com,🛑 广告拦截
@@ -6255,6 +6359,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bongacams7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bonnetiere-infrangible-burthening.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bonnettaking.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bonnnesfoxily.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bonus-app.net,🛑 广告拦截
   - DOMAIN-SUFFIX,bonusaward.life,🛑 广告拦截
   - DOMAIN-SUFFIX,bonuscontract.com,🛑 广告拦截
@@ -6269,6 +6374,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bookerstudent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bookeryboutre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bookljlihooli.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bookmakers.click,🛑 广告拦截
   - DOMAIN-SUFFIX,bookmanzyzzyva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bookmsg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,booknower.com,🛑 广告拦截
@@ -6278,7 +6384,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,booleanfalces.website,🛑 广告拦截
   - DOMAIN-SUFFIX,boom-boom-vroom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boomads.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,boomselljamwelunch.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,boomouso.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,boonsbarcas.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,booptuwa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,boosetrocha.com,🛑 广告拦截
@@ -6345,6 +6451,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bourranuncurbs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boustahe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bousyshock.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bouwehee.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bovemtou.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bowed-common.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,boweddemand.com,🛑 广告拦截
@@ -6357,6 +6464,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bowlsolicitor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bowmoolog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boxlikepavers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,boxofficehelping.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boxofficeliterally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boxofwhisper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,boxrest.website,🛑 广告拦截
@@ -6389,6 +6497,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,brakiefissive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,braleak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brancheschestnutsour.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,branchesdollar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,branchr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brand-display.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brand.net,🛑 广告拦截
@@ -6427,6 +6536,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,breedtagask.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brewedprovost.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,brewseryngo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,brghpgkdswxjhyf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,briareddollier.com,🛑 广告拦截
   - DOMAIN-SUFFIX,briarsbarrer.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,bribrieslabon.com,🛑 广告拦截
@@ -6515,6 +6625,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bruceleadx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bruceleadx1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bruceleadx2.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bruitedhurrahs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brumarmsful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brumbiedecagon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brummymacduff.com,🛑 广告拦截
@@ -6530,8 +6641,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bshifsasgnpgqf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bshrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bsjusnip.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bskhdiylrnxdp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bsolaoecm.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bst-offers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bsyftapbp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bsyhicvmrg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,btagmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,btaoc.xyz,🛑 广告拦截
@@ -6567,6 +6679,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,buddhamoduli.com,🛑 广告拦截
   - DOMAIN-SUFFIX,budvawshes.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,buench.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,buency.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buffaloexemptdropped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buffersling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buffersthyrold.com,🛑 广告拦截
@@ -6580,13 +6693,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,buhlvain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buikolered.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buildeddevoir.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,buildinghygienicfloating.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buildnaq91.site,🛑 广告拦截
   - DOMAIN-SUFFIX,buildsmodeling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bukash2jf8jfpw09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buksaiss.net,🛑 广告拦截
   - DOMAIN-SUFFIX,bulcqmteuc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bulgae.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bulgecsi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bulkyfriend.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bull3t.co,🛑 广告拦截
   - DOMAIN-SUFFIX,bullads.net,🛑 广告拦截
@@ -6604,7 +6717,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bulyiel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bumblecash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bummerybutene.life,🛑 广告拦截
-  - DOMAIN-SUFFIX,bummestdebrief.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bumpyfruitless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bumpyremittancecarnivorous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bunbeautifullycleverness.com,🛑 广告拦截
@@ -6622,7 +6734,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,buoyantmanufacturer.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,buoydeparturediscontent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bupatp.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bupbapegrtoamk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bupbrosrn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buphoolo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,buqkrzbrucz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buqokcv.com,🛑 广告拦截
@@ -6645,6 +6757,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,burstcravecraving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,burstingdipper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bursulasnags.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,burtonsugar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,burydibase.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bushesawaitfeminine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bushicitrals.com,🛑 广告拦截
@@ -6652,6 +6765,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,businessessities.com,🛑 广告拦截
   - DOMAIN-SUFFIX,businesslinenow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,busions.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,buskerreshoes.website,🛑 广告拦截
   - DOMAIN-SUFFIX,bustlemiszone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,busychopdenounce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,butalksuw9dj10.com,🛑 广告拦截
@@ -6664,22 +6778,26 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,buutfstk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,buvamery.net,🛑 广告拦截
   - DOMAIN-SUFFIX,buyadvupfor24.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,buyblotch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buyeasy.by,🛑 广告拦截
   - DOMAIN-SUFFIX,buylnk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buymaxfield.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buyseoblog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buytieposer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,buzzardcraizey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,buzzvids-direct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bvmcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bvmcdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,bvnlrqvinhsje.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bvoqzs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bwjjrmmxgdax.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bwmvzwkbqlmrz.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bwpcsycysm.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bwvqjqmlkezkl.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,bwzlmmqwrrarv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bxacmsvmxb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bxcocvkjhwnxwfq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bxebatih.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,bxnoflryajxn.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,bxpjlheddfqhifu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bxqeagaef.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bxscdyybtuxbfda.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bxwmfozavo.com,🛑 广告拦截
@@ -6694,6 +6812,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,byeej.com,🛑 广告拦截
   - DOMAIN-SUFFIX,byfoongusor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,byluvdiscor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bymnyzbkylvkv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bypasseaseboot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bypassprofessordemonstrate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,byrledmtscmd.com,🛑 广告拦截
@@ -6705,7 +6824,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com,🛑 广告拦截
   - DOMAIN-SUFFIX,byyanmaor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,byyiuneryhfvvvx.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,byymaykhlqt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,byzkrjamkqykw.top,🛑 广告拦截
   - DOMAIN-SUFFIX,c-4fambt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c.bannerflow.net,🛑 广告拦截
   - DOMAIN-SUFFIX,c0594.com,🛑 广告拦截
@@ -6715,6 +6834,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,c10ed2b8b417880.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c12bleue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c17b4e420d.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,c1sf9.top,🛑 广告拦截
   - DOMAIN-SUFFIX,c212a79d53.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c2370c7aa8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c24c966867.com,🛑 广告拦截
@@ -6740,11 +6860,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,c71genemobile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c7d263f5d8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c86970797a.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,c86e7c49a2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c879934c17.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c8d2c12c98.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c8d92ef72f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c9072c600c.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,c986493e7d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c9a2795c07.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c9b501fef3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c9e9c1507e.com,🛑 广告拦截
@@ -6774,6 +6894,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cackssandhog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cadbitff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cadencecovetousfireplace.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cadencesubject.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cadetrigourlegitimate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cadfixbig.site,🛑 广告拦截
   - DOMAIN-SUFFIX,cadlsyndicate.com,🛑 广告拦截
@@ -6795,6 +6916,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cairalei.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caiteesh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,cajipdiqqjijeh.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,cajunecch.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,cakeprofessionally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caketteemblem.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,cakycalais.com,🛑 广告拦截
@@ -6844,6 +6966,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,canangafierier.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,canastagruff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,candiruarf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,candypeaches.com,🛑 广告拦截
   - DOMAIN-SUFFIX,canelastram.com,🛑 广告拦截
   - DOMAIN-SUFFIX,canjacvinum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,canjarltaox.com,🛑 广告拦截
@@ -6858,6 +6981,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cantdogblued.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,canthaltietick.space,🛑 广告拦截
   - DOMAIN-SUFFIX,canvassblanketjar.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,canzonicassons.com,🛑 广告拦截
   - DOMAIN-SUFFIX,canzoscomply.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cap-cap-pop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,capaciouslistless.com,🛑 广告拦截
@@ -6865,14 +6989,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,capeplannails.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caperedlevi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caphaiks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,capndr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cappaghdiamat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cappens-dreperor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cappleacouchy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,capraundine.live,🛑 广告拦截
   - DOMAIN-SUFFIX,capricedes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,capricetheme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,capricornnestlevile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caprissandhi.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,caprizecaprizeretrievaltattoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,captainad.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,captaintassie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,captchafine.live,🛑 广告拦截
   - DOMAIN-SUFFIX,captchaforcaptcha.top,🛑 广告拦截
   - DOMAIN-SUFFIX,captiongodfather.com,🛑 广告拦截
@@ -6883,7 +7011,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,captureleaderdigestion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caraganaarborescenspendula.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caraneoutraze.uno,🛑 广告拦截
-  - DOMAIN-SUFFIX,carapusgyal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carbnocqmsck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carbonads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carcakeapagoge.com,🛑 广告拦截
@@ -6912,11 +7039,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,carredwithblao.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,carrellsubdit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carryhummight.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,carryingfarmerlumber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carrysincubi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cartedneogene.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cartining-specute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cartoonpeecommissioner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caruagedlr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carvallo.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,carverstingy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,carvyre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,casalemedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,casavawedder.com,🛑 广告拦截
@@ -6930,10 +7060,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cashewsforlife208.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cashlayer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cashmylinks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cashoossikara.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,cashtrafic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cashtrafic.info,🛑 广告拦截
   - DOMAIN-SUFFIX,casinal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,casinohacksforyou.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,casize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,casksteam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,caspion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,casserolehunchcontract.com,🛑 广告拦截
@@ -6963,6 +7095,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,catmustyhypothesis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,catscanty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,catspawquitu.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,cattailaix.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cattledisplace.com,🛑 广告拦截
   - DOMAIN-SUFFIX,catwenbat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,catwrite.com,🛑 广告拦截
@@ -6979,16 +7112,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cautiotumfie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cautiousroof.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cauwausa.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,cauyuksehink.info,🛑 广告拦截
   - DOMAIN-SUFFIX,cavalryconvincing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cavecredentialdeer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,caveestate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cavernousshift.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cawbarthe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cawhisevi.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cawnielammy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,caxist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cayucaoidwlfe.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cb675f778b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cb9e43b2a0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cba-fed-igh.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,cbcaoeagasg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cbdedibles.site,🛑 广告拦截
   - DOMAIN-SUFFIX,cbf265695d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cbilrirtqyawue.com,🛑 广告拦截
@@ -6999,6 +7135,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cbvcwain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cbyiqsfp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cc-dt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cc954a8da8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cca63f7d30.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ccgkudwutf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ccieoqej.xyz,🛑 广告拦截
@@ -7016,15 +7153,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cdn-server.top,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn.house,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn.manga9.co,🛑 广告拦截
+  - DOMAIN-SUFFIX,cdn.sdtraff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn1.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn12359286.ahacdn.me,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn28786515.ahacdn.me,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn2reference.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn3.hentaihand.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cdn3.hentaihaven.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn3reference.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn44221613.ahacdn.me,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn4ads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn4image.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cdn5.cartoonporn.to,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn7.network,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn7.rocks,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnads.com,🛑 广告拦截
@@ -7034,7 +7174,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cdnativepush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnaz.win,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnbit.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,cdnbjausf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdncontentstorage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnfreemalva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdngain.com,🛑 广告拦截
@@ -7053,6 +7192,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cdntestlp.info,🛑 广告拦截
   - DOMAIN-SUFFIX,cdntrf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnvideo3.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cdnware.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdnware.io,🛑 广告拦截
   - DOMAIN-SUFFIX,cdrvrs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdsbnrs.com,🛑 广告拦截
@@ -7071,10 +7211,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ceemoptu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ceeviwep.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cegrithy.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,cehuihfos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cehuiy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ceilingbruiseslegend.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ceillons.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,cekladod.com,🛑 广告拦截
   - DOMAIN-SUFFIX,celaenomash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,celeb-ads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,celebritybulk.com,🛑 广告拦截
@@ -7084,6 +7224,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,celeritascdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,celeryisolatedproject.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cellaraudacityslack.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cellarlocus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cellarpassion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cellistbeats.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cellsmonitor.com,🛑 广告拦截
@@ -7091,6 +7232,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cematuran.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cementadodunk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cementencourage.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cemeterylayoutbeastly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cemukentha.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cenaclesuccoth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cenceevent.club,🛑 广告拦截
@@ -7111,6 +7253,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,centralnervous.net,🛑 广告拦截
   - DOMAIN-SUFFIX,centrexmeteor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,centureunornly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,centurylandscapeface.com,🛑 广告拦截
   - DOMAIN-SUFFIX,centwrite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cephalanthuseoccidu4entalis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cephasrewed.com,🛑 广告拦截
@@ -7137,13 +7280,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cevocoxuhu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cexucetum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cf2020176f.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,cfasync.ml,🛑 广告拦截
   - DOMAIN-SUFFIX,cfasync.tk,🛑 广告拦截
   - DOMAIN-SUFFIX,cfccc324b8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfclhaqhjdtw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfcloudcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfehkwjupbrh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfgr1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cfivfadtlr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfrsoft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfrtvwybx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cfts1tifqr.com,🛑 广告拦截
@@ -7169,6 +7312,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chainwalladsy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chaiptut.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,chairgaubsy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,chairmanfreelancetravelling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chairwaydenew.site,🛑 广告拦截
   - DOMAIN-SUFFIX,chaishid.net,🛑 广告拦截
   - DOMAIN-SUFFIX,chajagibbous.com,🛑 广告拦截
@@ -7189,10 +7333,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chanelets-aurning.com,🛑 广告拦截
   - DOMAIN-SUFFIX,changarreviver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,changeablesizepractically.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,changefranticallywhom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,changesshortly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chapelcertain.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,chaptersus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,characcaslon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chargenews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chargeplatform.com,🛑 广告拦截
@@ -7201,6 +7343,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chargingexpressive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,charitablemilletplumber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,charitydestinyscornful.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,charmingblur.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,charrewuzzer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,charterporous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chartlon.skin,🛑 广告拦截
   - DOMAIN-SUFFIX,chasmsnaa.com,🛑 广告拦截
@@ -7211,6 +7355,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chats2023.online,🛑 广告拦截
   - DOMAIN-SUFFIX,chattertasty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chaudrep.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,chaugroo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,chaukrgukepers.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,chauksoa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,chaumsee.net,🛑 广告拦截
@@ -7221,6 +7366,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chazanscapita.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chdikbghrosxa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cheap-result.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,cheapenleaving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cheaplycreateproprietor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cheatingabate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cheatingagricultural.com,🛑 广告拦截
@@ -7230,6 +7376,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,checaigu.net,🛑 广告拦截
   - DOMAIN-SUFFIX,check-now.online,🛑 广告拦截
   - DOMAIN-SUFFIX,check-out-this.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,checkcdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,checkcriey.website,🛑 广告拦截
   - DOMAIN-SUFFIX,checkfilter.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,checkm8.com,🛑 广告拦截
@@ -7315,8 +7462,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chitika.net,🛑 广告拦截
   - DOMAIN-SUFFIX,chl7rysobc3ol6xla.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chlibopi.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,chligh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chlodd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,chmnscaurie.space,🛑 广告拦截
   - DOMAIN-SUFFIX,cho7932105co3l2ate3covere53d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,choachim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,choacmax.xyz,🛑 广告拦截
@@ -7326,6 +7473,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chocohjuanfhdhf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chocolatebushbunny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,choconart.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,choicedorm.top,🛑 广告拦截
   - DOMAIN-SUFFIX,chokedsmelt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chokedstarring.com,🛑 广告拦截
   - DOMAIN-SUFFIX,choksail.com,🛑 广告拦截
@@ -7365,8 +7513,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chshcms.net,🛑 广告拦截
   - DOMAIN-SUFFIX,chsrkred.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chtntr.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,chuckledinadmissible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chugaiwe.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,chuhramumper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chullohagrode.com,🛑 广告拦截
   - DOMAIN-SUFFIX,chultoux.com,🛑 广告拦截
   - DOMAIN-SUFFIX,churchalexis.com,🛑 广告拦截
@@ -7385,10 +7533,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,chzei.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cialanaly.club,🛑 广告拦截
   - DOMAIN-SUFFIX,cicelysewans.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,cichedreinter.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,cictivesmuha.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cidbulmkwtaxe.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,ciefwgavcjhnikj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cifaumsy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,cifflattie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cigarregistersheriff.com,🛑 广告拦截
@@ -7402,8 +7548,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cimeliarfs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cimm.top,🛑 广告拦截
   - DOMAIN-SUFFIX,cimoghuk.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,cinemensenoy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cineolesloth.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cipangobesots.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cipdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cipledecline.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,ciqwzifwufwu.com,🛑 广告拦截
@@ -7418,6 +7564,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cisheeng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cissidthija.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cisthowibah.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ciststoquets.space,🛑 广告拦截
   - DOMAIN-SUFFIX,citatumpity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,citemesabourer.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,citersbugre.digital,🛑 广告拦截
@@ -7425,17 +7572,20 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cittem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cituasacrals.website,🛑 广告拦截
   - DOMAIN-SUFFIX,cityadspix.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,citycoordinatesnorted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,citydsp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,citysite.net,🛑 广告拦截
   - DOMAIN-SUFFIX,civadsoo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,civilizationperspirationhoroscope.com,🛑 广告拦截
   - DOMAIN-SUFFIX,civilizationrequestsshops.com,🛑 广告拦截
   - DOMAIN-SUFFIX,civilizationthose.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,civith.com,🛑 广告拦截
   - DOMAIN-SUFFIX,civvymutedly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ciwhacheho.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cixaxuyu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cizare.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cjduubvrm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cjewz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cjf25jklrwqt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cjkfkratwkls.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cjqncwfxrfrwbdd.com,🛑 广告拦截
@@ -7448,6 +7598,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ckhvmkurkifon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ckohixbcyzm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ckrf1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ckuwrlxngdrfk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ckvfghrbdfjsoet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ckvyhtev.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ckwlurries.com,🛑 广告拦截
@@ -7499,6 +7650,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,clcassd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clcknads.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,clcknipop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,clckpbnce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clckysudks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cldlr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clean-browsing.com,🛑 广告拦截
@@ -7511,6 +7663,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,clear-request.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clearac.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clearadnetwork.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,clearancetastybroadsheet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clearningseri.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,clearonclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cleavepreoccupation.com,🛑 广告拦截
@@ -7548,7 +7701,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,clickboothlnk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clickcash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clickcdn.co,🛑 广告拦截
-  - DOMAIN-SUFFIX,clickcease.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clickco.net,🛑 广告拦截
   - DOMAIN-SUFFIX,clickexperts.net,🛑 广告拦截
   - DOMAIN-SUFFIX,clickgate.biz,🛑 广告拦截
@@ -7580,6 +7732,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,clickthruserver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clicktraceclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clicktracklink.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,clicktrixredirects.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clicktroute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clicktrpro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,clickupto.com,🛑 广告拦截
@@ -7681,7 +7834,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cmwqdkxb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cn-rtb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cngcpy.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,cnhsusgyfnrxss.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cnnected.org,🛑 广告拦截
   - DOMAIN-SUFFIX,cnofijeash.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cnpkqvtiwcfjsot.xyz,🛑 广告拦截
@@ -7698,10 +7850,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,coarooro.net,🛑 广告拦截
   - DOMAIN-SUFFIX,coastlineahead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coastlinebravediffers.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,coastpreachshrink.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coatsanguine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coatsnacrine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coaxeswir.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,coaxwrote.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cobalten.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cobnutsaverter.life,🛑 广告拦截
   - DOMAIN-SUFFIX,cobwebhauntedallot.com,🛑 广告拦截
@@ -7752,6 +7904,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cohabitrecipetransmitted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coherentinflationescort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coherepeasant.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,coholy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coilincomplete.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coinad.media,🛑 广告拦截
   - DOMAIN-SUFFIX,coinadster.com,🛑 广告拦截
@@ -7775,6 +7928,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,collabplumify.com,🛑 广告拦截
   - DOMAIN-SUFFIX,collarchefrage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,collationstrend.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,collecl.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,collection-day.com,🛑 广告拦截
   - DOMAIN-SUFFIX,collectionspriestcardiac.com,🛑 广告拦截
   - DOMAIN-SUFFIX,collectloopblown.com,🛑 广告拦截
@@ -7789,6 +7943,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cologu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,colombomyeloid.live,🛑 广告拦截
   - DOMAIN-SUFFIX,colomboyees.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,colonialismpeachy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,colonistnobilityheroic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,colonuscropped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,colorfullank.com,🛑 广告拦截
@@ -7818,6 +7973,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,comedyauto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,comedyrent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,comedyrepair.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,comenicurled.space,🛑 广告拦截
   - DOMAIN-SUFFIX,comermormal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,comezz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,comfortclick.co.uk,🛑 广告拦截
@@ -7849,6 +8005,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,compelgraduation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,compensationpropulsion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,competencecondolejug.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,competentminorvex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,competitivepopcheerleader.com,🛑 广告拦截
   - DOMAIN-SUFFIX,compiledonatevanity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,compileformality.com,🛑 广告拦截
@@ -7904,6 +8061,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,conferencesimply.com,🛑 广告拦截
   - DOMAIN-SUFFIX,confessedensure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,confidentexplanationillegal.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,confideshrinebuff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,configurationluxuriantinclination.com,🛑 广告拦截
   - DOMAIN-SUFFIX,confinehindrancethree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,confirmationefficiency.com,🛑 广告拦截
@@ -7930,16 +8088,17 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,conoret.com,🛑 广告拦截
   - DOMAIN-SUFFIX,conquercaniceberg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,conquestdrawers.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,consciencebarrowcash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consciousslice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consensusarticles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consentrenovate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consequentlydistraughtpasta.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,conservationdisposable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consideratepronouncedcar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,considerationsheltercreed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consmo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,consoupow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,constablecuisinehamster.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,constellationdelightfulfull.com,🛑 广告拦截
   - DOMAIN-SUFFIX,constintptr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,constituentonset.com,🛑 广告拦截
   - DOMAIN-SUFFIX,constitutekidnapping.com,🛑 广告拦截
@@ -7947,6 +8106,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,constructionrejection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,constructpoll.com,🛑 广告拦截
   - DOMAIN-SUFFIX,construment.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,consukultinge.info,🛑 广告拦截
   - DOMAIN-SUFFIX,consultingballetshortest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,consultingeastrubber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,contadd.com,🛑 广告拦截
@@ -8003,6 +8163,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cookieless-data.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cookinghither.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cooksrosiny.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,cool.sunporno.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coolappland.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coolappland1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coolappland2.com,🛑 广告拦截
@@ -8049,7 +8210,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cornuspurfled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coronafly.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,coronetkittles.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,coronisabv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,corporategarnish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,corporatethankfulfinding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,corpulentoverdoselucius.com,🛑 广告拦截
@@ -8077,12 +8237,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cotingavintry.website,🛑 广告拦截
   - DOMAIN-SUFFIX,coubte.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coudswamper.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,coumasha.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,councedvdvg.club,🛑 广告拦截
   - DOMAIN-SUFFIX,counciladvertising.net,🛑 广告拦截
   - DOMAIN-SUFFIX,councilcoveauto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,councilheader.com,🛑 广告拦截
   - DOMAIN-SUFFIX,counda.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coundt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,counsellingrouge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,counsellorunderwaterstriped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,countertrck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,countessbridge.com,🛑 广告拦截
@@ -8105,7 +8267,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,courselfnorter.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,coursyorpins.space,🛑 广告拦截
   - DOMAIN-SUFFIX,courteous-development.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,courthouseworseflaw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,courtsbeltmen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,couthieisobath.com,🛑 广告拦截
   - DOMAIN-SUFFIX,coutilresgat.com,🛑 广告拦截
@@ -8170,6 +8331,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cpvlabtrk.online,🛑 广告拦截
   - DOMAIN-SUFFIX,cpx24.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cpxadroit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cpxckfridcxst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cpxdeliv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cpxinteractive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cqlupb.com,🛑 广告拦截
@@ -8181,6 +8343,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,crabereyren.website,🛑 广告拦截
   - DOMAIN-SUFFIX,crabsuperior.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cracktraumatic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,craftsmancaptivity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,craftsmanvolleyballhist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cragconcluded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,craharice.com,🛑 广告拦截
@@ -8192,6 +8355,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cranialjehu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crankyderangeabound.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crantscopart.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,crashexecute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cratchcfi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crazyhell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crazylead.com,🛑 广告拦截
@@ -8200,6 +8364,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,crdefault1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creakversionfort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creamssicsite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,creaperu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,create2fear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creationaleprose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creative-bars1.com,🛑 广告拦截
@@ -8212,6 +8377,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,creative.stripchat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creative.strpjmp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creative.thefaplive.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,creativecdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creativedisplayformat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creativeformatsnetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creatives.cliphunter.com,🛑 广告拦截
@@ -8225,6 +8391,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,credentialsdispatchsuperstitious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,credibilityyowl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creditorapido.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,credulityicicle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creedaileenboiler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creeguilds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,creekrecollectkey.com,🛑 广告拦截
@@ -8242,6 +8409,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cretgate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crhneation.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,criantsleck.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cribwarilyintentional.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crific.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crimeaboist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crimeansnakily.com,🛑 广告拦截
@@ -8268,6 +8436,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,crottlerennin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crowbarorchat.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,crowdgravity.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,crpcruynxxc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crptentry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crptgate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crrepo.com,🛑 广告拦截
@@ -8284,6 +8453,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,crummygoddess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crumplylenient.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crunchybears.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,crunodedysuric.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,crushedignoring.com,🛑 广告拦截
   - DOMAIN-SUFFIX,crushlaunces.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,crusilyparonym.com,🛑 广告拦截
@@ -8306,6 +8476,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ctengine.io,🛑 广告拦截
   - DOMAIN-SUFFIX,cteripre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ctiavxtakmw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cticalwhichhere.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,ctiotjobkfu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ctm-media.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ctmdtrvikipjfv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ctnsnet.com,🛑 广告拦截
@@ -8350,10 +8522,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,culainstrades.com,🛑 广告拦截
   - DOMAIN-SUFFIX,culass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cullayscrocks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cullemple-motline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,culmedmaumee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,culsaids.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cultergoy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,culturalcollectvending.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cumbersomebonus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cumult.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cunasdonat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cundumbagroom.com,🛑 广告拦截
@@ -8371,7 +8545,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,curbaffluencenicer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,curbimpress.com,🛑 广告拦截
   - DOMAIN-SUFFIX,curchannerre.uno,🛑 广告拦截
-  - DOMAIN-SUFFIX,curdiercoffee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,curids.com,🛑 广告拦截
   - DOMAIN-SUFFIX,curiesremove.com,🛑 广告拦截
   - DOMAIN-SUFFIX,curinetuxedos.com,🛑 广告拦截
@@ -8410,6 +8583,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cvkvtsjjrs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cvogttseoqnld.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cvqgnkeqme.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cvtfyyflrrkjsam.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cwchmb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cwhsasrwne.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cwknqqsjgboycim.xyz,🛑 广告拦截
@@ -8434,6 +8608,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cylindrical-pollution.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,cyneburg-yam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cynicalspireheroism.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,cyprie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cyrigh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cysumhqvrjvrs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cythat.com,🛑 广告拦截
@@ -8441,6 +8616,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cytock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cytonsketupa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,czarhonoraryrunning.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,czboox.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,czechose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,czedgingtenges.com,🛑 广告拦截
   - DOMAIN-SUFFIX,czglcxlh.com,🛑 广告拦截
@@ -8456,6 +8632,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d10nkw6w2k1o10.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d10wfab8zt419p.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d10zmv6hrj5cx1.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d114isgihvajcp.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1180od816jent.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d11enq2rymy0yl.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d11hjbdxxtogg5.cloudfront.net,🛑 广告拦截
@@ -8465,6 +8642,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d12czbu0tltgqq.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d12dky1jzngacn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d12t7h1bsbq1cs.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d12tu1kocp8e8u.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d12ylqdkzgcup5.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d13gni3sfor862.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d13k7prax1yi04.cloudfront.net,🛑 广告拦截
@@ -8476,6 +8654,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d145ghnzqbsasr.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d14821r0t3377v.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d14zhsq5aop7ap.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d154nw1c88j0q6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d15gt9gwxw5wu0.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d15jg7068qz6nm.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d15kdpgjg3unno.cloudfront.net,🛑 广告拦截
@@ -8486,6 +8665,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d183xvcith22ty.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d188elxamt3utn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d188m5xxcpvuue.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d18b5y9gp0lr93.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d18e74vjvmvza1.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d18g6t7whf8ejf.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d18kg2zy9x3t96.cloudfront.net,🛑 广告拦截
@@ -8531,6 +8711,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d1ev866ubw90c6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1ezlc9vy4yc7g.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1f05vr3sjsuy7.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d1f52ha44xvggk.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1fs2ef81chg3.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1g2nud28z4vph.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1g4493j0tcwvt.cloudfront.net,🛑 广告拦截
@@ -8540,6 +8721,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d1hnmxbg6rp2o6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1hogxc58mhzo9.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1i3h541wbnrfi.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d1igvjcl1gjs62.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1ilwohzbe4ao6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1izuvv2qy7hel.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1j1m9awq6n3x3.cloudfront.net,🛑 广告拦截
@@ -8553,6 +8735,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d1jwpd11ofhd5g.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1ks8roequxbwa.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1ktmtailsv07c.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d1kttpj1t6674w.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1kwkwcfmhtljq.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1kzm6rtbvkdln.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1l906mtvq85kd.cloudfront.net,🛑 广告拦截
@@ -8576,12 +8759,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d1now6cui1se29.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1nssfq3xl2t6b.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1nubxdgom3wqt.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d1nv2vx70p2ijo.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1nx2jii03b4ju.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1o1guzowlqlts.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1of5w8unlzqtg.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1okyw2ay5msiy.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1or04kku1mxl9.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1oykxszdrgjgl.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d1p0vowokmovqz.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1p3zboe6tz3yy.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1p7gp5w97u7t7.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d1pdf4c3hchi80.cloudfront.net,🛑 广告拦截
@@ -8654,6 +8839,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d22sfab2t5o9bq.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d22xmn10vbouk4.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d22z575k8abudv.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d23a1izvegnhq4.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d23guct4biwna6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d23spca806c5fu.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d23xhr62nxa8qo.cloudfront.net,🛑 广告拦截
@@ -8687,6 +8873,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d29i6o40xcgdai.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d29mxewlidfjg1.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2a80scaiwzqau.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d2af63b326.com,🛑 广告拦截
   - DOMAIN-SUFFIX,d2bbq3twedfo2f.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2bkkt3kqfmyo0.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2bvfdz3bljcfk.cloudfront.net,🛑 广告拦截
@@ -8701,6 +8888,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d2dkurdav21mkk.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2dyjetg3tc2wn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2e30rravz97d4.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d2e7rsjh22yn3g.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2edfzx4ay42og.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2ei3pn5qbemvt.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2enprlhqqv4jf.cloudfront.net,🛑 广告拦截
@@ -8796,6 +8984,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d2uyi99y1mkn17.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2v02itv0y9u9t.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2va1d0hpla18n.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d2vmavw0uawm2t.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2vwl2vhlatm2f.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2w92zbcg4cwxr.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d2werg7o2mztut.cloudfront.net,🛑 广告拦截
@@ -8814,11 +9003,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d2zzazjvlpgmgi.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d301cxwfymy227.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d30sxnvlkawtwa.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d30ts2zph80iw7.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d313lzv9559yp9.cloudfront.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,d31c6d951c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,d31mxuhvwrofft.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d31o2k8hutiibd.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d31ph8fftb4r3x.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d31rse9wo0bxcx.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d31s5xi4eq6l6p.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d31vxm9ubutrmw.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d31y1abh02y2oj.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d325d2mtoblkfq.cloudfront.net,🛑 广告拦截
@@ -8849,14 +9040,17 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d37aacdbcc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,d37abonb6ucrhx.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d37pempw0ijqri.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d38190um0l9h9v.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d38goz54x5g9rw.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d38itq6vdv6gr9.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d38psrni17bvxu.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d38rrxgee6j9l3.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d396osuty6rfec.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d399jvos5it4fl.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d39hdzmeufnl50.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d39xxywi4dmut5.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3a49eam5ump99.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d3a781y1fb2dm6.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3aajkp07o1e4y.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3ahinqqx1dy5v.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3aiy6aqoa3ykz.cloudfront.net,🛑 广告拦截
@@ -8916,6 +9110,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d3lvr7yuk4uaui.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3lw2k94jnkvbs.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3m4hp4bp4w996.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,d3m8nzcefuqu7h.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3m9ng807i447x.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3mr7y154d2qg5.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3mshiiq22wqhz.cloudfront.net,🛑 广告拦截
@@ -8944,7 +9139,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d3rjndf2qggsna.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3rkkddryl936d.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3rlh0lneatqqc.cloudfront.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,d3rp5jatom3eyn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3rr3d0n31t48m.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3rxqouo2bn71j.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,d3sdg6egu48sqx.cloudfront.net,🛑 广告拦截
@@ -9061,6 +9255,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dalecta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dalethsfanout.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dallavel.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,daluxmurwthhk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dalyai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dalyio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dalymix.com,🛑 广告拦截
@@ -9102,7 +9297,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,daredcoil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,darersan.co,🛑 广告拦截
   - DOMAIN-SUFFIX,darghinruskin.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,dargtabet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dariolunus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,darkandlight.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,darkercoincidentsword.com,🛑 广告拦截
@@ -9146,6 +9340,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,datingkoen.site,🛑 广告拦截
   - DOMAIN-SUFFIX,datingstyle.top,🛑 广告拦截
   - DOMAIN-SUFFIX,datingtoday.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,datingtopgirls.com,🛑 广告拦截
   - DOMAIN-SUFFIX,datingvr.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,daubierbatties.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,daudejuw.com,🛑 广告拦截
@@ -9182,11 +9377,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dbizrrslifc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dblchymhlbcvot.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbooksbysecon.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dbqlghadltookjo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbrheqlhk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbutilovetr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbvault.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dby7kx9z9yzse.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dc08i221b0n8a.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,dc29186682.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dc3b671cce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dc564d181f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dc5k8fg5ioc8s.cloudfront.net,🛑 广告拦截
@@ -9199,11 +9396,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dcentatorsstrial.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcf0698a21.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcf438349c.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dcfnihzg81pa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dchoseitfromt.com.ua,🛑 广告拦截
+  - DOMAIN-SUFFIX,dclakbrifusivy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcovesaysh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dcsv33.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcuonsugikrma.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,dcwkgvoeufhnm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcynwezfon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dcypikothwab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dd09af1279.com,🛑 广告拦截
@@ -9223,7 +9421,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ddvbjehruuj5y.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ddvfoj5yrl2oi.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ddxfhpuhfroier.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ddxvdderokaxhw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,de-ner-mi-nis4.info,🛑 广告拦截
   - DOMAIN-SUFFIX,de1cb9e4b1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,de2nsnw1i3egd.cloudfront.net,🛑 广告拦截
@@ -9243,14 +9440,17 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,deanvividsquall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dearestimmortality.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dearlyseedsad.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dearlystoop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,death2americaallahuakbar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deavynuotbrohw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,debatminkish.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,debeigecraver.live,🛑 广告拦截
   - DOMAIN-SUFFIX,debism.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,debitslopenoncommittal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,debitswiping.com,🛑 广告拦截
   - DOMAIN-SUFFIX,debonairseashore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,debrium-surbara.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,debsis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,debutedhogward.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decademical.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decatorfending.uno,🛑 广告拦截
@@ -9266,6 +9466,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,decisivebottledhappen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decism.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deckdistant.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deckedsi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deckeeps.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,deckmanbrid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decknetwork.net,🛑 广告拦截
@@ -9279,6 +9480,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,declinetongarage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,declk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decoctionembedded.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,decomposedismantle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decorationguinea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decorationproducer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,decordingaudied.site,🛑 广告拦截
@@ -9294,6 +9496,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,deebcards-themier.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deecqem892bg5er.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deedeedwinos.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deedtampertease.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deefauph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deehalig.net,🛑 广告拦截
   - DOMAIN-SUFFIX,deemcompatibility.com,🛑 广告拦截
@@ -9304,6 +9507,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,deepermagnes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deephicy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,deepmetrix.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deepnewsjuly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deethout.net,🛑 广告拦截
   - DOMAIN-SUFFIX,deewansturacin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,defeas.com,🛑 广告拦截
@@ -9331,8 +9535,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,degaswassail.website,🛑 广告拦截
   - DOMAIN-SUFFIX,degeronium.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deggerfletton.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deghooda.net,🛑 广告拦截
   - DOMAIN-SUFFIX,degmfmog.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,degrainbro.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,degrew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,degutu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dehornstrigged.live,🛑 广告拦截
   - DOMAIN-SUFFIX,deiligejenter.com,🛑 广告拦截
@@ -9344,6 +9550,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,delayeddisembroildisembroil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,delbertbisalt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,delbertgobans.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,delegatediscussion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,delempanyi.one,🛑 广告拦截
   - DOMAIN-SUFFIX,delendatole.live,🛑 广告拦截
   - DOMAIN-SUFFIX,deletedjohnny.com,🛑 广告拦截
@@ -9394,7 +9601,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,democrattransportationirrational.com,🛑 广告拦截
   - DOMAIN-SUFFIX,demonryinlaced.com,🛑 广告拦截
   - DOMAIN-SUFFIX,demostens.store,🛑 广告拦截
-  - DOMAIN-SUFFIX,demotestupuna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,demureanklesecond.com,🛑 广告拦截
   - DOMAIN-SUFFIX,demurerbewary.live,🛑 广告拦截
   - DOMAIN-SUFFIX,denansgdfier.info,🛑 广告拦截
@@ -9408,8 +9614,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,denetsuk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dengelmeg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,denizealgific.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,denknowled.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,denoughtanot.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,denounceburialbrow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,densityprideincentive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,densouls.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dental-drawer.pro,🛑 广告拦截
@@ -9425,7 +9631,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,departgross.com,🛑 广告拦截
   - DOMAIN-SUFFIX,departurealtar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,departureconspicuous.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,depeas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dependablestaredpollution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dephasevittate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,depictimproperdenunciation.com,🛑 广告拦截
@@ -9434,9 +9639,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,depirsmandk5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deploreimpendingnasty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deployads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deploymentblessedheir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,depositnostrilverge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,depressedsinkingbank.com,🛑 广告拦截
   - DOMAIN-SUFFIX,depsougnefta.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deptem.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deptigud.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,depucelgalera.com,🛑 广告拦截
   - DOMAIN-SUFFIX,depurestole.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,deqkmzurltovbk.com,🛑 广告拦截
@@ -9444,11 +9652,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dereunsin.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,derevya2sh8ka09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deridebleatacheless.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,derler.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,derowalius.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dersoova.net,🛑 广告拦截
   - DOMAIN-SUFFIX,desabrator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,desalthuns.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,descentsafestvanity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,descrepush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,described.work,🛑 广告拦截
   - DOMAIN-SUFFIX,descriptionheels.com,🛑 广告拦截
@@ -9457,6 +9665,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,desen4.info,🛑 广告拦截
   - DOMAIN-SUFFIX,deserted-employment.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,deserterstrugglingdistil.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,deservedbreast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deservesjoke.com,🛑 广告拦截
   - DOMAIN-SUFFIX,desgao1zt7irn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,desigactinific.org,🛑 广告拦截
@@ -9469,10 +9678,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,despicablereporthusband.com,🛑 广告拦截
   - DOMAIN-SUFFIX,despik.com,🛑 广告拦截
   - DOMAIN-SUFFIX,desponddietist.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,destinedsponsornominate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,destroyedspear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,desxpbub.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,detachedbates.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,detachedringer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,detailyesgrip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,detainstockingskaleidoscope.com,🛑 广告拦截
   - DOMAIN-SUFFIX,detaph.com,🛑 广告拦截
@@ -9484,7 +9693,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,deterioratesyrupevents.com,🛑 广告拦截
   - DOMAIN-SUFFIX,determine-month-upward-shoot.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,deterrentpainscodliver.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,detestablemall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deticknippier.com,🛑 广告拦截
   - DOMAIN-SUFFIX,detinetcallant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,detour.click,🛑 广告拦截
@@ -9500,12 +9708,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,developmentgoat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,developmentnewestrising.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deviatemysticallocking.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,devilaboundultimate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devilspanmute.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,devilwholehorse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devofei.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,devoidsagacious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devotedfootprintsinterstate.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,devotedvarnish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devoterornis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devotesquinua.com,🛑 广告拦截
   - DOMAIN-SUFFIX,devotionlongestresearching.com,🛑 广告拦截
@@ -9522,6 +9729,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,df253f3b96.com,🛑 广告拦截
   - DOMAIN-SUFFIX,df80k0z3fi8zg.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dfd1ec534a.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dfearinglestp.info,🛑 广告拦截
   - DOMAIN-SUFFIX,dfearinglestpeople.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dfgbalon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dfhajyevxmposa.xyz,🛑 广告拦截
@@ -9541,6 +9749,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dguhjlbefeuf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dgw7ae5vrovs7.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dgxmvglp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dh6dm31izb875.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dh956.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dharmaashman.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dhowsptelea.com,🛑 广告拦截
@@ -9563,6 +9772,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,diaperrealter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,diapirsblanker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,diasciaplatly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,diated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dibsemey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dicheeph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dichoabs.net,🛑 广告拦截
@@ -9592,7 +9802,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,difiel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,difies.com,🛑 广告拦截
   - DOMAIN-SUFFIX,digadser.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,digestiveirrelevantrestricted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,digital2cloud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,digitaldsp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,digitalmediapp.com,🛑 广告拦截
@@ -9614,6 +9823,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dilruwha.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dilutionavailstoker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dilvyi2h98h1q.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,dimcarnie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimedoncywydd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimensionuptown.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimessing-parker.com,🛑 广告拦截
@@ -9625,6 +9835,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dimlyelusive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimnatriazin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimpawlam.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dimpleclassconquer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimplemain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dimpuxoh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dimreproofjumped.com,🛑 广告拦截
@@ -9639,6 +9850,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dinosaurrestore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dinvergne.space,🛑 广告拦截
   - DOMAIN-SUFFIX,diorismmotes.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,diplic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,diploisaloofly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,diplomasewerivory.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dipobeds.com,🛑 广告拦截
@@ -9665,6 +9877,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,directshopping.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,directtaafwr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,directtrack.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,directtrck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,directuklyecon.pics,🛑 广告拦截
   - DOMAIN-SUFFIX,direplaywrightphysical.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dirgywhacks.com,🛑 广告拦截
@@ -9679,6 +9892,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,disaaf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disableadblock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disabledincomprehensiblecitizens.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,disabledsurpassrecollection.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,disabr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disadvantagenaturalistrole.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disagiountack.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,disagreeadjourn.com,🛑 广告拦截
@@ -9705,15 +9920,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,discrepancyabsolution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,discriminationprovide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,discussmercurydifferently.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,discuteeves.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disdainkindle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disean.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disembarkadmonishment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disembarkappendix.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disembroildisembroilassuredwitchcraft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disfigured-state.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,disfigurestokerlikelihood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disgraceannihilate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disgracefulaffluenceunethical.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,disguised-dad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,disgustinghindsight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dishesha.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dishfulbantus.uno,🛑 广告拦截
@@ -9763,6 +9979,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,distinct-bicycle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,distinctlynobleprosecute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,distorted-basket.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,distorteddead.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,distorttrucknurture.com,🛑 广告拦截
   - DOMAIN-SUFFIX,distractiontradingamass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,distressedsensesmanage.com,🛑 广告拦截
@@ -9787,6 +10004,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,divedfaraway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,divekcl7q9fxi.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,diversecrashconcern.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dividedching.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dividedscientific.com,🛑 广告拦截
   - DOMAIN-SUFFIX,divideoutdoors.com,🛑 广告拦截
   - DOMAIN-SUFFIX,diyusa.xyz,🛑 广告拦截
@@ -9813,8 +10031,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dkgp834o9n8xl.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dkm6b5q0h53z4.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dkohudoflh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dkojawwuloj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dkrbus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dkre4lyk6a9bt.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,dkrely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dkswptmwowowp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dktr03lf4tq7h.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dkus30wj6f84p.cloudfront.net,🛑 广告拦截
@@ -9829,6 +10049,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dlh8c15zw7vfn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dlhqffirehv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dlmewheniyv.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,dlmr7hpb2buud.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dlne6myudrxi1.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dlooqrhebkjoh.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dlrcoalbin.com,🛑 广告拦截
@@ -9851,6 +10072,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dmm-video.online,🛑 广告拦截
   - DOMAIN-SUFFIX,dmmzkfd82wayn.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dmnprx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dmowvblljmkqx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dmvbdfblevxvx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dmwiguazwm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dmxleo.dailymotion.com,🛑 广告拦截
@@ -9939,6 +10161,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dominatedisintegratemarinade.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dominikpers.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,dominoeds.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,domith.com,🛑 广告拦截
   - DOMAIN-SUFFIX,domnlk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dompeterapp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,domslc.com,🛑 广告拦截
@@ -9946,6 +10169,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,donecooler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,donecperficiam.net,🛑 广告拦截
   - DOMAIN-SUFFIX,doneeinvict.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,donemagbuy.live,🛑 广告拦截
   - DOMAIN-SUFFIX,doneoftheow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,donescaffold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,doninjaskr.com,🛑 广告拦截
@@ -9965,10 +10189,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,doopimim.net,🛑 广告拦截
   - DOMAIN-SUFFIX,doorbrazil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,doormanbafflemetal.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,doormantdoormantunfaithful.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,doorstepexcepting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dopansearor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dope.autos,🛑 广告拦截
   - DOMAIN-SUFFIX,dopiesttrotter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dopor.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,doprinplupr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,doptik.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,dorbanise.pw,🛑 广告拦截
   - DOMAIN-SUFFIX,dordaumt.com,🛑 广告拦截
@@ -10018,6 +10245,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,doucheraisiny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,doufoacu.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dougale.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,douglaug.net,🛑 广告拦截
   - DOMAIN-SUFFIX,douhooke.net,🛑 广告拦截
   - DOMAIN-SUFFIX,douoblelimpup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dousersricking.com,🛑 广告拦截
@@ -10029,6 +10257,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,doweryacreak.website,🛑 广告拦截
   - DOMAIN-SUFFIX,down1oads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,downladingsite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,download-adblock-zen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,download-ready.net,🛑 广告拦截
   - DOMAIN-SUFFIX,download-readynow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,downloadboutique.com,🛑 广告拦截
@@ -10040,6 +10269,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dowtyler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,doxoonas.net,🛑 广告拦截
   - DOMAIN-SUFFIX,doyleysstagese.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dozard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dozenactually.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dozubatan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dp45nhyltt487.cloudfront.net,🛑 广告拦截
@@ -10077,6 +10307,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,drainlot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drako2sha8de09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dramasoloist.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dramaticagreementsalt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dramaticdirection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,draokrojba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drapefabric.com,🛑 广告拦截
@@ -10087,6 +10318,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,drauntilperin.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,drawbacksubdue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drawbaroddly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,drawerfontactual.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,drawingsugarnegative.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drawingwheels.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drawnperink.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drawx.xyz,🛑 广告拦截
@@ -10103,6 +10336,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dreambooknews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dreamintim.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dreampics.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,dreamsoppressive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dreamvids.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,dreary-east.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,drenchspecialsmoker.com,🛑 广告拦截
@@ -10113,6 +10347,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dribbleads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dribletbogled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,driddleurease.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,drided.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drific.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drifor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,driftfranchise.com,🛑 广告拦截
@@ -10125,6 +10360,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,driptfrancs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,driskfleeted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,driveestablishmentarmed.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,drivenicysecretive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,driverpartially.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drivewayilluminatedconstitute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,drivewayperrydrought.com,🛑 广告拦截
@@ -10176,7 +10412,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dteakfzixo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dtmm9h2satghl.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dtmpub.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,dtoo1.space,🛑 广告拦截
   - DOMAIN-SUFFIX,dtoottuleringv.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,dtoottuleringwe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dtothdgemano.xyz,🛑 广告拦截
@@ -10205,17 +10440,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ducatglfez.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duckiecaesura.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duckiessongle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,duckletnervous.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,ducksintroduce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duckswillsmoochyou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ducmiptu.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ductclickjl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ductquest.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ductrealistic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ducubchooa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ducvkabzox.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dudair.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dudaixou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dudialgator.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dudleyjoyful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dudslubesviol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,due5a6x777z0x.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,duellosheliced.com,🛑 广告拦截
@@ -10223,6 +10459,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,duf1ql28oaxcm3x6baf7wxvo6n29hrozqxbd13emc3na96i64j.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dufai4b1ap33z.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dufibepe.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dufrom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duftoagn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dugentocentury.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duginamis.com,🛑 广告拦截
@@ -10262,6 +10499,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,duried.com,🛑 广告拦截
   - DOMAIN-SUFFIX,durief.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duriff.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,durike.com,🛑 广告拦截
   - DOMAIN-SUFFIX,duriot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,durisk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,durith.com,🛑 广告拦截
@@ -10284,11 +10522,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dv7t7qyvgyrt5.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dvaminusodin.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dvc8653ec6uyk.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,dvfkpfgqyauuux.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dviccvivms.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dvigukindal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dvjkmskks.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dvklfkssxirup.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dvl8xapgpqgc1.cloudfront.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,dvmdwmnyj3u4h.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dvypar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dw55pg05c2rl5.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dw7vmlojkx16k.cloudfront.net,🛑 广告拦截
@@ -10310,6 +10550,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dwr3zytn850g.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dwrdjfdxtoel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dwwboxlnrlek.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,dwwjlvpja.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dxajhcdz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dxgo95ahe73e8.cloudfront.net,🛑 广告拦截
   - DOMAIN-SUFFIX,dxh2ivs16758.cloudfront.net,🛑 广告拦截
@@ -10371,6 +10612,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,e0a42e1a21669b.com,🛑 广告拦截
   - DOMAIN-SUFFIX,e1cd662960.com,🛑 广告拦截
   - DOMAIN-SUFFIX,e1eacb6f88.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,e2078be122.com,🛑 广告拦截
   - DOMAIN-SUFFIX,e21b1642db801b2a.com,🛑 广告拦截
   - DOMAIN-SUFFIX,e255347009.com,🛑 广告拦截
   - DOMAIN-SUFFIX,e27fe9334e.com,🛑 广告拦截
@@ -10479,6 +10721,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,easyvids.info,🛑 广告拦截
   - DOMAIN-SUFFIX,easyvids.online,🛑 广告拦截
   - DOMAIN-SUFFIX,easyvids.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,eatasesetitoefanyo.info,🛑 广告拦截
   - DOMAIN-SUFFIX,eatencurvature.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eatinerhitles.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eationslieem.xyz,🛑 广告拦截
@@ -10494,6 +10737,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eb3c3aac94.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ebannertraffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ebbetsgourded.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ebd.cda-hd.co,🛑 广告拦截
   - DOMAIN-SUFFIX,ebdr3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ebe29efc2c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ebetoni.com,🛑 广告拦截
@@ -10509,7 +10753,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eca578b203.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ecae03ea3d.com,🛑 广告拦截
   - DOMAIN-SUFFIX,echnic.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,echnolog.club,🛑 广告拦截
   - DOMAIN-SUFFIX,echoachy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,echoizepheeal.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,ecityalittl.buzz,🛑 广告拦截
@@ -10517,6 +10760,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eclkmpbn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eclkmpsa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eclogicmeows.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ecodemitter.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,econenectedith.info,🛑 广告拦截
   - DOMAIN-SUFFIX,economicalgobetween.com,🛑 广告拦截
   - DOMAIN-SUFFIX,economyobserver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,econth.com,🛑 广告拦截
@@ -10580,6 +10825,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,edvfwlacluo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,edvrfjrrxk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,edwate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,edwfdhkgnx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ee43ed4973.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ee6a35c1eeee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eea605742d.com,🛑 广告拦截
@@ -10599,6 +10845,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eehimeer.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eehuzaih.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eeinhyfb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eekmbamyvkenb.top,🛑 广告拦截
   - DOMAIN-SUFFIX,eekreeng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eeksidro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eelipaus.net,🛑 广告拦截
@@ -10631,6 +10878,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eewheeds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eewhocmi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eexaitie.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,eeywmvwebqqrj.top,🛑 广告拦截
   - DOMAIN-SUFFIX,eezavops.net,🛑 广告拦截
   - DOMAIN-SUFFIX,eezegrip.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ef2aecba6f.com,🛑 广告拦截
@@ -10660,6 +10908,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,egfqtvewksktz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eggcupsfriends.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eggerscorr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,egglessunfrees.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,egglikelt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eggnogsagrapha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eggytiptops.com,🛑 广告拦截
@@ -10674,10 +10923,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,egowyefort.live,🛑 广告拦截
   - DOMAIN-SUFFIX,egpdbp6e.de,🛑 广告拦截
   - DOMAIN-SUFFIX,egreephu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,egretswamper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,egyptpolarity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ehadmethe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ehadtwobright.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ehmweuibiheq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eiewwepb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eighly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eighthwaspish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eightuntrue.com,🛑 广告拦截
@@ -10698,11 +10949,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eitics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eitish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eitka.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eitney.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejcet5y9ag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejdkqclkzq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejectbagsindefinite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejectionthoughtful.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ejghgjhhgadcdchjaada.ru.,🛑 广告拦截
   - DOMAIN-SUFFIX,ejipaifaurga.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejotdqfjazg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejpzqnqwcszfsz.com,🛑 广告拦截
@@ -10747,19 +10998,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,elicitsfoozle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elicoaga.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eligiblebraceelitist.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,elinorparcel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eliss-vas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elitistcompensationstretched.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elitistrawirresistible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elizaguarapo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,elizapanelairplane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elizathings.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elkbahtax.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,elkconsistbirch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elkhornreddens.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ellaysad.live,🛑 广告拦截
   - DOMAIN-SUFFIX,ellcurvth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ellicecaesura.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ellpaniers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,elmkrljayamrb.top,🛑 广告拦截
   - DOMAIN-SUFFIX,elogiumtagmeme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elonreptiloid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eloquencer.com,🛑 广告拦截
@@ -10767,15 +11017,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,elsatthereandh.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,elsekeyseat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elsewherebuckle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eltxarqgwngybfi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elusiveanxiouslyruns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,elwmvjuit.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,emailmeditateencourage.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,emailon.top,🛑 广告拦截
   - DOMAIN-SUFFIX,embaleobelia.life,🛑 广告拦截
   - DOMAIN-SUFFIX,embalmswrights.com,🛑 广告拦截
   - DOMAIN-SUFFIX,embargesnibble.website,🛑 广告拦截
   - DOMAIN-SUFFIX,embarkdisrupt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,embarrassed-slice.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,embeddednonsilence.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,embezzlementteddy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,embodimentpronounrunway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,embogsoarers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,embtrk.com,🛑 广告拦截
@@ -10798,6 +11051,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,emoticappfriends.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emotional-register.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emotionaljudgment.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,emotionallyhemisphere.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emperm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,empiot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,empireexhibited.com,🛑 广告拦截
@@ -10808,6 +11062,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,empond.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emptem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emptivetss.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,emptorrevalue.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,emptyescort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emqvwujfjknkbg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,emraudpeptone.com,🛑 广告拦截
@@ -10820,7 +11075,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,enactmedic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enacttournamentcute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enaenasiftage.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,enamberchivies.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enarmriv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enarmuokzo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enbclpbyi.com,🛑 广告拦截
@@ -10897,6 +11151,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,enseelgrippy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ensetepoggies.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ensignpancreasrun.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ensosignal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ensueswill.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entailresponded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entalsindust.one,🛑 广告拦截
@@ -10908,12 +11163,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,entirelysacrament.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entitledbalcony.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entjgcr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,entreatyfungusgaily.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entrecard.s3.amazonaws.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entreeselegist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entrepreneurrestorationthereby.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entrerscab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entriflingw.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,entterto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,entualkenti.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,enueduringhere.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,enuewasadirectres.info,🛑 广告拦截
   - DOMAIN-SUFFIX,enuresdairi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,envbsnnbyglvea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,enviabledilate.com,🛑 广告拦截
@@ -10936,13 +11195,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eoopersed.one,🛑 广告拦截
   - DOMAIN-SUFFIX,eooperseducat.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eooslfyhziubo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eopleshouldt.info,🛑 广告拦截
   - DOMAIN-SUFFIX,eoredi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eosads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eoseurlingeringonl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eoseurlingeringont.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,eoveukrnme.info,🛑 广告拦截
   - DOMAIN-SUFFIX,eoweridus.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,eozoicfirring.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epacash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epagogerepines.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epailseptox.com,🛑 广告拦截
@@ -10954,6 +11213,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,epigaeatoasty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epigeicnarthex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epiloiawhilter.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,epimerbeep.top,🛑 广告拦截
   - DOMAIN-SUFFIX,epists.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epithetduler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,epjwugocpvan.xyz,🛑 广告拦截
@@ -10970,6 +11230,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eputysolomon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eqacypykxa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eqads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,equabilityassortshrubs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,equabilitythereupon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,equesk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,equilibriumindifferentsoak.com,🛑 广告拦截
@@ -10986,6 +11247,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,erdecisesgeorg.info,🛑 广告拦截
   - DOMAIN-SUFFIX,erders.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ereallywasnoth.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,erehzj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,eremuribleak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,erenchinterried.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,ereuwqhc.com,🛑 广告拦截
@@ -11047,6 +11309,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,esnlynotquiteso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,esopertyva.shop,🛑 广告拦截
   - DOMAIN-SUFFIX,esorandhewa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,especiallyblareparasol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,espierbatz.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,espionagegardenerthicket.com,🛑 广告拦截
   - DOMAIN-SUFFIX,essaypresidential.com,🛑 广告拦截
@@ -11081,7 +11344,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ethikuma.link,🛑 广告拦截
   - DOMAIN-SUFFIX,ethimdownth.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ethnicacknowledgedbeneficial.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ethnicbrotherhoodunmoved.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ethnicmovescrupulous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ethnicscrozers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ethoxyblindly.com,🛑 广告拦截
@@ -11096,12 +11358,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ettjvrjujt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ettlingnidana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,euahvyde.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,eucing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eucleu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eucli-czt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eudok-cfy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eudoxia-myr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eudstudio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eugenearsonmeanwhile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eugonichyke.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,euizhltcd6ih.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eukova.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eulal-cnr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,euonymcalvous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,euosicjxjv.com,🛑 广告拦截
@@ -11133,6 +11399,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eventucker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,evenuewasadi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ever8trk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,everausterity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,everdreamsofc.info,🛑 广告拦截
   - DOMAIN-SUFFIX,everprobation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,everypilaus.com,🛑 广告拦截
@@ -11142,8 +11409,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,evgywgur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eviclick.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,evidentlysoup.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,evilshortcut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,evitinghabnab.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,evjroovrujr.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,evoign.com,🛑 广告拦截
   - DOMAIN-SUFFIX,evokeowedangers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,evours.com,🛑 广告拦截
   - DOMAIN-SUFFIX,evouxoup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,evushuco.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ewaglongoo.com,🛑 广告拦截
@@ -11164,6 +11435,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ewruuqe5p8ca.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exacdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exactconfigurationhasten.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exaggeratekindnessvocal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exaltationinsufficientintentional.com,🛑 广告拦截
   - DOMAIN-SUFFIX,examinationevolutionmingle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,examineroverprotectiveproof.com,🛑 广告拦截
@@ -11176,6 +11448,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,excellent-closet.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,excellent-vids.online,🛑 广告拦截
   - DOMAIN-SUFFIX,excellentvids.online,🛑 广告拦截
+  - DOMAIN-SUFFIX,excellentvids.space,🛑 广告拦截
   - DOMAIN-SUFFIX,exceph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exceptinggapslightest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,excessivetighten.com,🛑 广告拦截
@@ -11191,7 +11464,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,exclamationresound.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exclusivebrass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,excretekings.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,excretenias.com,🛑 广告拦截
   - DOMAIN-SUFFIX,excuseparen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,excuum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exdimkvfbku.com,🛑 广告拦截
@@ -11207,12 +11479,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,exhaustedaccess.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,exhibitedderivedremarkable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exhibitionunattractive.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exhno.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exi8ef83z9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exileinstinct.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exinepenname.top,🛑 广告拦截
   - DOMAIN-SUFFIX,exists-mazard.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,existsdesist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,existsvolatile.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exitenmitynotwithstanding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exlusepolly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exnesstrack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exobafrgdf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exoclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exoclsodaqs.com,🛑 广告拦截
@@ -11223,6 +11499,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,exopthassar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exotismuntrill.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expandremittance.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,expdirclk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expectedballpaul.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expedientabnormaldeceased.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expelsleeken.website,🛑 广告拦截
@@ -11232,13 +11509,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,experimentmelting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expertisefall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expertnifg.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,expiredemure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,explainpompeywistful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exploitdevoid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exploitingenious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exploitnookconsequently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,explorecomparison.com,🛑 广告拦截
   - DOMAIN-SUFFIX,explorefast-1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,explorefast-2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,explosionsubdueguidance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expmediadirect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expocrack.com,🛑 广告拦截
@@ -11246,6 +11523,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,exporder-patuility.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exportleggy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exportspring.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,exposestomnoup.space,🛑 广告拦截
   - DOMAIN-SUFFIX,exposuremixed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expressalike.com,🛑 广告拦截
   - DOMAIN-SUFFIX,expressproducer.com,🛑 广告拦截
@@ -11258,6 +11536,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,extendedcocktailchapel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extenderlypoit.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,extensions-media.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,extensivenegotiation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extentitle.space,🛑 广告拦截
   - DOMAIN-SUFFIX,exterminateantique.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exterminatestreet.com,🛑 广告拦截
@@ -11266,10 +11545,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,extractdissolve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extractforgiveness.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extralarge-proposal.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,extremegoggle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extremereach.io,🛑 广告拦截
   - DOMAIN-SUFFIX,extremeshredcharm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,extremiu.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,extrer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,exwotics6heomrthaoi4r.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,eyauknalyticafra.info,🛑 广告拦截
   - DOMAIN-SUFFIX,eyeballdisk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eyebrowsasperitygarret.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eyebrowscrambledlater.com,🛑 广告拦截
@@ -11297,7 +11579,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ezjhhapcoe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ezoiccdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ezojs.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ezqbbqybwjarv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ezsbhlpchu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ezyenrwcmo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,f0657e4fd5.com,🛑 广告拦截
@@ -11354,10 +11635,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,facaltow.net,🛑 广告拦截
   - DOMAIN-SUFFIX,facebarclarty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,facesnotebook.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,facesrenaissanceconfirmed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,facilitatevoluntarily.com,🛑 广告拦截
   - DOMAIN-SUFFIX,facilitycompetition.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,facilitystrode.com,🛑 广告拦截
   - DOMAIN-SUFFIX,facinggleg.life,🛑 广告拦截
   - DOMAIN-SUFFIX,fackeyess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,faclientirethe.xyz,🛑 广告拦截
@@ -11379,6 +11658,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fae46gussylvatica.com,🛑 广告拦截
   - DOMAIN-SUFFIX,faerieattorns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,faestara.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,faffylunk.space,🛑 广告拦截
   - DOMAIN-SUFFIX,fagfmabinf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,faggotsnulled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,faggrim.com,🛑 广告拦截
@@ -11389,6 +11669,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,faigroas.net,🛑 广告拦截
   - DOMAIN-SUFFIX,failingrainful.website,🛑 广告拦截
   - DOMAIN-SUFFIX,failuremaistry.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,faintbedub.life,🛑 广告拦截
   - DOMAIN-SUFFIX,fainziphius.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,fairadsnetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fairfaxdepresseddisguise.com,🛑 广告拦截
@@ -11413,6 +11694,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,falkag.net,🛑 广告拦截
   - DOMAIN-SUFFIX,fallaciousfifth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fallingseveral.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,falloutbraidengaged.com,🛑 广告拦截
   - DOMAIN-SUFFIX,falsarywaybung.com,🛑 广告拦截
   - DOMAIN-SUFFIX,falsenalice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,falsewrist.com,🛑 广告拦截
@@ -11448,6 +11730,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,faracoon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,farawayreel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,farcedboccis.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fardelbungo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fardingsoiling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fargoodgarotes.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,farmagegaudful.com,🛑 广告拦截
@@ -11518,10 +11801,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fcaijpwzvj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fccinteractive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fcompsepd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fcpfth.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fcprst.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fcqqbrfucuf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fcudlfqupglxynu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fcxcubtkahif.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fcxsodjsrqp.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,fd2a9dd918.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fd5orie8e.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fd7qz88ckd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fddf7d58ea.com,🛑 广告拦截
@@ -11532,6 +11818,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fdjigxyxstiu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fdorxsat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fdpfkdnpvpmb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fdubbogbean.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,fe7qygqi2p2h.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fe95a992e6afb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feadrope.net,🛑 广告拦截
@@ -11568,6 +11855,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feeds.videosz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feedyourheadmag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feefouga.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,feegoust.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,feegozoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feelfereetoc.top,🛑 广告拦截
   - DOMAIN-SUFFIX,feelingstoriesplumb.com,🛑 广告拦截
@@ -11585,6 +11873,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feignthat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feistyhelicopter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fejla.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fejwcnbsu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,felidaeyojuane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,felied.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fellap.com,🛑 广告拦截
@@ -11596,9 +11885,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feltmanarietid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feluccahoit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,femald.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,female-yard.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,femefaih.com,🛑 广告拦截
   - DOMAIN-SUFFIX,femin.online,🛑 广告拦截
-  - DOMAIN-SUFFIX,femindexkilog.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fenacheaverage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fenchylsoonish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fenixm.com,🛑 广告拦截
@@ -11606,10 +11895,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fentent.streampiay.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,fentent.streampiay.me,🛑 广告拦截
   - DOMAIN-SUFFIX,fer2oxheou4nd.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ferdictivesone.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,feredletrighro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feredletrighro.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ferelatedmothes.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ferict.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,feript.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ferliestonics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ferlingbelayed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fermacyupplow.com,🛑 广告拦截
@@ -11619,6 +11909,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feroffer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,feroxnestor.space,🛑 广告拦截
   - DOMAIN-SUFFIX,ferritediener.tech,🛑 广告拦截
+  - DOMAIN-SUFFIX,fertilecalfawelessaweless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fertilisedlinealdeceived.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fertilrouts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ferventhoaxresearch.com,🛑 广告拦截
@@ -11655,7 +11946,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fhgh9sd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fhisladyloveh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fhisownkindt.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,fhjvhupv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fhsmtrnsfnt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fhsvyfoadsbo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fiberedvaleryl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fictiongroin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ficusoid.xyz,🛑 广告拦截
@@ -11669,6 +11962,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fierysolemncow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fifishlbs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fifteenthhardboiledbanker.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fifthjournalisminadequate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,figgleimpregn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fighes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fighla.com,🛑 广告拦截
@@ -11693,10 +11987,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fillsitsy.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,filmdomparesis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,filmesonlinegratis.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,filmreorganizeford.com,🛑 广告拦截
   - DOMAIN-SUFFIX,filterexchangecage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,filthybudget.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fimserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fin.ovh,🛑 广告拦截
+  - DOMAIN-SUFFIX,finalice.net,🛑 广告拦截
   - DOMAIN-SUFFIX,finallysuburblaunching.com,🛑 广告拦截
   - DOMAIN-SUFFIX,finance-hot-news.com,🛑 广告拦截
   - DOMAIN-SUFFIX,finance2you.org,🛑 广告拦截
@@ -11746,6 +12042,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,firstlightera.com,🛑 广告拦截
   - DOMAIN-SUFFIX,firtaips.com,🛑 广告拦截
   - DOMAIN-SUFFIX,firumuti.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,fishermanslush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fishkekcamp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fishyscalpelweight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fissay.com,🛑 广告拦截
@@ -11760,6 +12057,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fiumaralupin.space,🛑 广告拦截
   - DOMAIN-SUFFIX,fivelegant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fivetrafficroads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fivulsou.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fiwhibse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fixbreakthrough.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fixchidie.com,🛑 广告拦截
@@ -11772,15 +12070,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fjoyewwxrowqy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fjttbkoxer.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fkbwtoopwg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fkcvtiqbbgedb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fkexeijtqstuh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fkezkucic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fkiqisalq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fksnk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fla4n6ne7r8ydcohcojnnor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flabbyyolkinfection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flagads.net,🛑 广告拦截
   - DOMAIN-SUFFIX,flagmantensity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flagresponsive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flagros2sii8fdbrh09.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,flague.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,flairadscpc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flakecontainsgrill.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flakesrental.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flamboyantlionessliability.com,🛑 广告拦截
@@ -11807,11 +12109,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,flaxseedssoenrh4372ojd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fldes6fq.de,🛑 广告拦截
   - DOMAIN-SUFFIX,flecur.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fleeoutspoken.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fleeredkeg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fleraprt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fleshlyzombis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flewke.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flexlinks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,flickeringintention.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,fliedridgin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fligha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flintedkickers.com,🛑 广告拦截
@@ -11834,9 +12138,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,flossyarrayal.life,🛑 广告拦截
   - DOMAIN-SUFFIX,floundercomeback.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flouralmighty.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,flowerasunder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flowln.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flowsearch.info,🛑 广告拦截
   - DOMAIN-SUFFIX,flowwiththetide.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,floyme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flpfsqgjsarghs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flrdra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fluese.com,🛑 广告拦截
@@ -11850,11 +12156,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fluingdulotic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flurrylimmu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flushafterwardinteger.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,flustered-poetry.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,fluttermotorway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fluvioalkyl.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,fluxads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fluxy.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,flvpcdnb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flygfqnqsftsoly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,flyingsexul.space,🛑 广告拦截
   - DOMAIN-SUFFIX,flyingsquirellsmooch.com,🛑 广告拦截
@@ -11874,6 +12180,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fnrdymekgohcsj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fnrrm2fn1njl1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fntlyenclothe.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,foagreen.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,foakiwhazoja.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foalyraisins.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foamidsputt.com,🛑 广告拦截
@@ -11901,6 +12208,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,foldhewiser.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foldupbriningjeanne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,folgam.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,foliosedunlin.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,foliumumu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,folkscombine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,followedsurvey.com,🛑 广告拦截
@@ -11925,7 +12233,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,footageaccomplishment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,footar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,footnote.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,footwaydoomed.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,footwearrehearsehouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foowafoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foozledslimsy.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,fopsoado.com,🛑 广告拦截
@@ -11942,6 +12250,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,forbiddenuneasy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forbitnebris.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,forceddenial.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,forcelessgooseberry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forcelessgreetingbust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forcetwice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forearmdissipatejubilee.com,🛑 广告拦截
@@ -11950,6 +12259,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,forecastsinglegait.com,🛑 广告拦截
   - DOMAIN-SUFFIX,foregogabbro.life,🛑 广告拦截
   - DOMAIN-SUFFIX,foresawmartins.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,forestcremate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forewordmoneychange.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forexclub.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,foreyeshehadtw.com,🛑 广告拦截
@@ -11964,11 +12274,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,forgivenesscourtesy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forgivenessimpact.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forgivenesspeltanalyse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,forgivenesssweptsupervision.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forgivepuzzled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forgoesthalli.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,forgoodplay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forgoprokick.icu,🛑 广告拦截
-  - DOMAIN-SUFFIX,forgottedvere.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,forjoiyvid.online,🛑 广告拦截
   - DOMAIN-SUFFIX,forjoiyvid.site,🛑 广告拦截
   - DOMAIN-SUFFIX,forjoiyvid.space,🛑 广告拦截
@@ -11989,6 +12299,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,formerlyerotic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,formerlyrelationshipserver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,formingcunninghump.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,formsassistanceclassy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,formulacountess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fornvjvi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,forognal.com,🛑 广告拦截
@@ -12037,6 +12348,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,foxcdn.life,🛑 广告拦截
   - DOMAIN-SUFFIX,foxpush.io,🛑 广告拦截
   - DOMAIN-SUFFIX,foxypp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fpdbccngiujp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fpgedsewst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fpnpmcdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,fpukxcinlf.com,🛑 广告拦截
@@ -12058,10 +12370,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,franecki.net,🛑 广告拦截
   - DOMAIN-SUFFIX,franeski.net,🛑 广告拦截
   - DOMAIN-SUFFIX,frangh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,franklyatmosphericanniversary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frap.site,🛑 广告拦截
   - DOMAIN-SUFFIX,frapsguardo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frauck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fraudclatterflying.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fraudholdingpeas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frayvehemently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frbyvuxzvmqpb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frcpth.xyz,🛑 广告拦截
@@ -12084,6 +12398,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,freeskreen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,freesoftwarelive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,freestar.io,🛑 广告拦截
+  - DOMAIN-SUFFIX,freetrckr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,freewayadventureexactly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,freewaynetlike.com,🛑 广告拦截
   - DOMAIN-SUFFIX,freezeanything.com,🛑 广告拦截
@@ -12109,13 +12424,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,frhbrkjgerikm2f8mjek09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fri4esianewheywr90itrage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fricacedisgulf.uno,🛑 广告拦截
+  - DOMAIN-SUFFIX,frictiontypicalsecure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fridayarched.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fridaylazy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fridgestretched.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,friendlyincompetencepicked.com,🛑 广告拦截
   - DOMAIN-SUFFIX,friendshipmale.com,🛑 广告拦截
   - DOMAIN-SUFFIX,friesel-mustin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frightening-lesson.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,frilly-number.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,fripth.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,friskbiscuit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fristminyas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fritue.com,🛑 广告拦截
@@ -12143,6 +12461,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,frstlead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frtya.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frtyd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,frugalityabruptly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,frugalrushcap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fruins.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fruitfulgreenhousefacility.com,🛑 广告拦截
@@ -12156,6 +12475,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fsotrmshy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fstsrv1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fstsrv2.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fstsrv3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fswvlswhgvjh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ftblltrck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ftd.agency,🛑 广告拦截
@@ -12205,8 +12525,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,funnysack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,funnyvacant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,funtoday.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,furded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,furiosocomique.com,🛑 广告拦截
   - DOMAIN-SUFFIX,furlsstealbilk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,furnacemanagerstates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,furnishedleggysoak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,furnishedsalonherring.com,🛑 广告拦截
   - DOMAIN-SUFFIX,furorshahdon.com,🛑 广告拦截
@@ -12234,6 +12556,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fwbntw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fwmrm.net,🛑 广告拦截
   - DOMAIN-SUFFIX,fwnowvgk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fwwxanjyjlu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fxdepo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fxgoaeplst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fxrbsadtui.com,🛑 广告拦截
@@ -12245,6 +12568,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fztmn.top,🛑 广告拦截
   - DOMAIN-SUFFIX,g-statistic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,g0gr67p.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,g0wow.net,🛑 广告拦截
   - DOMAIN-SUFFIX,g1sysa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,g2440001011.com,🛑 广告拦截
   - DOMAIN-SUFFIX,g2546417787.com,🛑 广告拦截
@@ -12323,6 +12647,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gaminesmuletta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gaming-adult.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gamingonline.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,gammabendlet.website,🛑 广告拦截
   - DOMAIN-SUFFIX,gammae.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gammamkt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gandmotivatin.info,🛑 广告拦截
@@ -12340,6 +12665,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gardoult.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gardourd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,garglecommunicate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,garglingcorny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gargocmy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gargoowi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,garibamarmose.com,🛑 广告拦截
@@ -12369,6 +12695,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gatewaydissolvedexemplify.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gatewayimpossibilitypursue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gatheringtherealiases.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gatols.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gaudetehoazin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gaugeadroitself.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gaukluthern.website,🛑 广告拦截
@@ -12389,6 +12716,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gayuxhswva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gazati.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gazeesaucier.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gbbgaiuqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gbfgvzfcjfs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gbfwqsakvaysygn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gblcdn.com,🛑 广告拦截
@@ -12448,7 +12776,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gentssepa.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,genued.com,🛑 广告拦截
   - DOMAIN-SUFFIX,genuinelybruises.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,genusratesimpish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,genystopiary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,geoaddicted.net,🛑 广告拦截
   - DOMAIN-SUFFIX,geobanner.adultfriendfinder.com,🛑 广告拦截
@@ -12460,6 +12787,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,geoinventory.com,🛑 广告拦截
   - DOMAIN-SUFFIX,geolsoul.life,🛑 广告拦截
   - DOMAIN-SUFFIX,georgianabamboorehearse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,geotrkclknow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gepsuzogra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ger97coined.cfd,🛑 广告拦截
   - DOMAIN-SUFFIX,geraflows.com,🛑 广告拦截
@@ -12480,8 +12808,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,get.cryptobrowser.site,🛑 广告拦截
   - DOMAIN-SUFFIX,get.davincisgold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,get.paradise8.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,get.rubyroyal.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,get.slotocash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,get.thisisvegas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,get2m5sgstohne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,get2nesoft1.ru,🛑 广告拦截
@@ -12489,6 +12815,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,getadx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,getalltraffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,getapo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,getarrectlive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,getawayspectaclejumped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,getbrowbeatgroup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,getcdnpix.name,🛑 广告拦截
@@ -12543,23 +12870,30 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ggxyyalrj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghableleader.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ghastlyoffer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghastlyrejectionrest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghattiwongsky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghatwalplunker.live,🛑 广告拦截
   - DOMAIN-SUFFIX,gheraosonger.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghethe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghetic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghettoschanse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghisiva.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ghlyrecome.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ghmofgpoyafnref.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ghostedridotto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghosthis.review,🛑 广告拦截
   - DOMAIN-SUFFIX,ghostnewz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghrain.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghtry.amateurswild.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghttohimhedra.cc,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghyhwiscizax.com,🛑 广告拦截
   - DOMAIN-SUFFIX,giantaffiliates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gianwho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gibaivoa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gibbarwaiting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gibbousbalaic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gibeleftyeuro.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gicoxxmeostnxw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gidaxlzi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,giddinessrefusal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,giddysystemrefers.com,🛑 广告拦截
@@ -12584,6 +12918,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gindeoedbadas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gingercompute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ginningsteri.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ginnycleanedfeud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ginnymulberryincompetent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gipeucn.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,gipostart-1.co,🛑 广告拦截
@@ -12612,6 +12947,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gjfeblixctsojx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gjigle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gjonfartyb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gjpcwjzzc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gjwos.org,🛑 广告拦截
   - DOMAIN-SUFFIX,gkmohklyjyh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gkngokwjmykp.xyz,🛑 广告拦截
@@ -12619,6 +12955,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gkrtmc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gl-cash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gla63a4l.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,glacierglorifybeetroot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gladiol9us10.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gladlycreator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glaichid.net,🛑 广告拦截
@@ -12642,6 +12979,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,glaubuph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glaughoa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,glaunsil.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,glaunsun.net,🛑 广告拦截
   - DOMAIN-SUFFIX,glaurtas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glauvoob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glaxaukr.net,🛑 广告拦截
@@ -12649,6 +12987,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,glazilyvenues.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glbtrk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gleagainedam.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,gleamcalumnygeneralize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gleameddelightprosperity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gleaminsist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glecmaim.net,🛑 广告拦截
@@ -12659,12 +12998,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gleejoad.net,🛑 广告拦截
   - DOMAIN-SUFFIX,gleemsomto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gleetchisurvey.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,gleetedbunged.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,glefeesh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,glegreel.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,gleitmappy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glekrush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glelylute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glenprejudice.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,glenseized.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glepteel.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,glersakr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glersooy.net,🛑 广告拦截
@@ -12682,7 +13022,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,glishais.net,🛑 广告拦截
   - DOMAIN-SUFFIX,glitteridentifiernavy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glitteringbrush.pro,🛑 广告拦截
-  - DOMAIN-SUFFIX,glitteringentrance.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,glitteringinextricabledemise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glivupegn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glixaing.com,🛑 广告拦截
@@ -12709,6 +13048,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,globwo.online,🛑 广告拦截
   - DOMAIN-SUFFIX,glochatuji.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glogoowo.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,glokta.info,🛑 广告拦截
   - DOMAIN-SUFFIX,gloodain.net,🛑 广告拦截
   - DOMAIN-SUFFIX,gloodsie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gloolrey.com,🛑 广告拦截
@@ -12743,6 +13083,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,glpctwalwq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glpeaoauwevlns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glssp.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,glueluthern.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,gluenasal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glufoksy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,glugherg.net,🛑 广告拦截
@@ -12822,10 +13163,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,goevyqdlo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gogglemessenger.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gogglerespite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,goghen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gogord.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gohere.pl,🛑 广告拦截
   - DOMAIN-SUFFIX,gohillgo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goinformer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,goingbicyclepolitically.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goingprayer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goingtoothachemagician.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gokedoas.xyz,🛑 广告拦截
@@ -12837,6 +13180,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,goldm9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goldnostree.live,🛑 广告拦截
   - DOMAIN-SUFFIX,goldtroopsdetached.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,golfchapah.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,goloshyacal.space,🛑 广告拦截
   - DOMAIN-SUFFIX,gomain.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,gomain2.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,gomastabrat.com,🛑 广告拦截
@@ -12852,7 +13197,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,good4younow.club,🛑 广告拦截
   - DOMAIN-SUFFIX,goodadvert.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,goodbusinesspark.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,goodcasino.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,goodgamesmanship.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goodnightrunaway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,goods2you.net,🛑 广告拦截
@@ -12916,15 +13260,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,governessmagnituderecoil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,governorpicklestraight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,governorretired.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gowgycwrfbukst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gowhutho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gowpengagster.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gpnjknuqas.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gpozmocm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gpuqizoz.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gpuskmmm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gpylmwtjiy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gqaecrxbj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gqcmqihonrx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gqubkbuinx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gr8y7z1xaq30.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,grabhastened.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gracaiko.net,🛑 广告拦截
   - DOMAIN-SUFFIX,gracedschelly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gracefulbayonetlukewarm.com,🛑 广告拦截
@@ -12954,8 +13302,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,grammarselfish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,granct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grandchildfee.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,grandclemencydirt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,granddadfindsponderous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,granddaughterrepresentationintroduce.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,grandeursway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grandlay.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,grandnerve.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,grandocasino.com,🛑 广告拦截
@@ -12986,6 +13336,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,graveuniversalapologies.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gravicmessiah.space,🛑 广告拦截
   - DOMAIN-SUFFIX,gravidtrekker.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,gravityharryexperienced.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grawhoonrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grayrecruitbrainwash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,greatappland.com,🛑 广告拦截
@@ -13013,6 +13364,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,greenplasticdua.com,🛑 广告拦截
   - DOMAIN-SUFFIX,greeter.me,🛑 广告拦截
   - DOMAIN-SUFFIX,greetpanda.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,greewepi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,greezoob.net,🛑 广告拦截
   - DOMAIN-SUFFIX,grefutiwhe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gregariousflower.pro,🛑 广告拦截
@@ -13082,6 +13434,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,growingfailure.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,grown-inpp-code.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grown-t-code.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,grownbake.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,growngame.life,🛑 广告拦截
   - DOMAIN-SUFFIX,growthbuddy.app,🛑 广告拦截
   - DOMAIN-SUFFIX,grozeesh.com,🛑 广告拦截
@@ -13102,11 +13455,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gruffermail.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grumblecrytopless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grumpy-fear.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,grumpybreakingsalad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grunoaph.net,🛑 广告拦截
   - DOMAIN-SUFFIX,gruponn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grusifof.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grusungiddy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grygrothapi.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,gsclvurjec.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gscontxt.net,🛑 广告拦截
   - DOMAIN-SUFFIX,gsinspiring.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gsiswensaido.xyz,🛑 广告拦截
@@ -13118,6 +13473,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gtsads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,guabapeewee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,guabmobil.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,guadam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,guanaoutfawn.life,🛑 广告拦截
   - DOMAIN-SUFFIX,guanscleeks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,guanylcaused.website,🛑 广告拦截
@@ -13191,6 +13547,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gyratesequal.website,🛑 广告拦截
   - DOMAIN-SUFFIX,gziduzaj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gzifhovadhf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,h0w-t0-watch.net,🛑 广告拦截
   - DOMAIN-SUFFIX,h12-media.com,🛑 广告拦截
   - DOMAIN-SUFFIX,h15maincat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,h2aek6rv0ard.com,🛑 广告拦截
@@ -13221,6 +13578,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hadskiz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hadsokz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haemorrhagedigest.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,haflinforms.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hagboatdismast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haghalra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haglance.com,🛑 广告拦截
@@ -13248,6 +13606,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,halileo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hallalifondish.space,🛑 广告拦截
   - DOMAIN-SUFFIX,halleyperson.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,hallothoulap.top,🛑 广告拦截
   - DOMAIN-SUFFIX,halltrasy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hallucinatebotany.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hallucinatecompute.com,🛑 广告拦截
@@ -13260,15 +13619,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hambul.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hamletuponcontribute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hammaidentomb.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,hammaidreswill.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hammalorphans.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hammerhewer.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hammockpublisherillumination.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hamoumpa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hampersolarwings.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hamsterginger.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hamsterglobins.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handbagadequate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handbagcordial.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handbaggather.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,handfuljoggingpatent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handingfama.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handkerchiefpersonnel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,handlegoatsperiod.com,🛑 广告拦截
@@ -13290,6 +13652,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hansetwangy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haphazardbleeding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haphazardfraudulent.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,haplic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,happeningdeliverancenorth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,happilydestructive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,happy-davinci-53144f.netlify.com,🛑 广告拦截
@@ -13304,6 +13667,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hardwaretakeoutintimidate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,harfuzawmk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haribdathesea.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,harkingskulp.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,harlequinsleepyfrog.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,harmalpilotry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,harmlesstacticalhonorable.com,🛑 广告拦截
@@ -13327,6 +13691,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hassarexurbs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hasslepasta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hasslesneatly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hastifuhllo.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,hastyarmistice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hatagashira.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hatbenchmajestic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hatchasked.com,🛑 广告拦截
@@ -13341,12 +13707,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hatwasallo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hauchiwu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hauganes.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,hauihsahuieoi398u89q.click,🛑 广告拦截
+  - DOMAIN-SUFFIX,haulairtime.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haulmserinys.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haulrationally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haulstugging.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haunchbelongings.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haunigre.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,haunowho.net,🛑 广告拦截
   - DOMAIN-SUFFIX,hauphuchaum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hausic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hauthoun.xyz,🛑 广告拦截
@@ -13359,6 +13726,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,havils.com,🛑 广告拦截
   - DOMAIN-SUFFIX,havingsreward.com,🛑 广告拦截
   - DOMAIN-SUFFIX,haviouseulom.club,🛑 广告拦截
+  - DOMAIN-SUFFIX,havocsbilaan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hawkyeye5ssnd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hawsquallgenerate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hawsuffer.com,🛑 广告拦截
@@ -13371,6 +13739,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hazairgo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,hazelmutenessorchard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hazelnutshighs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hazicu.hothomefuck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hazydespise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hb-247.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hb94dnbe.de,🛑 广告拦截
@@ -13378,11 +13747,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hbfulzie.life,🛑 广告拦截
   - DOMAIN-SUFFIX,hbid.ams3.cdn.digitaloceanspaces.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hbloveinfo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hbowywpeqhfpwru.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hbpcjmegtll.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hcckkyoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hcitgdljlrfw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hcritiesec.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hcuukwgpjiykapf.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,hcwmnryoyf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hcxbokndbhw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hd100546c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hd149026b.com,🛑 广告拦截
@@ -13390,9 +13761,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hdat.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hdbcode.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdbcome.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hdbkell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hditers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdpreview.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,hdqlvyidlehfk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdvcode.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdwvhgnisi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,he3mero6calli4s.com,🛑 广告拦截
@@ -13405,10 +13776,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,headusuallyopener.com,🛑 广告拦截
   - DOMAIN-SUFFIX,healthsmd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heappyrinceas.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,heardsoppy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hearingyukkel.store,🛑 广告拦截
   - DOMAIN-SUFFIX,heartacheeasellikeness.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,heartbiddotnet22.monster,🛑 广告拦截
-  - DOMAIN-SUFFIX,heartbrokendilapidation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heartedicefall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hearthinfuriate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heartilyscales.com,🛑 广告拦截
@@ -13417,15 +13787,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,heavenly-landscape.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heavenly-test.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,heavycomposedkerb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,heavyconsciousnesspanties.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heavyrnews.name,🛑 广告拦截
   - DOMAIN-SUFFIX,heavyuniversecandy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hebenefitssheasht.info,🛑 广告拦截
   - DOMAIN-SUFFIX,hebiichigo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hebraicwain.website,🛑 广告拦截
   - DOMAIN-SUFFIX,hebrum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hecherthepa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hecherthepar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hecticpopular.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hecticprofitable.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hedgebedengue.website,🛑 广告拦截
   - DOMAIN-SUFFIX,hedgehoghugsyou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hedgehogpoachsay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heebauch.com,🛑 广告拦截
@@ -13450,6 +13823,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,helic3oniusrcharithonia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,heligh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,helign.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hellmade.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hellnebsh.live,🛑 广告拦截
   - DOMAIN-SUFFIX,hellocaterersomeone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,helltraffic.com,🛑 广告拦截
@@ -13468,6 +13842,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hengepessary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,henoticpipi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,henrithisheprat.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hens.hentaitimes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hentaibiz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hentaigold.net,🛑 广告拦截
   - DOMAIN-SUFFIX,hentaionline.net,🛑 广告拦截
@@ -13500,6 +13875,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,herofherlittleboyw.info,🛑 广告拦截
   - DOMAIN-SUFFIX,heroinslagunes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hesatinaco.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hespe-bmq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hestatueoftheap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hesterinoc.info,🛑 广告拦截
   - DOMAIN-SUFFIX,hesthergeyan.com,🛑 广告拦截
@@ -13513,8 +13889,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hetaruvg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hetaruwg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hethisisath.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,heukwasanasosett.info,🛑 广告拦截
   - DOMAIN-SUFFIX,hewalleges.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,hewawkward.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hewdisobedienceliveliness.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hewmjifrn4gway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hexerishilus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hexersakund.tech,🛑 广告拦截
@@ -13538,11 +13916,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hgpmbfkxmrw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hgub2polye.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hhbypdoecp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hhcktiucw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hhit.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hhklc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hhkld.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hhrsecure.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,hhvivsbiip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hhyalsk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hiadone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hiasor.com,🛑 广告拦截
@@ -13566,6 +13944,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hieramuriel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hierarchymicrophonerandom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hierarchytotal.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hievel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,higgiens23c5l8asfrk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,highconvertingformats.com,🛑 广告拦截
   - DOMAIN-SUFFIX,highcpmrevenuenetwork.com,🛑 广告拦截
@@ -13589,10 +13968,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,highrevenuegate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hightopnews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hightopnewstoday.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,highwaycpmrevenue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,highwaydizzy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,higseres.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hikvar.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,hilarioussewingartsy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hilaroryssus.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,hilded.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hildly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hillbackserve.com,🛑 广告拦截
@@ -13612,6 +13993,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hinaxrckuolr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hingamgladther.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hingfruitiesma.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,hinkhimunpra.info,🛑 广告拦截
   - DOMAIN-SUFFIX,hinkhimunpractical.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hinoglauk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hinoidczarist.com,🛑 广告拦截
@@ -13642,12 +14024,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hiug862dj0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hizlireklam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hjalma.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hjiwoazeigefn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hjkkindwould.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hjxajf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hkilops.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hkjjfpkghxec.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hkoxlirf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hldxvloxsxqqg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hligh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hllowvsion.click,🛑 广告拦截
   - DOMAIN-SUFFIX,hlmiq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hlserve.com,🛑 广告拦截
@@ -13663,6 +14047,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hoareddepulse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hoaredsavates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hoarseairy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hoaxcookingdemocratic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hoazinangles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hobfadbig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hoboka.com,🛑 广告拦截
@@ -13746,6 +14131,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,horriblecatching.com,🛑 广告拦截
   - DOMAIN-SUFFIX,horriblygeneratortwinkle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,horriblysparkling.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,horrifieddespair.com,🛑 广告拦截
   - DOMAIN-SUFFIX,horsebackcastle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,horsemanterminateplatform.com,🛑 广告拦截
   - DOMAIN-SUFFIX,horseuptown.com,🛑 广告拦截
@@ -13781,8 +14167,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hotgvibe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hothta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hotnews1.me,🛑 广告拦截
+  - DOMAIN-SUFFIX,hotpics.mom,🛑 广告拦截
   - DOMAIN-SUFFIX,hottercensorbeaker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hotterenvisage.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hotvids.online,🛑 广告拦截
   - DOMAIN-SUFFIX,hotwords.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hotzoneunspeed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,houdodoo.net,🛑 广告拦截
@@ -13791,6 +14179,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,houldthinkhi.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,houndcost.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hounddramatic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,houndtriumphalsorry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,houpeera.net,🛑 广告拦截
   - DOMAIN-SUFFIX,householdsinnersyringe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,housejomadkc.com,🛑 广告拦截
@@ -13808,6 +14197,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,howploymope.com,🛑 广告拦截
   - DOMAIN-SUFFIX,howtubray.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hoydenlooms.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,hpcfdhvwjwlt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hpijkah.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hpk42r7a.de,🛑 广告拦截
   - DOMAIN-SUFFIX,hpmarzhnny.com,🛑 广告拦截
@@ -13818,6 +14208,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hpyrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hq3x.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hqawqssuvqyl.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,hqhwiwcahavywie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hqmwuvdf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hqpass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hqsrvwfk.xyz,🛑 广告拦截
@@ -13846,6 +14237,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,htl.bid,🛑 广告拦截
   - DOMAIN-SUFFIX,htlbid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,htmonster.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,htoptracker11072023.com,🛑 广告拦截
   - DOMAIN-SUFFIX,htthereflewove.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,httpsecurity.org,🛑 广告拦截
   - DOMAIN-SUFFIX,htwrildnk.xyz,🛑 广告拦截
@@ -13854,7 +14246,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hubbubtheol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hublosk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hubristambacs.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,hubsaints.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hubturn.info,🛑 广告拦截
   - DOMAIN-SUFFIX,hubzozo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,huckauhy.com,🛑 广告拦截
@@ -13866,8 +14257,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hugelyimmovable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hugfromoctopus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hughester.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hugoinexperiencedsat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hugregregy.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,hugsgnome.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,huhskyavngw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,huloxakuxukwduo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hulsairtid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,humaffableconsulate.com,🛑 广告拦截
@@ -13881,6 +14274,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,humiliating-risk.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,humiliating-tradition.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,humilityanytime.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,humoralpurline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,humordecomposebreathtaking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,humpdecompose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,humpdubious.com,🛑 广告拦截
@@ -13891,6 +14285,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hundredscultureenjoyed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hundredthmeal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hundredthtvthorny.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hungersavingwiring.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hungoversleepconcourse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hungrylongingtile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hungryproductionsmalnutrition.com,🛑 广告拦截
@@ -13908,9 +14303,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hurricaneabjection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hurricaneadvantagecomplication.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hurricaneforciblesorrow.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,hurriedcoward.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hurstplants.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hurtfulplunge.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,huselomboy.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,husezo.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,husfly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hushpub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hushta.com,🛑 广告拦截
@@ -13962,12 +14358,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hypogeeinial.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hypogynbalker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hypoot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hypots.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hypozoabytes.life,🛑 广告拦截
   - DOMAIN-SUFFIX,hyrcanquittor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hyrewusha.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,hystericalpotprecede.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hystrixcreped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hzkachqd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hznkoual.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hzogncbobfb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,i-afk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,i010b048d3e4a1e4b70aba72b169e70c90971f9.xyz,🛑 广告拦截
@@ -13979,6 +14377,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iadoremakingpics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iakjiamqg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iam9p3eri3as5lc6hllege.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,iamadssystems.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iamcurrently.lol,🛑 广告拦截
   - DOMAIN-SUFFIX,iamtheid.club,🛑 广告拦截
   - DOMAIN-SUFFIX,iasbetaffiliates.com,🛑 广告拦截
@@ -14033,6 +14432,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,idiotproprietary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,idiotyet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iditolshewn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,idlccpuom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,idledifficulty.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,idnbckbknxurmf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,idolizeduse.pro,🛑 广告拦截
@@ -14052,12 +14452,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ifaupsoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifdilptsw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifdmuggdky.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ifdnzact.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifdyifowri.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifefashionismscold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifgrbq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifinaukncecaf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ifknittedhurtful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifsmatbeg.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,ifvxoluyhof.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ifzpvnrjp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ig0nr8hhhb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,igameunion.com,🛑 广告拦截
@@ -14065,6 +14467,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,igarabealing.website,🛑 广告拦截
   - DOMAIN-SUFFIX,igbiraintsv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iglephoo.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,iglgvpldydm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,igloohq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,igmcsvrgxpebh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ignitioninstaller.com,🛑 广告拦截
@@ -14075,6 +14478,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ignoringpromisingonce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,igoognou.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,igroazie.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,iguran.com,🛑 广告拦截
   - DOMAIN-SUFFIX,igylwxvxgsuvcs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,igyrmknlpr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ih1.fileforums.com,🛑 广告拦截
@@ -14093,6 +14497,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iihcjcil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iistillstayherea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ijatsapphiresanda.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ijeetsie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ijorecepous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ijspro-code.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ijtomh.com,🛑 广告拦截
@@ -14146,6 +14551,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ilxhsgd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ilyf4amifh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,imageadvantage.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,imagiflex.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,imaginativebite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,imalug.com,🛑 广告拦截
   - DOMAIN-SUFFIX,imatrk.net,🛑 广告拦截
   - DOMAIN-SUFFIX,imatue.com,🛑 广告拦截
@@ -14173,6 +14580,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,immedlinkum.info,🛑 广告拦截
   - DOMAIN-SUFFIX,immenseatrociousrested.com,🛑 广告拦截
   - DOMAIN-SUFFIX,immenselyloot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,immenselytoken.com,🛑 广告拦截
   - DOMAIN-SUFFIX,immenseprivilegelibel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,immersepingcompromise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,immigrantpavement.com,🛑 广告拦截
@@ -14194,6 +14602,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,impatientlyastonishing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,impatienttidy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,impavidcircean.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,impendingaggregated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,impendscouxio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,impertinentwishing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,imperturbableawesome.com,🛑 广告拦截
@@ -14209,6 +14618,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,impressivecontinuous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,imprintmake.com,🛑 广告拦截
   - DOMAIN-SUFFIX,improvebeams.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,improvementscakepunctual.com,🛑 广告拦截
   - DOMAIN-SUFFIX,improvesufficientlyfurther.com,🛑 广告拦截
   - DOMAIN-SUFFIX,improviseprofane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,improviserelenthousing.com,🛑 广告拦截
@@ -14265,6 +14675,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,indictmentvehemently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,indictoutgain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,indigenousvarious.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,indigestioninadmissible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,indigestionpious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,indignationmapprohibited.com,🛑 广告拦截
   - DOMAIN-SUFFIX,indirectbronzecompany.com,🛑 广告拦截
@@ -14319,6 +14730,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,infopagleey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,infopicked.com,🛑 广告拦截
   - DOMAIN-SUFFIX,informcheck.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,informcheck.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,informereng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,informeresapp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,infra.systems,🛑 广告拦截
@@ -14355,10 +14767,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,inklestutted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inklinkor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inkornesto.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,inkstorylikeness.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inktad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inlandpiereel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inmespritr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inminuner.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,inncreasukedrev.info,🛑 广告拦截
   - DOMAIN-SUFFIX,innessabigeat.space,🛑 广告拦截
   - DOMAIN-SUFFIX,innity.net,🛑 广告拦截
   - DOMAIN-SUFFIX,innocenceexpeditionsensation.com,🛑 广告拦截
@@ -14372,6 +14786,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,inpage-push.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inpage-push.net,🛑 广告拦截
   - DOMAIN-SUFFIX,inpagepush.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,inputbarbing.life,🛑 广告拦截
   - DOMAIN-SUFFIX,inquiredcriticalprosecution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inquiryclank.com,🛑 广告拦截
   - DOMAIN-SUFFIX,inrhyhorntor.com,🛑 广告拦截
@@ -14414,6 +14829,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,instinctcringe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,instinctiveads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,instinctivetheeexemplify.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,institutehopelessbeck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,institutepigeonsfinger.com,🛑 广告拦截
   - DOMAIN-SUFFIX,instituteplump.com,🛑 广告拦截
   - DOMAIN-SUFFIX,institutionenrapturebags.com,🛑 广告拦截
@@ -14429,6 +14845,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,intacthomicidal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intactscattered.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intechads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,integralpickleatrocious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,integrityprinciplesthorough.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intellibanners.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intelligenceadx.com,🛑 广告拦截
@@ -14468,6 +14885,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,interstitial-07.com,🛑 广告拦截
   - DOMAIN-SUFFIX,interstitial-08.com,🛑 广告拦截
   - DOMAIN-SUFFIX,interviewdegenerateperspective.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,intimacyextinct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intimateexhibitedcontempt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intimatestraightharrow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intimidatekerneljames.com,🛑 广告拦截
@@ -14476,6 +14894,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,intnotif.club,🛑 广告拦截
   - DOMAIN-SUFFIX,intorterraon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,intrafic22.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,intriguingdate.net,🛑 广告拦截
   - DOMAIN-SUFFIX,intro4ads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,introfykeeler.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,intrudesome.com,🛑 广告拦截
@@ -14487,6 +14906,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,invaderimmenseimplication.com,🛑 广告拦截
   - DOMAIN-SUFFIX,invaluable-approach.com,🛑 广告拦截
   - DOMAIN-SUFFIX,invass.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,invast.site,🛑 广告拦截
   - DOMAIN-SUFFIX,inverdure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,investmentstar.org,🛑 广告拦截
   - DOMAIN-SUFFIX,investorequalityfrog.com,🛑 广告拦截
@@ -14496,6 +14916,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,invitewingorphan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,invitingdoubloons.com,🛑 广告拦截
   - DOMAIN-SUFFIX,involuntarypity.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,involuntarysteadyartsy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,involveclank.com,🛑 广告拦截
   - DOMAIN-SUFFIX,involvewalkingthick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,invraisemblable.com,🛑 广告拦截
@@ -14524,6 +14945,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iorwe-qmf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ioward.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ipales.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ipecacdecime.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,ipedeisasbeautif.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iphisslurbow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iphonehub.info,🛑 广告拦截
@@ -14536,6 +14958,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ipsowrite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iptautup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iqimwsctvgbvqx.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,iqnevmje.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iqtest365.online,🛑 广告拦截
   - DOMAIN-SUFFIX,irbisennuis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irbout.com,🛑 广告拦截
@@ -14545,8 +14968,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,irenicaserrano.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ireraisin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irethertoldimn.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,irgvfdwicqerqfy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iringtgandm.one,🛑 广告拦截
   - DOMAIN-SUFFIX,irisaffectioneducate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,irizin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irkantyip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ironcladmemory.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,ironcladtrouble.com,🛑 广告拦截
@@ -14563,18 +14988,23 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,irregogham.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irrelevantassassinclaim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irreparablewretchsurrogate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,irresistiblecommotion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irresolutesewkin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irresponsibilityadvertiseanthony.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,irries.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irrisoranemone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irritateinformantmeddle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irritating-standard.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,irritationcrayonchord.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irtya.com,🛑 广告拦截
   - DOMAIN-SUFFIX,irtyf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,irvato.com,🛑 广告拦截
   - DOMAIN-SUFFIX,isaishad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,isanikcieontak.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,isanikcieontap.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,isawthenews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,isbnrs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,isbnyzpunkx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,isboost.co.jp,🛑 广告拦截
   - DOMAIN-SUFFIX,iseatheadline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,isegeowrvnxorj.com,🛑 广告拦截
@@ -14635,6 +15065,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,itseedotor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,itskiddien.club,🛑 广告拦截
   - DOMAIN-SUFFIX,itskiddoan.club,🛑 广告拦截
+  - DOMAIN-SUFFIX,itsvfputpvsqnb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,itthatsheis.one,🛑 广告拦截
   - DOMAIN-SUFFIX,ittorchicer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ittoxicroakon.club,🛑 广告拦截
@@ -14642,12 +15073,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,itwasbrghttohi.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,itweedler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,itweepinbelltor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,itwkuouldhuke.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ityonatallco.info,🛑 广告拦截
   - DOMAIN-SUFFIX,itzekromom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iuclpbgxyfddk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,iudgoufuvzjf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iunnrqcmup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iupot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,iutur-ixp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iuwzdf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ivanvillager.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ivjkdyrjjgxhch.com,🛑 广告拦截
@@ -14656,6 +15089,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ivoryochroid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ivudsuco.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ivungurdoweg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ivvedcoh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ivxxitxcqc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,iwantuonly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iwantusingle.com,🛑 广告拦截
@@ -14664,6 +15098,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iwhoosty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iwistracks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iwqensejhdzfq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,iwrvrbklotfp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ixcris.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ixinst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ixkhaxpubqf.com,🛑 广告拦截
@@ -14681,15 +15116,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,izlunwgx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,izrnvo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,j1t05wk6.cfd,🛑 广告拦截
+  - DOMAIN-SUFFIX,j45.webringporn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,j4a73n7v5k.com,🛑 广告拦截
   - DOMAIN-SUFFIX,j6mn99mr0m2n.com,🛑 广告拦截
   - DOMAIN-SUFFIX,j6rudlybdy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ja2n2u30a6rgyd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jaahrktlbd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jaavnacsdw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jackalvindictive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jackao.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jackettrain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jacketzerobelieved.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jackpotbeautifulsulky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jackpotpresents.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jacmolta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jacobsyrma.live,🛑 广告拦截
@@ -14749,6 +15187,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jaubeebe.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jauchuwa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jaumevie.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jaunty-cancel.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,jav-7mmtv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,java8.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,javacript.tk,🛑 广告拦截
@@ -14823,7 +15262,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jestbiases.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jestinvaderspeedometer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jestthankfulcaption.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,jetgatem.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jesulf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jetordinarilysouvenirs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jetsomkhulda.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jetsowilk.com,🛑 广告拦截
@@ -14835,14 +15274,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jewhouca.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jewisk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jewith.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jewscane.digital,🛑 广告拦截
+  - DOMAIN-SUFFIX,jewspa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jezailjazzmen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jf71qh5v14.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jfivafkigju.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jfoaxwbatlic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jgdipcsviur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jgqskdjkorwvh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jgszymcphwcege.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jguepxraix.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jhat1n4.xhamster.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jheelsplotch.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jhfhdkhkh.site,🛑 广告拦截
   - DOMAIN-SUFFIX,jhoncj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jhxqfgbj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jhzotqafwgb.com,🛑 广告拦截
@@ -14850,7 +15294,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jibbarewarms.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jifdrogtovz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jiffehxjwvpoefo.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,jiffspogonia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jigdigtry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jigglypedicab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jighucme.com,🛑 广告拦截
@@ -14864,6 +15307,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jinjaoathful.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,jinterests-1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jinxrussian.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jiordgxkpglzm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jipo.io,🛑 广告拦截
   - DOMAIN-SUFFIX,jipone.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jirtesee.net,🛑 广告拦截
@@ -14877,8 +15321,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jixcizocsarj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jizzarchives.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jizzensirrah.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,jjpnveujkk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jjqyqakarveb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jjvlawfxpegqtny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jk4lmrf2.de,🛑 广告拦截
   - DOMAIN-SUFFIX,jkha742.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jklbilitukyd.xyz,🛑 广告拦截
@@ -14909,7 +15353,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,joccupangno.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jocelynrace.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jocowhab.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,jogglyisohel.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jodhpurrarish.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,johamp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,johannesburg.top,🛑 广告拦截
   - DOMAIN-SUFFIX,join-admaven.com,🛑 广告拦截
@@ -14950,13 +15394,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jouzoapi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jowarblushed.space,🛑 广告拦截
   - DOMAIN-SUFFIX,jowlishdiviner.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,joyfulfearsome.com,🛑 广告拦截
   - DOMAIN-SUFFIX,joygaskin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,joylessstarted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,joyorators.website,🛑 广告拦截
   - DOMAIN-SUFFIX,joyouscreedweasel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,joyrodethyme.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,joyvowdig.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,jpeoldex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jpesfzcjob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jpgtrk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jqlumzbdtet.com,🛑 广告拦截
@@ -14968,9 +15412,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jrfkurohvql.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jriparzpia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jrkkmpeqtlsawgf.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,jrnkmlrajnjvl.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jrpkizae.com,🛑 广告拦截
   - DOMAIN-SUFFIX,js.j8jp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,js.manga1000.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,js.mangajp.top,🛑 广告拦截
   - DOMAIN-SUFFIX,js2json.com,🛑 广告拦截
   - DOMAIN-SUFFIX,js7k.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jsadapi.com,🛑 广告拦截
@@ -14989,6 +15434,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jsretra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jssearch.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jstatic.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,jswww.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jsyfqeynrvg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ju427bv7an9n.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jubileeirresponsibilityforfeit.com,🛑 广告拦截
@@ -15011,11 +15457,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,juergeninez.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jugcontainer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jugerfowells.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,juggingunttrod.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jugixgjqx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,juiceadv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,juiceadv.net,🛑 广告拦截
   - DOMAIN-SUFFIX,juicyads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,juicyads.me,🛑 广告拦截
   - DOMAIN-SUFFIX,juicycash.net,🛑 广告拦截
   - DOMAIN-SUFFIX,jujabxlusgag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jujaufur.net,🛑 广告拦截
@@ -15026,6 +15472,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,julrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,julyhadchose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,julymedian2022news.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,julynut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jumbalslunched.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jumbalsmouser.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jumbitr.com,🛑 广告拦截
@@ -15049,6 +15496,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,juntfemoral.com,🛑 广告拦截
   - DOMAIN-SUFFIX,juntre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jupabwmocgqxeo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,juratoroutsees.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,jurced.com,🛑 广告拦截
   - DOMAIN-SUFFIX,juricts.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,juringupstage.com,🛑 广告拦截
@@ -15059,7 +15507,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jussiwhauds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,just-news.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,justgetitfaster.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,justiceintegral.com,🛑 广告拦截
   - DOMAIN-SUFFIX,justificationevidentpensive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,justifiedcharmsmoustache.com,🛑 广告拦截
   - DOMAIN-SUFFIX,justonemorenews.com,🛑 广告拦截
@@ -15071,16 +15518,21 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jutprolificlax.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jutyledu.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,juvenilearmature.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jvaemllmeezyw.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,jvnvrqzvyvbmv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jvrawodh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jvtxuvfgiien.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,jvylyreyazmea.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jwalf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jwplayer.space,🛑 广告拦截
   - DOMAIN-SUFFIX,jwt8e5vzc1.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jwuhtogg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jwycmuozlpu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jwydulaplhmo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jy8dc.xhamster.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jyarkinhechershedt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jygotubvpyguak.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jyjmpatmgk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jynp9m209p.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jypugepha.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,k-09mobiles.com,🛑 广告拦截
@@ -15105,6 +15557,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kaigaidoujin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kailsfrot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kaisaimy.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,kaishepe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kaiu-marketing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kaiwaipo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kaiwiciy.net,🛑 广告拦截
@@ -15124,11 +15577,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kantarmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kantiwl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kappalinks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,karafutem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karayarillock.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,kareaumatzot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karlhalved.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karma.mdpcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karoon.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,karoup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karpasbeamer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karsauwi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,karshagirdled.com,🛑 广告拦截
@@ -15136,10 +15591,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,karststsungtu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kartingsoja.com,🛑 广告拦截
   - DOMAIN-SUFFIX,karvarcloit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kashacodeina.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kastafor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katchouh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katecrochetvanity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katerigordas.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,kathesygri.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katodaf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katoptristhemirr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,katukaunamiss.com,🛑 广告拦截
@@ -15149,18 +15606,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kaushoag.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kauzishy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kavanga.ru,🛑 广告拦截
-  - DOMAIN-SUFFIX,kaxiioejbbaq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kazanbossterrifying.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kazanwhoeveryowl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kbao7755.de,🛑 广告拦截
   - DOMAIN-SUFFIX,kbknujjtpnqq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kblmpkehfpg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kbqebfcubeiaa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kbugxeslbjc8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kbyjxhnweoi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kcdn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kcepfyzuna.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,kcigvmdkwda.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,kdvewlabjokfoc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,keamateorski.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,keapeiros.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kebyartopsman.website,🛑 广告拦截
@@ -15187,6 +15642,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,keihel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,keikh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kejiksay.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,kekrouwi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kektds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kekw.website,🛑 广告拦截
   - DOMAIN-SUFFIX,kelephoodmen.com,🛑 广告拦截
@@ -15198,6 +15654,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kenailush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kendosliny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kenduktur.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kennethemergedishearten.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kenningnatus.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,kenomal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kenskitscurt.com,🛑 广告拦截
@@ -15242,11 +15699,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kgua0o66bcw8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khandragthresh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khanjeeyapness.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,khatexcepeded.info,🛑 广告拦截
   - DOMAIN-SUFFIX,khayatarai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khekwufgwbl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khg97644rvbg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,khoslo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kiblahsbuenas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kickchecking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kidhumiliateessay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kidnapbushesfuse.com,🛑 广告拦截
@@ -15295,6 +15754,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kirkmanhirple.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kirteexe.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kirujh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kistfulmafiosi.space,🛑 广告拦截
   - DOMAIN-SUFFIX,kistfulmapach.life,🛑 广告拦截
   - DOMAIN-SUFFIX,kistutch.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kitantiterhalac.xyz,🛑 广告拦截
@@ -15310,8 +15770,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kiynew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kjfhenoqfyfljo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kjheamwouk.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,kjqlmeaykennr.top,🛑 广告拦截
   - DOMAIN-SUFFIX,kjsqbbjhrfn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kjsvvnzcto.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kjvaqbyebqkzy.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,kkghcdvxdfvsq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kkmacsqsbf.info,🛑 广告拦截
   - DOMAIN-SUFFIX,kkuocsorgz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kkuodlkfapuw.com,🛑 广告拦截
@@ -15334,7 +15797,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kmapagpkik.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kmkixuha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kmmsfoqbhc.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,kmodukuleqasfo.info,🛑 广告拦截
   - DOMAIN-SUFFIX,kmqkdhqaqt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,kmyolramxrw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kmyunderthf.info,🛑 广告拦截
   - DOMAIN-SUFFIX,knackseafood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knaveavo.guru,🛑 广告拦截
@@ -15348,15 +15813,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kneylhewould.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,knightcharleyloudly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knightsstatuesteering.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,knightsyllabusimprobable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knigm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knigna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knittedcourthouse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,knittingupidiotic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knivesprincessbitterness.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knlrfijhvch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knobpredestinecontradiction.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knobsomebodycheery.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knocia.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,knockedstub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knockerpokeys.space,🛑 广告拦截
   - DOMAIN-SUFFIX,knockknockads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knockoutantipathy.com,🛑 广告拦截
@@ -15379,7 +15845,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,knucklecivichereafter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knurryaikuchi.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,knutenegros.pro,🛑 广告拦截
-  - DOMAIN-SUFFIX,knxabzznddtc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koabouch.net,🛑 广告拦截
   - DOMAIN-SUFFIX,koabukedosi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koacojus.net,🛑 广告拦截
@@ -15387,14 +15852,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,koalaups.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koapsuha.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kobeden.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,kobustasted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kocaisin.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kochov.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kofirusy.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,kogutcho.net,🛑 广告拦截
   - DOMAIN-SUFFIX,koindut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kokanmokum.tech,🛑 广告拦截
-  - DOMAIN-SUFFIX,kokobehnowder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kokotrokot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kolanx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kolkwi4tzicraamabilis.com,🛑 广告拦截
@@ -15405,15 +15868,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,komoth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,konasaphie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kongabsa.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,kongry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,konradsheriff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kontextua.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koocash.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,koochooy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,koocoofy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kookarek.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koolahwelder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koopheen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koora2live.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,kootzjkz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koovapou.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,koovaubi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kopehngtragen.com,🛑 广告拦截
@@ -15436,6 +15900,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,koucerie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koudooze.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kougloar.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,koujaups.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kouptufezi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,koureptu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,koutobey.net,🛑 广告拦截
@@ -15471,6 +15936,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kubiadserv.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,kubicadza.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kubicserves.icu,🛑 广告拦截
+  - DOMAIN-SUFFIX,kubrea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kufhcyqryh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kughouft.net,🛑 广告拦截
   - DOMAIN-SUFFIX,kuglouhaize.com,🛑 广告拦截
@@ -15525,6 +15991,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kyufqusjrt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kz2oq0xm6ie7gn5dkswlpv6mfgci8yoe3xlqp12gjotp5fdjxs5ckztb8rzn.codes,🛑 广告拦截
   - DOMAIN-SUFFIX,kzkmmbrrzn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,l1native.com,🛑 广告拦截
   - DOMAIN-SUFFIX,l2ksixujfcg5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,l3g3media.com,🛑 广告拦截
   - DOMAIN-SUFFIX,l44mobileinter.com,🛑 广告拦截
@@ -15538,6 +16005,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,laagersmascons.com,🛑 广告拦截
   - DOMAIN-SUFFIX,labadena.com,🛑 广告拦截
   - DOMAIN-SUFFIX,labeldollars.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,laborrend.com,🛑 广告拦截
   - DOMAIN-SUFFIX,labortiontrifee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,labourerindicator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,labourmuttering.com,🛑 广告拦截
@@ -15612,6 +16080,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,landwaycru.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lanistaads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laniusburkei.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lanksnail.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lankychaosrun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lanopoon.net,🛑 广告拦截
   - DOMAIN-SUFFIX,lansukse.xyz,🛑 广告拦截
@@ -15624,9 +16093,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lapsebreak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laptweakbriefly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lapypushistyye.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,larasub.conxxx.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,lardspropugn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lardyirreproachabledeserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,larentisol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,largedoubly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,larkyabandum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,larrenpicture.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,larsepso.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,larvpydqmwvt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,las4srv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laserdrivepreview.com,🛑 广告拦截
@@ -15646,9 +16120,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lationwordsi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,latonaheyday.space,🛑 广告拦截
   - DOMAIN-SUFFIX,latrinehelves.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,latternarcoticbullet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laudulut.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,laughbuckle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laugoust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,laugue.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,laugus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lauhefoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lauhoosh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,laukaivi.net,🛑 广告拦截
@@ -15680,17 +16157,20 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,layer-ad.org,🛑 广告拦截
   - DOMAIN-SUFFIX,layeredseether.com,🛑 广告拦截
   - DOMAIN-SUFFIX,layerloop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,layerpearls.com,🛑 广告拦截
   - DOMAIN-SUFFIX,layingprocuregather.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lazypeacefullyutterly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lbbxuenncq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lbwjqrtxeeriap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lby2kd27c.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lcaccorhu.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,lcdqtakgispg.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,lcadkutwuvt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lcdtilth.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,lcentntel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lcfooiqhro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lcjiusbyqfpdo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lcreatessque.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ldclxgkcy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ldehffofpeqr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ldforeyesheha.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ldimnveryldgittl.com.ua,🛑 广告拦截
@@ -15712,6 +16192,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,leadzu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leadzupc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leadzutw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,leafpear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leagent.info,🛑 广告拦截
   - DOMAIN-SUFFIX,leakcocoonfooting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leakypatgoo.com,🛑 广告拦截
@@ -15730,6 +16211,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,leavil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leavilysover.site,🛑 广告拦截
   - DOMAIN-SUFFIX,lechihah.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lecythleche.website,🛑 广告拦截
   - DOMAIN-SUFFIX,ledaoutrush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ledgesprimely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ledhatbet.com,🛑 广告拦截
@@ -15812,6 +16294,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,letchymendole.website,🛑 广告拦截
   - DOMAIN-SUFFIX,leteer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,letitnews.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,letitredir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,letqejcjo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,letsbegin.online,🛑 广告拦截
   - DOMAIN-SUFFIX,letstry69.xyz,🛑 广告拦截
@@ -15828,6 +16311,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,levooutlast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,levulicbenday.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,levulinmoble.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,lexemeowhere.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,lexicoggeegaw.website,🛑 广告拦截
   - DOMAIN-SUFFIX,lfefimbryahy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lffsnhwhxnqn.com,🛑 广告拦截
@@ -15864,9 +16348,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,libyansdulled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,licantrum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,licenceattribute.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,licenseelegance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,licereason.space,🛑 广告拦截
   - DOMAIN-SUFFIX,lichtpass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lickingimprovementpropulsion.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,licmiwot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,licoshnit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,licted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liddenlywilli.org,🛑 广告拦截
@@ -15879,6 +16365,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lieforepawsado.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liegelygosport.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lieutenantfurther.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lievel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lifeabsolution.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lifearchaicwhipped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lifeimpressions.net,🛑 广告拦截
@@ -15888,13 +16375,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lifetimeroyaltybestial.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lifiads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lifict.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lifoll.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liftdna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ligatus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lighes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lightfoot.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,lightlybreathlesspronunciation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lightlygavetusk.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,lightlyrelinquish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lightningbarrelwretch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lightningcast.net,🛑 广告拦截
   - DOMAIN-SUFFIX,lightningly.co,🛑 广告拦截
@@ -15923,6 +16411,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,limitlessexterminator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limitsillusive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limmatabaculum.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,limoners.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limorev.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limosiwooable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limpattemptnoose.com,🛑 广告拦截
@@ -15931,7 +16420,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,limpomut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,limurol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lin01.bid,🛑 广告拦截
-  - DOMAIN-SUFFIX,linaloabatches.com,🛑 广告拦截
   - DOMAIN-SUFFIX,linedprocurator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,linedpuzzle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,linendoubtful.com,🛑 广告拦截
@@ -15967,6 +16455,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,liqenoftcgfqw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liquidapprovaltar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liquidatelusciousharriet.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,liquidfire.mobi,🛑 广告拦截
   - DOMAIN-SUFFIX,liquorsref.com,🛑 广告拦截
   - DOMAIN-SUFFIX,liquorsswouned.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lirateblister.com,🛑 广告拦截
@@ -16015,11 +16504,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lkpmprksau.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lkqd.net,🛑 广告拦截
   - DOMAIN-SUFFIX,lksbnrs.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,lkzlambkzlwvj.top,🛑 广告拦截
   - DOMAIN-SUFFIX,llantynethebrav.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lleadupthere.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,llevenmanis.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,llpnrfplbkoalts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,llq9q2lacr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lltyfiqsdgsvnr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,llwcfovpl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,llyighaboveth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lmeexisten.xyz,🛑 广告拦截
@@ -16030,8 +16520,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lnk8j7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lnkrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lnkvv.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lnkyqvkyznkvz.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lnpnhwfjcxcygo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lntriguingdate.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,lnyajvutvvirw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lo8ve6ygour3pea4cee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loachesmanjeri.space,🛑 广告拦截
   - DOMAIN-SUFFIX,load.xxxdb.io,🛑 广告拦截
@@ -16053,7 +16545,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,local-hot-dates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,localadbuy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,localedgemedia.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,localesaftaba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,localsnaughty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,locandalorries.com,🛑 广告拦截
   - DOMAIN-SUFFIX,locatioiranic.digital,🛑 广告拦截
@@ -16064,7 +16555,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,locketarloup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,locketthose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lockfireshimself.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,lockiancrab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lockingadmitted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lockramnombles.life,🛑 广告拦截
   - DOMAIN-SUFFIX,locksstruck.com,🛑 广告拦截
@@ -16130,18 +16620,20 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lopzitpup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lorageiros.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loralana.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lorgnonanvils.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lormeryacarari.website,🛑 广告拦截
   - DOMAIN-SUFFIX,lorrylips.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lorsreatas.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,lorybnfh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,losercurt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loshrhaphae.com,🛑 广告拦截
   - DOMAIN-SUFFIX,losingoldfry.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,losingsplowter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lositz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotionmodule.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotosmarkkaa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotreal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotsnippier.cam,🛑 广告拦截
-  - DOMAIN-SUFFIX,lotsooms.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotteryaffiliates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lotteryhibernateauthorized.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loucegle.net,🛑 广告拦截
@@ -16162,12 +16654,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,louses.net,🛑 广告拦截
   - DOMAIN-SUFFIX,lousyfastened.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loutedpewing.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,loutishsilents.com,🛑 广告拦截
   - DOMAIN-SUFFIX,louxoxo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lovedcorrectionsuffix.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lovelybingo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lovemateforyou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loverevenue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loverfellow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loversarrivaladventurer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lovesparkle.space,🛑 广告拦截
   - DOMAIN-SUFFIX,lovewellat.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,lowdodrioon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,loweredinflammable.com,🛑 广告拦截
@@ -16190,11 +16685,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,loxtk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lozengevandalismexaminer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lp-preview.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,lp.ncdownloader.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lp247p.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lpaqjnfmxftqfx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lpfztnyr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lplimjxiyx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lpmetorealiuk.info,🛑 广告拦截
   - DOMAIN-SUFFIX,lpnjcnigcfuk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lpravybegqv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lptrak.com,🛑 广告拦截
@@ -16205,8 +16700,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lqriubyebqo.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lr-in.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lrepampipa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lrqvmaverkabb.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lrugxmpxyfb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lrvrayrnqjzkz.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lrwksobdw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lrzzqvzjejqwn.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lsckongo.website,🛑 广告拦截
   - DOMAIN-SUFFIX,lsjne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lsnghcma.com,🛑 广告拦截
@@ -16262,6 +16760,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lupyjpkuykoc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,luracancamus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,luralgaqp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lurchesheroine.life,🛑 广告拦截
   - DOMAIN-SUFFIX,lurdoocu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lurgaimt.net,🛑 广告拦截
   - DOMAIN-SUFFIX,lurgaush.net,🛑 广告拦截
@@ -16306,7 +16805,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lx2rv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lxfsimoastsiite.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lxheot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lxmwfqqvyvmsxlw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lxstat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lybunbacwf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lycheenews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lycopinrekey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lycopuscris.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lycoty.com,🛑 广告拦截
@@ -16334,8 +16836,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lzjl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lzqkofsfbympt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lzxdx24yib.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,lzylbjlqeknwe.top,🛑 广告拦截
   - DOMAIN-SUFFIX,m-rtb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,m-shes.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,m.xrum.info,🛑 广告拦截
   - DOMAIN-SUFFIX,m0hcppadsnq8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,m2.ai,🛑 广告拦截
   - DOMAIN-SUFFIX,m2pub.com,🛑 广告拦截
@@ -16365,6 +16869,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,madchemical.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,madcpms.com,🛑 广告拦截
   - DOMAIN-SUFFIX,maddenbusy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,maddenword.com,🛑 广告拦截
   - DOMAIN-SUFFIX,madehimn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,madmen2.alastonsuomi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,madnessindians.com,🛑 广告拦截
@@ -16434,6 +16939,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,maisvznypp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,maiuschaco.com,🛑 广告拦截
   - DOMAIN-SUFFIX,majasgaol.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,majesticinsensitive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,majesticrepresentative.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,majomalonic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,majorinryesop.lol,🛑 广告拦截
@@ -16499,7 +17005,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,manurepungentfew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,manysoftlink.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,maonderndbeco.com.ua,🛑 广告拦截
-  - DOMAIN-SUFFIX,mapaupotting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mapekony.com,🛑 广告拦截
   - DOMAIN-SUFFIX,maquiags.com,🛑 广告拦截
   - DOMAIN-SUFFIX,maraewid.com,🛑 广告拦截
@@ -16543,9 +17048,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,marspearelct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,martafatass.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,martcubic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,marti-cqh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,martuconfuse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,martyrcontrol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,marvedesderef.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,marvelhuntcountry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,marvellouspeaches.com,🛑 广告拦截
   - DOMAIN-SUFFIX,marvelrespectableinset.com,🛑 广告拦截
   - DOMAIN-SUFFIX,marvelselectedheron.com,🛑 广告拦截
@@ -16558,17 +17065,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,masklink.org,🛑 广告拦截
   - DOMAIN-SUFFIX,masonercorking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,masontotally.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,masqueradeflashy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,massacreintentionalmemorize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,massariuscdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,massive-dark.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,masslistener.com,🛑 广告拦截
   - DOMAIN-SUFFIX,masstech.info,🛑 广告拦截
   - DOMAIN-SUFFIX,mastermilligram.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,masterpieceplainlythird.com,🛑 广告拦截
   - DOMAIN-SUFFIX,masterthoroughfarepiercing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mastfiguredrussell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,masticsvorlage.website,🛑 广告拦截
   - DOMAIN-SUFFIX,masturbaseinvegas.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,masture.mobi,🛑 广告拦截
   - DOMAIN-SUFFIX,matchaix.net,🛑 广告拦截
   - DOMAIN-SUFFIX,matchingstubborn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,matchjunkie.com,🛑 广告拦截
@@ -16621,7 +17129,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,maxprofitcontrol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,maxserving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mayberesemble.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mayfishtakeout.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mayhemabjure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mayhemreconcileneutral.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mayhemsixtydeserves.com,🛑 广告拦截
@@ -16663,20 +17170,20 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mczbf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mdadx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mdcytqwnbr.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mdfasisitslddxq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mdfbrsfkufamsr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mdkkbrbhlji.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mdqiieoiqvn.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,meadowleader.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meagerdrawing.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,meagplin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meakam.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mealplanningideas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meanspowersmotives.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meantscarlet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meases.com,🛑 广告拦截
   - DOMAIN-SUFFIX,measts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,measurementaz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,measurementpond.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,measuringrules.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meatinerhitles.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,meatytell.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,mechaelpaceway.com,🛑 广告拦截
@@ -16743,6 +17250,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,megabookline.com,🛑 广告拦截
   - DOMAIN-SUFFIX,megadeliveryn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,megae-aqn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,megaevent.cc,🛑 广告拦截
+  - DOMAIN-SUFFIX,megapodacutest.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,megapopads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,megbuzzedaid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,megdexchange.com,🛑 广告拦截
@@ -16761,6 +17270,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,meleguetre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meleranhe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meleranhe.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,meligh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,melis-ecy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mellodur.net,🛑 广告拦截
   - DOMAIN-SUFFIX,mellow-game.pro,🛑 广告拦截
@@ -16768,12 +17278,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,melongetplume.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meltaigh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,meltedacrid.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,meltpiratehamlet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,membai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,membersfifteenthintent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memney.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memopilot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memorandumdismissquietly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,memoriagamine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memorizeaestheticspiders.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memorizematch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,memunjcvfv.xyz,🛑 广告拦截
@@ -16785,7 +17295,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mentiopportal.org,🛑 广告拦截
   - DOMAIN-SUFFIX,mentrandi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mentsecono.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,mentwren.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mentxviewsinte.info,🛑 广告拦截
   - DOMAIN-SUFFIX,menuoverridemotherhood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,meo257na3rch.com,🛑 广告拦截
@@ -16835,6 +17344,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,methoxyunpaled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,methree-salien.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,metingsaeta.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,metinkuba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,metonicthought.com,🛑 广告拦截
   - DOMAIN-SUFFIX,metosk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,metredesculic.com,🛑 广告拦截
@@ -16842,14 +17352,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,metricfast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,metrics.io,🛑 广告拦截
   - DOMAIN-SUFFIX,metricswpsh.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,metrikastat.site,🛑 广告拦截
   - DOMAIN-SUFFIX,metsaubs.net,🛑 广告拦截
   - DOMAIN-SUFFIX,metumpscageful.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mevarabon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mewgzllnsp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mexicanatoning.live,🛑 广告拦截
   - DOMAIN-SUFFIX,mexitlipiffles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mezzosgrigri.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mfa4cgad6ahmiaaz.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mfadsrvr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mfbjifwyieopx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mfcewkrob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mfk-cpm.com,🛑 广告拦截
@@ -16862,13 +17373,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mghkpg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mgrattedropenrigh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mgtxdntxkx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mgyccfrshz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mh9dskj8jg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mhadsd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mhgshawy.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,mhvllvgrefplg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mi82ltk3veb7.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,miaeglaring.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,miamiahokums.com,🛑 广告拦截
   - DOMAIN-SUFFIX,miamribud.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,miayarus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,micastskangli.com,🛑 广告拦截
   - DOMAIN-SUFFIX,micerunversual.com,🛑 广告拦截
   - DOMAIN-SUFFIX,micghiga2n7ahjnnsar0fbor.com,🛑 广告拦截
@@ -16898,6 +17412,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mightylottrembling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mignished-sility.com,🛑 广告拦截
   - DOMAIN-SUFFIX,migrantspiteconnecting.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,migric.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mikhainpretts.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,milasktic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mildarmorynodding.com,🛑 广告拦截
@@ -16979,7 +17494,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,misslk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,misspkl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,misstaycedule.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mistakeirresistiblechalk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mistakeidentical.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mistakenunderstandresponse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mistletoebookwormgigantic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mistletoeethicleak.com,🛑 广告拦截
@@ -16987,8 +17502,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,misusefreeze.com,🛑 广告拦截
   - DOMAIN-SUFFIX,miswirewittall.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,miszonepionic.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,mitaxsodwrfu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,miteredgasbags.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mitosesgawking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mittylargen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,miwhethi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mixandfun.com,🛑 广告拦截
@@ -17007,9 +17522,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mkifagon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mkjsqrpmxqdf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mkkvprwskq.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mkmczftbylw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mkopli-1.live,🛑 广告拦截
-  - DOMAIN-SUFFIX,mkwioruxtpop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ml0z14azlflr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ml314.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mladvertistsldah.com.ua,🛑 广告拦截
@@ -17028,7 +17541,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mmmutajbpalv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mmondi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mmotraffic.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,mmpomlekrocrice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mmwebhandler.888.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mn1nm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mn230126pb.com,🛑 广告拦截
@@ -17048,6 +17560,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,moaglail.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,moaihkbrogywwiw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,moakaumo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,moaningtread.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moapevuwtv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moapuwhe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moartraffic.com,🛑 广告拦截
@@ -17072,6 +17585,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mobileadspopup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mobiledevel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mobilehdmi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mobiletracking.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,mobipromote.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mobiright.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mobisla.com,🛑 广告拦截
@@ -17096,6 +17610,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mocmubse.net,🛑 广告拦截
   - DOMAIN-SUFFIX,moddersithen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,modeidsoanadthenb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,moderategermmaria.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moderg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,modern-passenger.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,modescrips.info,🛑 广告拦截
@@ -17134,6 +17649,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,momentpalpate.store,🛑 广告拦截
   - DOMAIN-SUFFIX,momijoy.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,mommaseclat.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mommygravelyslime.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monadplug.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monadvs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monarchracistsparkle.com,🛑 广告拦截
@@ -17153,6 +17669,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,monitormilletstray.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monkeybroker.net,🛑 广告拦截
   - DOMAIN-SUFFIX,monkeysloveyou.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,monkeyunseen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monkquestion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monksplatane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monkyank.com,🛑 广告拦截
@@ -17163,7 +17680,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,montangop.top,🛑 广告拦截
   - DOMAIN-SUFFIX,montebassy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,montent.powzers.lol,🛑 广告拦截
-  - DOMAIN-SUFFIX,monthlydespise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monthlyindirectelsewhere.com,🛑 广告拦截
   - DOMAIN-SUFFIX,monthsrecoup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,montkpl.top,🛑 广告拦截
@@ -17191,9 +17707,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,moonprocessed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moonrocketaffiliates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moontuftboy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,moonveto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moorscliv.life,🛑 广告拦截
   - DOMAIN-SUFFIX,mootermedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moothbagel.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mootingunwist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mootingureic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moovaush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mooxar.com,🛑 广告拦截
@@ -17215,6 +17733,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,more1.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,moregamers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,morgdm.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,morguebattle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,morgueflabbergasted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,morict.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mormonwalty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mororvaginas.com,🛑 广告拦截
@@ -17239,9 +17759,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,motosal.net,🛑 广告拦截
   - DOMAIN-SUFFIX,motsardi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,mottlespouffed.live,🛑 广告拦截
+  - DOMAIN-SUFFIX,moultedpiroot.space,🛑 广告拦截
   - DOMAIN-SUFFIX,mounct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,moundgrandmotherel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mountainbender.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,mountaincaller.top,🛑 广告拦截
   - DOMAIN-SUFFIX,mountainous-substance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mountlanentablelanentable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mouraipoucuk.com,🛑 广告拦截
@@ -17270,13 +17792,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mozamy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mozgvya.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mozoo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mp-pop.barryto.one,🛑 广告拦截
   - DOMAIN-SUFFIX,mp3bars.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mp3dance.today,🛑 广告拦截
   - DOMAIN-SUFFIX,mp3pro.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mpabqjdlyfec.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mpay69.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mpbngxooxgwkxri.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,mpjdagaplpspmfx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mpk01.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mplayeranyd.info,🛑 广告拦截
   - DOMAIN-SUFFIX,mployeesihi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mpmant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mpnrs.com,🛑 广告拦截
@@ -17285,6 +17810,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mpsqvsylctp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mpsuadv.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,mptentry.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mptgate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mpununmrsiur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mqabjtgli.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mqarrenothanca.xyz,🛑 广告拦截
@@ -17293,7 +17819,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mr2cnjuh34jb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mraza2dosa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mrcoviu.pics,🛑 广告拦截
-  - DOMAIN-SUFFIX,mrelko.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mrjb7hvcks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mrlscr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mrtbbnr.com,🛑 广告拦截
@@ -17303,6 +17828,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mrzikj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ms3t.club,🛑 广告拦截
   - DOMAIN-SUFFIX,msads.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,msensuedcounteract.com,🛑 广告拦截
   - DOMAIN-SUFFIX,msgose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mshago.com,🛑 广告拦截
   - DOMAIN-SUFFIX,msrejection.com,🛑 广告拦截
@@ -17313,6 +17839,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mtburn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mtjrhfww.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mtjwxcdjierrmw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mtwdmk9ic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mtzenhigqg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,muchorindownlo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,muchotrust.com,🛑 广告拦截
@@ -17351,7 +17878,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mumuendakuthyfo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,munchenviableski.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mungfali.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,municalcurit.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,munpractical.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,munshiwauks.space,🛑 广告拦截
   - DOMAIN-SUFFIX,munsterduke.com,🛑 广告拦截
@@ -17395,11 +17921,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mvdwjofacq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mvevuokyzah.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mvlvxzhxjci.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mwcxljdywq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mwemsias.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mwihruozvmzu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mworkh.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,mwprotected.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mwquick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mxdkhrofdww.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mxipwcyo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mxiumroqnv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mxmkhyrmup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mxptint.net,🛑 广告拦截
@@ -17407,6 +17936,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mxtads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mxuiso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,my-hanson.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,my.shymilftube.com,🛑 广告拦截
   - DOMAIN-SUFFIX,my1elitclub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,my83s1kw3u.com,🛑 广告拦截
   - DOMAIN-SUFFIX,myactualblog.com,🛑 广告拦截
@@ -17418,6 +17948,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mybetterdl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mybettermb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mybmrtrg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mycamlover.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mycasinoaccounts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mycdn.co,🛑 广告拦截
   - DOMAIN-SUFFIX,mycdn2.co,🛑 广告拦截
@@ -17435,6 +17966,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mygtmn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,myhypestories.com,🛑 广告拦截
   - DOMAIN-SUFFIX,myimagetracking.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,myjdhmoiiwgise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,myjevkjiumtbrq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mykennettnow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mykiger.com,🛑 广告拦截
@@ -17451,6 +17983,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,myopyrum.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,myornamenti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,myownshop.at,🛑 广告拦截
+  - DOMAIN-SUFFIX,myperfect2give.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mypopads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mypushz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mysafeurl.com,🛑 广告拦截
@@ -17475,6 +18008,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,n12qga4ld3zk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,n19.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,n49seircas7r.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,n7e4t5trg0u3yegn8szj9c8xjz5wf8szcj2a5h9dzxjs50salczs8azls0zm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,n9s74npl.de,🛑 广告拦截
   - DOMAIN-SUFFIX,naambonder.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naampone.com,🛑 广告拦截
@@ -17482,6 +18016,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,naawurkshdhs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naazrghwxj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nabalpal.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nabauxou.net,🛑 广告拦截
   - DOMAIN-SUFFIX,nabbr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nableemblems.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nableriptide.com,🛑 广告拦截
@@ -17494,6 +18029,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nads.io,🛑 广告拦截
   - DOMAIN-SUFFIX,naewynn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nafaec.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,naffor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naganoadigei.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naggingirresponsible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naggingrugcolossal.com,🛑 广告拦截
@@ -17523,9 +18059,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nan46ysangt28eec.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nancontrast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nanesbewail.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nangkasec.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nannot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nanouwho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naolemkkg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,naoprj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,napainsi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,napesropes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,napkinlucent.com,🛑 广告拦截
@@ -17539,6 +18077,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,narenrosrow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,narepuewrwq.info,🛑 广告拦截
   - DOMAIN-SUFFIX,narkalignevil.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,narkwhelmed.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,narrateharmala.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nasalburglarthomas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nasaldares.com,🛑 广告拦截
@@ -17560,6 +18099,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nativewpshep.com,🛑 广告拦截
   - DOMAIN-SUFFIX,natorm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,natregs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,natsdk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,natspiders.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nattepush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nattierariosi.space,🛑 广告拦截
@@ -17573,6 +18113,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,naveljutmistress.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nawpush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,naysaywinless.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,naywordumiaks.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,nazolncubha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nbasicalbuffere.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nbidqsoy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nbmramf.de,🛑 广告拦截
@@ -17588,6 +18130,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nceqpmxyhqo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ncernedas.one,🛑 广告拦截
   - DOMAIN-SUFFIX,ncesprin.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ncpxhrurirscgsd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ncugaxoxh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ncuwtufam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndandinter.hair,🛑 广告拦截
@@ -17595,12 +18138,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ndblowthroug.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ndbriolenproc.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,ndds0001.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ndds0002.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndedaphon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndegj3peoh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndejhe73jslaw093.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndentofinau.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ndha4sding6gf.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ndingcouncer.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ndhfywacw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndjelsefd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndroip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ndryqdqwtnn.com,🛑 广告拦截
@@ -17616,6 +18160,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nebackalien.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nebsefte.net,🛑 广告拦截
   - DOMAIN-SUFFIX,nebulouslostpremium.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,neburn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neceme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,necessaryclassroom.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,necessaryescort.com,🛑 广告拦截
@@ -17663,13 +18208,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nellmeeten.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nemesiacalesa.website,🛑 广告拦截
   - DOMAIN-SUFFIX,nemewagro.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,neoftheownouncillo.info,🛑 广告拦截
   - DOMAIN-SUFFIX,neogaeakasher.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,neonateaxone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neopowerlab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neralcapicha.website,🛑 广告拦截
   - DOMAIN-SUFFIX,nereserv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nergyflexibilit.pics,🛑 广告拦截
   - DOMAIN-SUFFIX,nervous-touch.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,nervousclangprobable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nesiotcusses.space,🛑 广告拦截
   - DOMAIN-SUFFIX,nesispubl.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,nesokiahld.com,🛑 广告拦截
@@ -17696,13 +18242,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,neutralsaxophoneaspect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neutraltoxicpreposition.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nevail.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nevbbl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neverforgettab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neverheartache.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,neverthelessdamagingmakes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,neverthelessdepression.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nevhfrxaadmv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,new-incoming.email,🛑 广告拦截
   - DOMAIN-SUFFIX,new-new-years.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,new-park-hunt.ml,🛑 广告拦截
   - DOMAIN-SUFFIX,new-programmatic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,new17write.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newadflow.com,🛑 广告拦截
@@ -17724,13 +18271,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,newprofitcontrol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newrtbbid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,news-back.org,🛑 广告拦截
+  - DOMAIN-SUFFIX,news-buzz.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,news-central.org,🛑 广告拦截
   - DOMAIN-SUFFIX,news-headlines.co,🛑 广告拦截
   - DOMAIN-SUFFIX,news-host.net,🛑 广告拦截
   - DOMAIN-SUFFIX,news-mars.com,🛑 广告拦截
   - DOMAIN-SUFFIX,news-muheji.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,news-place1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,news-portals1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,news-rarore.cc,🛑 广告拦截
+  - DOMAIN-SUFFIX,news-universe1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,news-venere.com,🛑 广告拦截
   - DOMAIN-SUFFIX,news-weekend1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,news-xehola.com,🛑 广告拦截
@@ -17743,6 +18293,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,newsfeedscroller.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsfeedzscrollz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsformuse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,newsfortoday2.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,newsforyourmood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsfrompluto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsignites.com,🛑 广告拦截
@@ -17751,6 +18302,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,newsm247.online,🛑 广告拦截
   - DOMAIN-SUFFIX,newsmaxfeednetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsnourish.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,newssale.info,🛑 广告拦截
   - DOMAIN-SUFFIX,newstarads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newstemptation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,newsunads.com,🛑 广告拦截
@@ -17839,6 +18391,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ninkorant.online,🛑 广告拦截
   - DOMAIN-SUFFIX,ninnycoastal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ninoglostoay.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ninsu-tmc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nipmucktwicer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nipoughtnt.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,nippona7n2theum.com,🛑 广告拦截
@@ -17859,6 +18412,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nixopho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,niyamabusiest.casa,🛑 广告拦截
   - DOMAIN-SUFFIX,nization.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,njlzougyfjo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,njmkilpqzibv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,njufnhkmqpk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nkeokgokfkuz.com,🛑 广告拦截
@@ -17878,6 +18432,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nlwy0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nmanateex.top,🛑 广告拦截
   - DOMAIN-SUFFIX,nmcdn.us,🛑 广告拦截
+  - DOMAIN-SUFFIX,nmcpmjreuswnzs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nmthpcanvokjbkh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nmxqtuyyojgm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nndiscov.cfd,🛑 广告拦截
@@ -17911,8 +18466,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,noddlegoop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nodouslover.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nodulhrwxdptbc.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,noearon.click,🛑 广告拦截
   - DOMAIN-SUFFIX,noelsdoc.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,noerwe5gianfor19e4st.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nofashot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nogqyqhpoybm.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nohezu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,noiseeastern.com,🛑 广告拦截
@@ -17931,6 +18488,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nomnemtalions.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nomorepecans.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nonbasekick.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nondescriptlet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nondescripttuxedo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nonecoffeehousesuspicious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nonerr.com,🛑 广告拦截
@@ -17957,6 +18515,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nooroapo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,noosersturtles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,noosingimmask.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nope.xn--mgbkt9eckr.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,nope.xn--ngbcrg3b.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nope.xn--ygba1c.wtf,🛑 广告拦截
   - DOMAIN-SUFFIX,noproblfr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,noptog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,noqj1iz4u28t.com,🛑 广告拦截
@@ -17973,9 +18534,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nosebleedlonerdays.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nossairt.net,🛑 广告拦截
   - DOMAIN-SUFFIX,nosselaune.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,nostormidentification.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nostrilquarryprecursor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nostromedia.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,notabilitysedative.com,🛑 广告拦截
   - DOMAIN-SUFFIX,notablynationality.com,🛑 广告拦截
   - DOMAIN-SUFFIX,notadsworld.com,🛑 广告拦截
   - DOMAIN-SUFFIX,notaloneathome.com,🛑 广告拦截
@@ -18068,6 +18629,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ntanaerc.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ntdvjlvau.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ntiaxofk.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ntjmnyzwkpb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ntoftheusysia.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ntoftheusysianedt.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ntrfr.leovegas.com,🛑 广告拦截
@@ -18094,6 +18656,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nuevonoelmid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nufuglou.net,🛑 广告拦截
   - DOMAIN-SUFFIX,nuggetschou.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nuglegdkyjlaye.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nugrudsu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nui.media,🛑 广告拦截
   - DOMAIN-SUFFIX,nulats.com,🛑 广告拦截
@@ -18102,12 +18665,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,null-point.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nullboatloo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nullsrefilliron.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nulpailou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nultoaly.net,🛑 广告拦截
   - DOMAIN-SUFFIX,nulwhbbyfdxy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,numberium.com,🛑 广告拦截
   - DOMAIN-SUFFIX,numberschord.com,🛑 广告拦截
   - DOMAIN-SUFFIX,numbertrck.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,numbig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,numeralembody.com,🛑 广告拦截
   - DOMAIN-SUFFIX,numsodsi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nunailsum.com,🛑 广告拦截
@@ -18117,6 +18680,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nupharbakongo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nuqwe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nuraghireels.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nurewsawaninc.info,🛑 广告拦截
   - DOMAIN-SUFFIX,nurno.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nurobi.info,🛑 广告拦截
   - DOMAIN-SUFFIX,nursecompellingsmother.com,🛑 广告拦截
@@ -18131,8 +18695,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nutritionshooterinstructor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nutritious-hang.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,nuttyanger.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,nuvedu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nuvzuha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nuzuki.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nvaepsns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nvane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nveryldgittle.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,nvlalpfft.com,🛑 广告拦截
@@ -18142,6 +18708,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nvyrgsqdqh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nwehirapbk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nwhocamewi.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,nxiqvhhm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nxrjinprslhd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nxtck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nxthost-1.info,🛑 广告拦截
   - DOMAIN-SUFFIX,nxthost-2.info,🛑 广告拦截
@@ -18210,17 +18778,22 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oasazedy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oasqrthubiub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oataltaul.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oatbcxnhacfjnc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oatmealaspectpulp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oatmeallump.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oaujswgofu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oaxoulro.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oaxpcohp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oazartie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oazoorse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obbdarhmos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obbfpykcoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obbjkyxcenu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,obdoboli.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,obduratecommence.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obediencepulse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obedientrock.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,obedirectukly.info,🛑 广告拦截
   - DOMAIN-SUFFIX,obeus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obeyedortostr.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,obeysatman.com,🛑 广告拦截
@@ -18263,6 +18836,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,obsessionseparation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obsessivepetsbean.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obsessivepossibilityminimize.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,obsidiancutter.top,🛑 广告拦截
   - DOMAIN-SUFFIX,obsors.com,🛑 广告拦截
   - DOMAIN-SUFFIX,obspkoirhnvq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,obssiyjiachvh.xyz,🛑 广告拦截
@@ -18280,6 +18854,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,obvious-lesson.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,obviousraiment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oc2tdxocb3ae0r.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,occame.com,🛑 广告拦截
   - DOMAIN-SUFFIX,occarv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,occasionalstatusbella.com,🛑 广告拦截
   - DOMAIN-SUFFIX,occept.com,🛑 广告拦截
@@ -18310,13 +18885,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,octoatesamhain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,octobermindless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,octopod.cc,🛑 广告拦截
+  - DOMAIN-SUFFIX,octopusiron.com,🛑 广告拦截
   - DOMAIN-SUFFIX,octopuspop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,octrib.com,🛑 广告拦截
   - DOMAIN-SUFFIX,octrol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ocumes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ocuwyfarlvbq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,odbjmugzoq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oddauthorscreative.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oddlyogeed.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oddsserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,odeerofhisk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,odipjwipwwyus.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,odnaknopka.ru,🛑 广告拦截
@@ -18355,7 +18933,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,officerolivehaughty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,officetablntry.org,🛑 广告拦截
   - DOMAIN-SUFFIX,officialbanisters.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,officiobooks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,offloadingsite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,offmachopor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,offoonguser.com,🛑 广告拦截
   - DOMAIN-SUFFIX,offpathgenuinely.com,🛑 广告拦截
@@ -18419,12 +18997,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ohwhdspj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oi.hqbang.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oidaio.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,oigcgirln.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oigduusrva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oillesssris.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,oilwellcuprene.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oinkedbowls.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ointmentaloofpincers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ointmenthind.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oionsglearned.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oiycak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oj.4wank.com,🛑 广告拦截
@@ -18443,11 +19021,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,okayarab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okayfreemanknot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okdigital.me,🛑 广告拦截
+  - DOMAIN-SUFFIX,okehsominous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okienamare.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okingabodew.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,okitwpyslqm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okksucr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okkxmyogxog.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oklahi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oklzdmdhqgxsu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oknmalpxnjhe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,oko.net,🛑 广告拦截
@@ -18467,6 +19047,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oldership.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oldeststrickenambulance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oldgyhogola.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oldied.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oldmilram.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oldrdiedebog.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,oleariaalgenib.com,🛑 广告拦截
@@ -18486,6 +19067,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,olpxupvisl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,olqhulfpezp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,olrbbwxkm.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,olularhenewrev.info,🛑 广告拦截
   - DOMAIN-SUFFIX,olympicsappointment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omafaren.pw,🛑 广告拦截
   - DOMAIN-SUFFIX,omanala.com,🛑 广告拦截
@@ -18515,6 +19097,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ominateamt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omitbailey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omjigrivrccwcn.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,omjitjlhx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omkafdowdm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omkogswhetc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ommatearittock.digital,🛑 广告拦截
@@ -18523,6 +19106,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,omnidokingon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omniscrienttow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,omnitagjs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,omoahope.net,🛑 广告拦截
   - DOMAIN-SUFFIX,omoonsih.net,🛑 广告拦截
   - DOMAIN-SUFFIX,omphantumpom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ompoppxulki.com,🛑 广告拦截
@@ -18571,6 +19155,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,onelivetra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onemacusa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,onemboaran.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,onemileliond.info,🛑 广告拦截
   - DOMAIN-SUFFIX,onenag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onenetworkdirect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onenetworkdirect.net,🛑 广告拦截
@@ -18580,7 +19165,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oneqanatclub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onerror.cf,🛑 广告拦截
   - DOMAIN-SUFFIX,onerror.gq,🛑 广告拦截
-  - DOMAIN-SUFFIX,onerror.ml,🛑 广告拦截
   - DOMAIN-SUFFIX,onesocailse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onesocialimpactnow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onespot.com,🛑 广告拦截
@@ -18605,6 +19189,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,onhadintrepha.info,🛑 广告拦截
   - DOMAIN-SUFFIX,onhadintrephad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onindexicowillio.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,onjxuqwinn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,onkavst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,online-adnetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,online-protection-now.com,🛑 广告拦截
@@ -18661,9 +19246,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oortelre.net,🛑 广告拦截
   - DOMAIN-SUFFIX,oorunsey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oorwithabitofst.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,ooswxraxqm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ootchaig.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ootchoft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ootibsay.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,oourmarketingefifor.info,🛑 广告拦截
   - DOMAIN-SUFFIX,oovaufty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oovilsol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ooxookrekaun.com,🛑 广告拦截
@@ -18683,10 +19270,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,opeanresultanc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opefaq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opelop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,opencan.net,🛑 广告拦截
   - DOMAIN-SUFFIX,openerkey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,openexaminationgist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,openlyprematurerates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,openmindter.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,opensdeiseal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opentecs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,openx.net,🛑 广告拦截
   - DOMAIN-SUFFIX,openxadexchange.com,🛑 广告拦截
@@ -18723,6 +19312,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,opsivesh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,opsoomet.net,🛑 广告拦截
   - DOMAIN-SUFFIX,optad360.io,🛑 广告拦截
+  - DOMAIN-SUFFIX,optaroag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,optcrockery.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opteama.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opter.co,🛑 广告拦截
@@ -18743,6 +19333,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,opulent-reply.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,opvanillishan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,opxaxqxaqo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oqcrqirncna.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,oqeazohx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oqelpqoyyz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oqskrynuwam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,orahmaggi.xyz,🛑 广告拦截
@@ -18808,6 +19400,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,orricesoxhlet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,orrisesdepute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,orrsuxapg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,orrtweqfaa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,orthitepetrous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,orthronsmatter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ortostrikehem.xyz,🛑 广告拦截
@@ -18826,6 +19419,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oskiwood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oskxpvmnalfb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,osmanlikaraite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,osmosewatch.top,🛑 广告拦截
   - DOMAIN-SUFFIX,osmost.com,🛑 广告拦截
   - DOMAIN-SUFFIX,osmoticchalah.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ospicalad.buzz,🛑 广告拦截
@@ -18880,7 +19474,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ouaker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ouchojig.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ouchruse.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,oudoduor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oudseroa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oufauthy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,oufteens.com,🛑 广告拦截
@@ -18910,18 +19503,22 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ourcoolstories.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourdadaikri.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourdailystories.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ourebifie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourgoldpiece.com.ua,🛑 广告拦截
   - DOMAIN-SUFFIX,ourgoldpiece.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ourgoldpiecwe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ourhotfeed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourhypewords.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourl.link,🛑 广告拦截
+  - DOMAIN-SUFFIX,ourmumble.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourscience.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ourselscarid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oursexasperationwatchful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oursiignaboaor.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,oursiignaboaord.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ourtecads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourteeko.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ourtetotum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ourzitemu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ousinouk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ousouzay.net,🛑 广告拦截
@@ -18934,6 +19531,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,outburststudying.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outcheeh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outdilateinterrupt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,outdoeslegacy.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,outelectrodean.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outensootier.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,outflednailbin.com,🛑 广告拦截
@@ -18968,6 +19566,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,outspitfulup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outsrtfz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outstanding-tie.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,outtaskhautein.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,outtimburrtor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outtunova.com,🛑 广告拦截
   - DOMAIN-SUFFIX,outwhirlipedeer.com,🛑 广告拦截
@@ -18975,7 +19574,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,outyanmegaom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ouveelsa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ouzekomtok.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ouzoadru.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ovalfunny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ovdimin.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,ovembe.com,🛑 广告拦截
@@ -18990,6 +19588,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,overdates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overdonealthough.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overdonereciprocalimpure.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,overestimateyearly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overfatberiber.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,overfreezerperuse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overgalladean.com,🛑 广告拦截
@@ -19001,6 +19600,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,overnightpicture.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overnumeler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overonixa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,overprotectiveskilled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overratedlively.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overratedtransmissiontwenty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oversightbullet.com,🛑 广告拦截
@@ -19013,6 +19613,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,overzoruaon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,overzubatan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ovfratlkxerv.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ovhodsalpm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ovibospeseta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ovmhwiccikr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ovoordie.xyz,🛑 广告拦截
@@ -19038,7 +19639,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,owlunimmvn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,owncutone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,owndata.network,🛑 广告拦截
-  - DOMAIN-SUFFIX,ownerasking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ownsattrib.life,🛑 广告拦截
   - DOMAIN-SUFFIX,owoxauky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,owrkwilxbw.com,🛑 广告拦截
@@ -19064,7 +19664,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,oxygenblobsglass.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oxynticarkab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oyi9f1kbaj.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,oylwerbntui.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,oyopersed.info,🛑 广告拦截
   - DOMAIN-SUFFIX,oysterexhalereview.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ozardoog.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ozdfhysr.com,🛑 广告拦截
@@ -19089,6 +19689,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pacoaniy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,pacontainer.s3.amazonaws.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pactionpolab.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,paddleniecehandicraft.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paddlesoothesoloist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paddocsweek.com,🛑 广告拦截
   - DOMAIN-SUFFIX,padma-fed.com,🛑 广告拦截
@@ -19111,6 +19712,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,padsreds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,padstm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,padujeph.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,paeonicgrunter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pageantbagauspice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pagefedonly.live,🛑 广告拦截
   - DOMAIN-SUFFIX,pagejunky.com,🛑 广告拦截
@@ -19130,6 +19732,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,paigna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paikaufy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paikoaza.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,paikshueless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,painfulpropaganda.com,🛑 广告拦截
   - DOMAIN-SUFFIX,painlessassumedbeing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,painmidsummer.com,🛑 广告拦截
@@ -19153,6 +19756,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,palasidesdoor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,palatesovarium.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,palaverpageboy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,paletteoverjoyed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,palibs.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,pallaliven.com,🛑 广告拦截
   - DOMAIN-SUFFIX,palpablefungussome.com,🛑 广告拦截
@@ -19186,9 +19790,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,papawrefits.com,🛑 广告拦截
   - DOMAIN-SUFFIX,papilio3glauecus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pappibottoms.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,papposeclingy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,paqcpeotbx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,parableconverted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,parachuteeffectedotter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,parachutegustheory.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,paradiseannouncingnow.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,parallelgds.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,paralyzedepisodetiny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paranoiaidiompatron.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paranoiseras.site,🛑 广告拦截
   - DOMAIN-SUFFIX,parasitegoddess.com,🛑 广告拦截
@@ -19234,6 +19843,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,partef.com,🛑 广告拦截
   - DOMAIN-SUFFIX,parth2enerocis9tsust2ricus7pidata.com,🛑 广告拦截
   - DOMAIN-SUFFIX,parthanonstatue.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,partiallyrunnerproductive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,particinepartm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,partieseclipse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,partion-ricism.xyz,🛑 广告拦截
@@ -19260,7 +19870,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,paslsa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pasoleex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pasoshardy.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,pasquinzippy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,passablejeepparliament.com,🛑 广告拦截
   - DOMAIN-SUFFIX,passannouncing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,passedofferundertake.com,🛑 广告拦截
@@ -19331,6 +19940,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pawschancesponsor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paxafai1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paxmedia.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,paxxfiss.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pay-click.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,payae8moon9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,paybackmodified.com,🛑 广告拦截
@@ -19346,6 +19956,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pbamjgga.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pbcde.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pbdjtlghawpiuoq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pbdo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,pbkqidejmes.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,pblcpush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pblinq.com,🛑 广告拦截
@@ -19382,10 +19993,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pdxvghgtvjtq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peacebanana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peacefulactivity.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,peacefullymenitch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peachrecess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peachsquat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peachywaspish.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,peacinggreyed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peacockcorridor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peacockdienook.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peacocktypewriter.com,🛑 广告拦截
@@ -19398,6 +20009,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,peanutsurrogatesurrogate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pearanceofam.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pearedcall.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,pearledbolo.life,🛑 广告拦截
   - DOMAIN-SUFFIX,pearlsdevotionnative.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pearsissuedboob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peateryfewnes.com,🛑 广告拦截
@@ -19407,6 +20019,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pebiieygwt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pecialukizeias.info,🛑 广告拦截
   - DOMAIN-SUFFIX,pecism.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pectasefrisker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peculiaritiesdiarrhoeareproduce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peculiaritiesimaginationembankment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peculiarityrevengeinternet.com,🛑 广告拦截
@@ -19464,6 +20077,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pennilesstestangrily.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pennyotcstock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,penromanceadmittance.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pensiveblindlytwin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pentaclaud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pentalime.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pentritkaliana.com,🛑 广告拦截
@@ -19475,6 +20089,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pepperyforeign.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peppy2lon1g1stalk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peracy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,perceivedagrarian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perceivedundesirable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,percephonefruit70.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perceuslok071.com,🛑 广告拦截
@@ -19497,6 +20112,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,perfunctoryfrugal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perhangeflets.site,🛑 广告拦截
   - DOMAIN-SUFFIX,perhiptid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,perhui.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perift.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perigshfnon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,periodicmassageate.com,🛑 广告拦截
@@ -19508,6 +20124,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,permanentswitch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,permissioncornshrine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,permittedswift.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,permitwarmer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pernkcpymuyshbd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,peropusparmese.com,🛑 广告拦截
   - DOMAIN-SUFFIX,perpetratoralienglory.com,🛑 广告拦截
@@ -19526,6 +20143,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,perspirationauntpickup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,persprovath.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,perstago.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,persuasivepenitentiary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pertersacstyli.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pertfair.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pertov.com,🛑 广告拦截
@@ -19546,6 +20164,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pestilenttidefilth.org,🛑 广告拦截
   - DOMAIN-SUFFIX,petalslars.com,🛑 广告拦截
   - DOMAIN-SUFFIX,petardmimsey.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,petasmaupbore.website,🛑 广告拦截
   - DOMAIN-SUFFIX,petasusawber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,petchesa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,petendereruk.com,🛑 广告拦截
@@ -19560,12 +20179,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pettledsupper.space,🛑 广告拦截
   - DOMAIN-SUFFIX,petunsehemiope.com,🛑 广告拦截
   - DOMAIN-SUFFIX,petwoodfustet.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,petwsdutotxednw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,peuhlcamaile.space,🛑 广告拦截
   - DOMAIN-SUFFIX,peukasrsihav.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,peweesfluer.website,🛑 广告拦截
   - DOMAIN-SUFFIX,pexoenne.site,🛑 广告拦截
   - DOMAIN-SUFFIX,pexuvais.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,pezuhdhzrmb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pf34zdjoeycr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pfewuzbtkr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pftamvhajdqhps.xyz,🛑 广告拦截
@@ -19590,7 +20209,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,phalingy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,phantomattestationzillion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phantomtheft.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,pharaohsteven.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phardain.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pharmcash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phartemt.xyz,🛑 广告拦截
@@ -19599,7 +20217,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,phaucmoa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,phaudree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phauftee.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,phauraur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phaurtuh.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,phause.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phca85g3n400.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phdwxsui.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pheasantcardboardcohort.com,🛑 广告拦截
@@ -19647,11 +20267,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,phohagyli.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phokruhefeki.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phokukse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,phomoach.net,🛑 广告拦截
   - DOMAIN-SUFFIX,phonefilamentembarrassment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phonestar.info,🛑 广告拦截
   - DOMAIN-SUFFIX,phonograph2.voxmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phonydevelopment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phoobsoo.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,phooghoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,phoojeex.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,phooreew.net,🛑 广告拦截
   - DOMAIN-SUFFIX,phoossax.net,🛑 广告拦截
@@ -19687,10 +20309,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,piarecdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,piaroankenyte.store,🛑 广告拦截
   - DOMAIN-SUFFIX,piasterpoleyns.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pibgornspooks.top,🛑 广告拦截
   - DOMAIN-SUFFIX,picadmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,picalchymic.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,picath.com,🛑 广告拦截
   - DOMAIN-SUFFIX,picbucks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,piccid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pickaflick.co,🛑 广告拦截
   - DOMAIN-SUFFIX,pickaxewafters.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pickedlawhandshake.com,🛑 广告拦截
@@ -19728,11 +20352,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pifudfxoopd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pigistles.com,🛑 广告拦截
   - DOMAIN-SUFFIX,piglikecold.uno,🛑 广告拦截
+  - DOMAIN-SUFFIX,pigmydocent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pignuwoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pigogfrapcto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pigstrustmarijuana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pigtre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pigukkyfrgjfj.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pihu.xxxpornhd.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,pijlpuofkgz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pikdtipujmr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pikecentreconfederate.com,🛑 广告拦截
@@ -19776,6 +20402,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pipeaota.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pipeschannels.com,🛑 广告拦截
   - DOMAIN-SUFFIX,piplavwci.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pipprfvhpykpvk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pipsol.net,🛑 广告拦截
   - DOMAIN-SUFFIX,piqueendogen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,piquperkin.com,🛑 广告拦截
@@ -19795,7 +20422,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pitiersamara.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pitors.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pitpastraja.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,pittcwsar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pittinekunai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,piturisieged.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pityneedsdads.com,🛑 广告拦截
@@ -19817,6 +20443,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pizzazz.lol,🛑 广告拦截
   - DOMAIN-SUFFIX,pjblqxvmcjyiel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pjjpp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pjlufuwtxv.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pjoqkmks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pjqchcfwtw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pjsefaqzyjv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pjx1ky4xhwip.com,🛑 广告拦截
@@ -19825,6 +20453,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pkthyp.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,pkudawbkcl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,placeofres.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,placingtraditionalhobble.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plaguealacritytwitter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plagueinclude.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plaguemanipulatedrag.com,🛑 广告拦截
@@ -19841,6 +20470,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,planesforce.website,🛑 广告拦截
   - DOMAIN-SUFFIX,planesknob.com,🛑 广告拦截
   - DOMAIN-SUFFIX,planet7links.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,planetarium-planet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,planktab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,planmybackup.co,🛑 广告拦截
   - DOMAIN-SUFFIX,plannedcappuccino.com,🛑 广告拦截
@@ -19853,12 +20483,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,plantationthrillednoncommittal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plantpreventioncrab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plantsrancorous.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,planyourbackup.co,🛑 广告拦截
+  - DOMAIN-SUFFIX,plaqt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plarlyinthes.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,plasmidsnark.website,🛑 广告拦截
   - DOMAIN-SUFFIX,plastertakeglands.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plastleislike.com,🛑 广告拦截
   - DOMAIN-SUFFIX,platesworked.com,🛑 广告拦截
   - DOMAIN-SUFFIX,platform-hetcash.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,platitudecontinental.com,🛑 广告拦截
   - DOMAIN-SUFFIX,platitudefivesnack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,platitudewildest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,platitudezeal.com,🛑 广告拦截
@@ -19888,8 +20521,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,plex4rtb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plexop.net,🛑 广告拦截
   - DOMAIN-SUFFIX,plfncoqj.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,plianteditdisembark.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plified.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,plinksplanet.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,plirkep.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plkatdmeje.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plocap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plodpicture.com,🛑 广告拦截
@@ -19907,7 +20542,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pluffdoodah.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plugerr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plugs.co,🛑 广告拦截
-  - DOMAIN-SUFFIX,plumcandied.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plumpdianafraud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plumposterity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,plunderhoaxed.digital,🛑 广告拦截
@@ -19941,6 +20575,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pnrblholty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pnsqsv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pnuhondppw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pnvbfxwbeg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poacawhe.net,🛑 广告拦截
   - DOMAIN-SUFFIX,poalauza.net,🛑 广告拦截
   - DOMAIN-SUFFIX,poapustu.net,🛑 广告拦截
@@ -20004,6 +20639,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pollstover.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,polluxnetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pollymentors.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,poloud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,polrimsi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,poltarimus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poltbassa.com,🛑 广告拦截
@@ -20029,6 +20665,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ponyresentment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ponysuggested.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ponyvictorymiscarriage.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pooboqxoh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,poodledopas.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,poogriry.click,🛑 广告拦截
   - DOMAIN-SUFFIX,pookapsa.net,🛑 广告拦截
@@ -20042,6 +20679,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,poorlytanrubbing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poosoahe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poosugap.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pootherremica.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pop.dojo.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,pop5sjhspear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,popadon.com,🛑 广告拦截
@@ -20050,7 +20688,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,popadscdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,popbounty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,popbutler.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,popbyepenthouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,popcash.net,🛑 广告拦截
   - DOMAIN-SUFFIX,popclck.net,🛑 广告拦截
   - DOMAIN-SUFFIX,popcpm.com,🛑 广告拦截
@@ -20094,13 +20731,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,porepoise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,porettginzo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,porkinconceivable.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,pornaqua.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornhyip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornoegg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornoheat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornoio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornomixfree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pornve.sexyadsrun.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pornvideos.casa,🛑 广告拦截
   - DOMAIN-SUFFIX,porojo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,portalisimmo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,portatoleprid.uno,🛑 广告拦截
@@ -20111,6 +20748,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,posawaj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poseidthewave.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poseurtwicet.digital,🛑 广告拦截
+  - DOMAIN-SUFFIX,posf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,poshhateful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poshsenseless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,poshsplitdr.com,🛑 广告拦截
@@ -20188,7 +20826,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,practicallysacrificestock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,practicalwhich.info,🛑 广告拦截
   - DOMAIN-SUFFIX,practiceddrummerballast.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,practitionermonsieurstable.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,practicepeter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,practthreat.club,🛑 广告拦截
   - DOMAIN-SUFFIX,praght.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,prahfoleruna.com,🛑 广告拦截
@@ -20196,7 +20834,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,prankdishevelledhurdle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,praterswhally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prawnsimply.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,prawnspiritincomparable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,praycompanion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prayersnationsunglasses.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prayersobsoletededuce.com,🛑 广告拦截
@@ -20217,7 +20854,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,preciousentangledjustified.com,🛑 广告拦截
   - DOMAIN-SUFFIX,precipitationsloganhazard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,precisionclick.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,precisionsuccessfullycommemorate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,precoilrowlock.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,predicamentdisconnect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,predicamentprestige.com,🛑 广告拦截
@@ -20240,8 +20876,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,prefleks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pregamepluteal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pregnancyreproducepalace.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,prehealpaster.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,prehem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prehistoriceast.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,preideanested.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prejudiceinsure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prelandcleanerlp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prelandtest01.com,🛑 广告拦截
@@ -20274,6 +20912,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,presentlymumblespin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,preservationpalsy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,preserveadapt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,presidentialcheaper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,presidentialprism.com,🛑 广告拦截
   - DOMAIN-SUFFIX,presidentscaredlow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,presideproreassure.com,🛑 广告拦截
@@ -20322,6 +20961,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,priselapse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,priseloos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prismarrears.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,prisoninvolvingremaining.com,🛑 广告拦截
   - DOMAIN-SUFFIX,prisonretiringcommemorate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pritesol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,privacycounter.com,🛑 广告拦截
@@ -20426,7 +21066,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,propellerclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propellerpops.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propelsanctuaryteapot.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,properbunch.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,propeltuition.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propersuitcase.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propertyofnews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propertyprintervice.com,🛑 广告拦截
@@ -20434,6 +21074,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,propgoservice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,proponylisten.com,🛑 广告拦截
   - DOMAIN-SUFFIX,proposalpearlpleasantly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,proposedfelonoxide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,proposedpartly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propositiondisinterested.com,🛑 广告拦截
   - DOMAIN-SUFFIX,propu.sh,🛑 广告拦截
@@ -20472,9 +21113,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,prototypewailrubber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,protovid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,protrckit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,prouoxsacqi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,provenancedelegatecipher.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,proverbnoncommittalvault.com,🛑 广告拦截
   - DOMAIN-SUFFIX,provider-direct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,providingcrechepartnership.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,providingforbidassure.com,🛑 广告拦截
   - DOMAIN-SUFFIX,providingstallionemployee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,provincebarely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,provisionpointingpincers.com,🛑 广告拦截
@@ -20508,6 +21152,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,prytrainer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ps7894.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psaighid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,psaiglursurvey.space,🛑 广告拦截
   - DOMAIN-SUFFIX,psaiksou.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,psaiptoh.net,🛑 广告拦截
   - DOMAIN-SUFFIX,psairees.net,🛑 广告拦截
@@ -20549,6 +21194,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,psoageeb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psoageph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psoalreh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,psognaih.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,psoolikoagy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psoonuxo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,psoorgou.com,🛑 广告拦截
@@ -20571,7 +21217,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,psurigrabi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psvgnczo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psxxbhheqxoy.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,psychaltuxes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psychalwamble.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psychicbowel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,psychologyairport.com,🛑 广告拦截
@@ -20594,6 +21239,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ptaughar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ptaulratch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ptaungoo.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ptaupsom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ptauxofi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ptawe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ptawehex.net,🛑 广告拦截
@@ -20656,6 +21302,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pubacca5mc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pubaka5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pubasks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pubceremony.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pubertysung.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,pubeshogback.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,pubfeed.linkby.com,🛑 广告拦截
@@ -20687,12 +21334,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,puddingdefeated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,puddleincidentally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pudrardu.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,pueber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pueral.com,🛑 广告拦截
   - DOMAIN-SUFFIX,puerq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,puerty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,puffwigtaxin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pugdisguise.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,puggedproses.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pugehjjxdr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pughoomo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pugmillcolitis.website,🛑 广告拦截
   - DOMAIN-SUFFIX,pugsgivehugs.com,🛑 广告拦截
@@ -20721,6 +21369,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,punishrwy.space,🛑 广告拦截
   - DOMAIN-SUFFIX,punkiecrudded.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,punmciarskt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,punnisshaci.com,🛑 广告拦截
   - DOMAIN-SUFFIX,punoocke.com,🛑 广告拦截
   - DOMAIN-SUFFIX,punosy.best,🛑 广告拦截
   - DOMAIN-SUFFIX,punosy.com,🛑 广告拦截
@@ -20729,6 +21378,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pupilmudwort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pupilorgansmad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pupspu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,puqobfkghmyb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,purchasefastidiouswindfall.com,🛑 广告拦截
   - DOMAIN-SUFFIX,purchaserteddy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,purchasertormentscoundrel.com,🛑 广告拦截
@@ -20739,9 +21389,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,purpleflag.net,🛑 广告拦截
   - DOMAIN-SUFFIX,purplepatch.online,🛑 广告拦截
   - DOMAIN-SUFFIX,purplewinds.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,purposeolivebathtub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,purrbackground.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pursedistraught.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,pursualstums.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pursuedfourteenth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pursuesananite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pursuingconjunction.com,🛑 广告拦截
@@ -20752,6 +21402,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pusfcjwfdon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,push-news.org,🛑 广告拦截
   - DOMAIN-SUFFIX,push-sdk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,push-subservice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,push.house,🛑 广告拦截
   - DOMAIN-SUFFIX,push2check.com,🛑 广告拦截
   - DOMAIN-SUFFIX,push77-sdk.com,🛑 广告拦截
@@ -20782,8 +21433,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pusherism.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushgaga.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushimer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pushimg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushinpage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushkav.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pushking.net,🛑 广告拦截
   - DOMAIN-SUFFIX,pushlapush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushlaram.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pushlarr.com,🛑 广告拦截
@@ -20895,8 +21548,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,q8ntfhfngm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,q99i1qi6.de,🛑 广告拦截
   - DOMAIN-SUFFIX,qa24ljic4i.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qads.io,🛑 广告拦截
   - DOMAIN-SUFFIX,qadserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qadservice.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qagkyeqxv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qajigu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qajvfiqafqto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qalruhvcoa.com,🛑 广告拦截
@@ -20910,6 +21565,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qawxtenkeo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qbkzvophvva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qbnanpdjuldqegd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qbqzbzbzzzjjb.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,qbrrrlawwrvbv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qcffrrsyaxcccx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qcigbljyenh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qcmjdptyikwf.xyz,🛑 广告拦截
@@ -20941,9 +21598,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qifvupoxxo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qifwpepixziv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qinvaris.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qiqgvcrnhwc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qituduwios.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qivaiw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qiviutsdextran.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qizjkwx9klim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qjpotvwljgw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qjwglnuwqvr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qkouawnjejedvno.xyz,🛑 广告拦截
@@ -20957,6 +21616,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qlspx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qlyunjqcyvx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qmihajdixr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qmqjvreqwywbk.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,qmrwbzwalrmry.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,qmvnrvjeyyzna.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,qmykwjryyrrjj.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qn-5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qnsr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qoaaa.com,🛑 广告拦截
@@ -20972,7 +21635,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qpeadbmaql.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qpeoctxiqaxw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qpixxezhwwoc.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qppq166n.de,🛑 广告拦截
   - DOMAIN-SUFFIX,qqqwes.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qqyqeqqmqrybb.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qr-captcha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qrclevrfjw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qreakingoutinteah.xyz,🛑 广告拦截
@@ -20984,7 +21649,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qservz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qsiuiwnh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qtbb6.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,qthynj2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qtimowbaqnd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qtspkqzn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qtuwrazawtpa.com,🛑 广告拦截
@@ -20995,6 +21659,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,quadhu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,quadrupleclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,quaewit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,quailnude.com,🛑 广告拦截
   - DOMAIN-SUFFIX,quakesalamat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qualifycleaveinduced.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qualitiesyoung.com,🛑 广告拦截
@@ -21038,6 +21703,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,quikgzfisiodk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,quilescornual.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,quillyatik.digital,🛑 广告拦截
+  - DOMAIN-SUFFIX,quinatedating.top,🛑 广告拦截
   - DOMAIN-SUFFIX,quinizechoel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,quite-bag-seed-catch.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,quitelyhabitat.com,🛑 广告拦截
@@ -21058,6 +21724,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qvjpjsglmvhcbv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qvol.tv,🛑 广告拦截
   - DOMAIN-SUFFIX,qwa3ldhn9u0t.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,qwaapgxfahce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qwerfdx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qwertytracks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qwtag.com,🛑 广告拦截
@@ -21096,8 +21763,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,radiancewoebun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,radiantskilled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,radicalverdictreview.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,radied.com,🛑 广告拦截
   - DOMAIN-SUFFIX,radiusfellowship.com,🛑 广告拦截
   - DOMAIN-SUFFIX,radiusmarketing.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,raferu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raftybuts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rafvertizing.crazygames.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rag3ca7t5amubr8eedffin.com,🛑 广告拦截
@@ -21113,6 +21782,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,raicabuy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,raiglihi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,raijoolu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,railingconveniencesabattoir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raillimp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,railroadfatherenlargement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rainbending.com,🛑 广告拦截
@@ -21131,6 +21801,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rallyexpirehide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rallynabdoomed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rameejour.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rammagepatagia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rammersdarvon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rammishruinous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ramosz.lol,🛑 广告拦截
@@ -21171,6 +21842,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rasahick.space,🛑 广告拦截
   - DOMAIN-SUFFIX,rascalsgiantry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rashparron.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,rashtiprimomo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rasorescampout.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raspedexsculp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raspiernauseas.com,🛑 广告拦截
@@ -21179,7 +21851,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ratebilaterdea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rathelycornett.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ratherdroverather.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,rathergist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ratingberglet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rationalan.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,ratitaebajau.com,🛑 广告拦截
@@ -21192,6 +21863,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,raujurum.net,🛑 广告拦截
   - DOMAIN-SUFFIX,raukaury.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raunowhy.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,raupothrepe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,raupsica.net,🛑 广告拦截
   - DOMAIN-SUFFIX,raupsoap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rausougo.net,🛑 广告拦截
@@ -21224,6 +21896,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rcblkkhfvrxyn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rceottoqgark.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rcf3occ8.de,🛑 广告拦截
+  - DOMAIN-SUFFIX,rcpadatlgn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rcpttankert.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rcuacroossonek.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rcurn.com,🛑 广告拦截
@@ -21277,18 +21950,21 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rearedimmortal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rearerstombs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reariikosin.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rearmhoulet.uno,🛑 广告拦截
+  - DOMAIN-SUFFIX,reaseinprofitstefu.info,🛑 广告拦截
   - DOMAIN-SUFFIX,reasonablelandmark.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reasonableoakdejection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reasoningarcherassuage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reasus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reate.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,reautecryable.life,🛑 广告拦截
   - DOMAIN-SUFFIX,rebakeassets.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebakedenosist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebaterremass.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,rebbredbe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebillsegomism.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebindskayoes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebiraert.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rebrand.ly,🛑 广告拦截
   - DOMAIN-SUFFIX,rebrea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebrew-foofteen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rebrickstowp.com,🛑 广告拦截
@@ -21314,6 +21990,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,recipesunny.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reciprocaldandy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reciprocaldowntownabout.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,reciteimplacablepotato.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reckinbuttiten.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,recklessliver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,recklessmarine.com,🛑 广告拦截
@@ -21329,6 +22006,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,recommendedseizedbewildered.com,🛑 广告拦截
   - DOMAIN-SUFFIX,recompensecombinedlooks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reconsiderallowinggunfire.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,record.rizk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,recordeditionneedful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,recorderbenefactortriggers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,recordervesttasting.com,🛑 广告拦截
@@ -21358,11 +22036,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,redeemlesson.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redeemspectacular.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redewdit.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,redi.teengirl-pics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redic.net,🛑 广告拦截
   - DOMAIN-SUFFIX,redic2.net,🛑 广告拦截
   - DOMAIN-SUFFIX,redic3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redic4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redic5.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,redic6.site,🛑 广告拦截
   - DOMAIN-SUFFIX,redij.online,🛑 广告拦截
   - DOMAIN-SUFFIX,redir4.net,🛑 广告拦截
   - DOMAIN-SUFFIX,redir9.net,🛑 广告拦截
@@ -21376,7 +22056,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,redlmewheni.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,redonetype.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redoutcomecomfort.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,redouthicks.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,redri.net,🛑 广告拦截
   - DOMAIN-SUFFIX,redriesoxyaena.com,🛑 广告拦截
   - DOMAIN-SUFFIX,redrootprotyle.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,redrotou.net,🛑 广告拦截
@@ -21400,10 +22080,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,refbanners.com,🛑 广告拦截
   - DOMAIN-SUFFIX,refbanners.website,🛑 广告拦截
   - DOMAIN-SUFFIX,refdomain3.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,referencepronounce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,refilednisi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,refilmsreeper.website,🛑 广告拦截
   - DOMAIN-SUFFIX,reflectedintegrity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reflectingscoopcourse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,reflectionsidewalk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reflexalright.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reflushneuma.com,🛑 广告拦截
   - DOMAIN-SUFFIX,refnippod.com,🛑 广告拦截
@@ -21455,6 +22137,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,regulationstudents.com,🛑 广告拦截
   - DOMAIN-SUFFIX,regulushamal.top,🛑 广告拦截
   - DOMAIN-SUFFIX,regume.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rehanggepoun.space,🛑 广告拦截
   - DOMAIN-SUFFIX,rehealfilao.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rehearsemeltdownrust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rehearsepouredhysteria.com,🛑 广告拦截
@@ -21466,7 +22149,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,reindaks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reinstandpointdumbest.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reitb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,reivereme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rejco2.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,rejco3.site,🛑 广告拦截
   - DOMAIN-SUFFIX,rejoineddivertoverwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rekipion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reklamko.pro,🛑 广告拦截
@@ -21500,6 +22185,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,reluraun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,remainingshook.com,🛑 广告拦截
   - DOMAIN-SUFFIX,remainttalenty.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,remarkablehorizontallywaiter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,remarkablyson.com,🛑 广告拦截
   - DOMAIN-SUFFIX,remaysky.com,🛑 广告拦截
   - DOMAIN-SUFFIX,remedyabruptness.com,🛑 广告拦截
@@ -21549,7 +22235,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,replacementreluctance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,replacestuntissue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,replase.cf,🛑 广告拦截
+  - DOMAIN-SUFFIX,replif.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reporo.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,report1.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,reportsnail.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reposemarshknot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,reposesyaffil.live,🛑 广告拦截
@@ -21602,6 +22290,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,resigndictationhorns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resignedsauna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resilesfuriant.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,resinyanthdia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resistcorrectly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resistsarcasm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resizerlooch.com,🛑 广告拦截
@@ -21616,6 +22305,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,resourceswhistlingmore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,respectablecharacteristicrider.com,🛑 广告拦截
   - DOMAIN-SUFFIX,respectfullysavvy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,respectivewalrus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,respectlodgingfoil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,respireyowl.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,respondenemy.com,🛑 广告拦截
@@ -21626,6 +22316,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,responsivefebruary.com,🛑 广告拦截
   - DOMAIN-SUFFIX,responsiverender.com,🛑 广告拦截
   - DOMAIN-SUFFIX,restartburgerremembrance.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,restauranthedwig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,resteepmucedin.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,restights.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,restisbench.com,🛑 广告拦截
@@ -21656,6 +22347,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,retireblotch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,retiremely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,retiringmartialaunt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,retiringspamformed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,retiringvarieties.com,🛑 广告拦截
   - DOMAIN-SUFFIX,retoldcocama.com,🛑 广告拦截
   - DOMAIN-SUFFIX,retono42.us,🛑 广告拦截
@@ -21755,6 +22447,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rhungs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rhvdsplm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rhxdsplm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rhymerhaysel.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,rhythmmassacre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rhythmxchange.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rhytic.com,🛑 广告拦截
@@ -21772,21 +22465,22 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,richads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,richardenlightenfervent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,richcatis.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,richensapient.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,richersitfast.life,🛑 广告拦截
   - DOMAIN-SUFFIX,richinfo.co,🛑 广告拦截
   - DOMAIN-SUFFIX,richtwist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,richwebmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rickerrotal.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,rickingrulings.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ricted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rictritor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,riddenyapocks.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,ridesbeerbabes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ridgephysique.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ridgescrapstadium.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ridiculousatta.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ridingintractable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ridseechiph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ridsilry.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,rielturuxrm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,riffsablaze.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,rifice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,riftindexesyourself.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rigelbetelgeuse.top,🛑 广告拦截
@@ -21794,6 +22488,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rightenedetu.site,🛑 广告拦截
   - DOMAIN-SUFFIX,righteouscentral.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rightfuldisintegrate.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rightfullyrosyvalve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rightsapphiresand.info,🛑 广告拦截
   - DOMAIN-SUFFIX,rightypulverizetea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rigiddepth.com,🛑 广告拦截
@@ -21849,11 +22544,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,riteseated.com,🛑 广告拦截
   - DOMAIN-SUFFIX,riverhit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,riverhita.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,riverhitc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,riverpush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rivetrearrange.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rivne.space,🛑 广告拦截
   - DOMAIN-SUFFIX,rixaka.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rjhiomohthqr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rjw4obbw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rkfodhkxmf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rkgwzfwjgk.com,🛑 广告拦截
@@ -21862,12 +22557,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rkykhuadppmi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rlaa.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rlcdn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rldnbareeno.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rlfqwlstxhq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rlittleboywhowas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rlivhtenqapsew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rljybcormiv.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rlmzamwlixptns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rlomivunesqal.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,rlufkxdc.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rlrekuaonqt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rlvvakyuipqbl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rmbmsqtryo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rmbn.net,🛑 广告拦截
@@ -21914,6 +22611,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,robunderstanding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,robustcutlery.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rocept.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rochesterbranchessniffing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rockdriller.top,🛑 广告拦截
   - DOMAIN-SUFFIX,rocketdashedjoining.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rocketlinks.ru.com,🛑 广告拦截
@@ -21932,6 +22630,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,roebuckwagged.com,🛑 广告拦截
   - DOMAIN-SUFFIX,roelikewimpler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,roesdwaibly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rof77skt5zo0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rog4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,roiapp.net,🛑 广告拦截
   - DOMAIN-SUFFIX,roikingdom.com,🛑 广告拦截
@@ -21939,12 +22638,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,roinduk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,roiughttohimhe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rokreeza.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rollbackhear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rollbaralit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rollerdisrespect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rollmeout.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rollobscurewoke.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rollserver.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rolltrafficroll.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,romagetukio.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,romance-net.com,🛑 广告拦截
   - DOMAIN-SUFFIX,romancemind.com,🛑 广告拦截
   - DOMAIN-SUFFIX,romaninformcompensate.com,🛑 广告拦截
@@ -21960,6 +22660,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rompercava.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rompuwit.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ronatorda.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ronionbiretta.space,🛑 广告拦截
   - DOMAIN-SUFFIX,ronrecheclo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ronrecheclo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,roofprison.com,🛑 广告拦截
@@ -21973,6 +22674,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rootzaffiliates.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ropedsawwort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ropemoon.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rordukinarilyhuke.info,🛑 广告拦截
   - DOMAIN-SUFFIX,roredi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rorgoops.com,🛑 广告拦截
   - DOMAIN-SUFFIX,roripagrolier.com,🛑 广告拦截
@@ -22033,7 +22735,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rovno.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rowansportstriped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rowdiersnary.uno,🛑 广告拦截
-  - DOMAIN-SUFFIX,rowdyfleamy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rowensalmner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rowfeedire.casa,🛑 广告拦截
   - DOMAIN-SUFFIX,rowlnk.com,🛑 广告拦截
@@ -22060,6 +22761,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rrjnjnioxfbqaj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rrtwda9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rrvwvcgnsu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,rrwmyijgm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rryjpogin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rs-stripe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rsalcau.com,🛑 广告拦截
@@ -22084,16 +22786,17 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rtbdnav.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbfit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbget.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,rtbhouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbidder.net,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbix.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbldisubeignb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbnowads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbpop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbpopd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rtbrenab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbrennab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbstream.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbsuperhub.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rtbsystem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbsystem.org,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbterra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rtbtracking.com,🛑 广告拦截
@@ -22133,6 +22836,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ruckletawpy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rudderaxis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ruddy-option.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,rudemembership.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,rudemend.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rudimentarynuisancesynchronize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rudzz.com,🛑 广告拦截
@@ -22224,6 +22928,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ryaswhilock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rycuvaphy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rydresa.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,rykwyoaeaamhykw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ryminos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rympsxilkdqywd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ryntmyhahy.com,🛑 广告拦截
@@ -22233,6 +22938,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rzanrytwcx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rzawugotwc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rzneekilff.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rzzqhhoim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,s-adzone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,s.0cf.io,🛑 广告拦截
   - DOMAIN-SUFFIX,s0cool.net,🛑 广告拦截
@@ -22356,6 +23062,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sandcomemunicat.info,🛑 广告拦截
   - DOMAIN-SUFFIX,sandelf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sandflyligules.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sandyconference.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sanggilregard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sangogne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sanhitaamerce.uno,🛑 广告拦截
@@ -22371,6 +23078,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sapiaostremma.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sapsixysho.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,saptiledispatch.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,saptorge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sarafpdu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sarcasticdismalconstrue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sarcineamender.store,🛑 广告拦截
@@ -22381,6 +23089,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sarinjowel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sarsaretint.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sartolutus.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sas.arabshentai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sasinsetuid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sassilybombous.casa,🛑 广告拦截
   - DOMAIN-SUFFIX,sasujooceerg.com,🛑 广告拦截
@@ -22404,6 +23113,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,saunasisley.life,🛑 广告拦截
   - DOMAIN-SUFFIX,saunasupposedly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,saunutha.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,saupouni.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sauptoacoa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,saurug.com,🛑 广告拦截
   - DOMAIN-SUFFIX,saushoag.net,🛑 广告拦截
@@ -22411,7 +23121,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,savagelydestroyed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,savefromad.net,🛑 广告拦截
   - DOMAIN-SUFFIX,savingdownrightmitten.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,savingshyleg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,saviourketonic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,savtvkdny.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,saweatherco.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sawedhindgut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sawfishdiapsid.com,🛑 广告拦截
@@ -22431,9 +23143,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sbeforeuka.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sbfsdvc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sbhc.portalhc.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sbkuuzozlm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sbroiughttohi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sbscrma.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sbxsdvwfabvx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sbyqtugtfe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scadsstar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scadstech.com,🛑 广告拦截
@@ -22496,9 +23208,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,scoureroutcry.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,scoutdealingdrift.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scowpoppanasals.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,scptp1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scrankysickish.life,🛑 广告拦截
   - DOMAIN-SUFFIX,scrapebust.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,scrapethrillmostly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scratchy-deep.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,scratchy-kind.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,scrawny-pipe.com,🛑 广告拦截
@@ -22513,6 +23225,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,scrogrearm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scrollisolation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scrubheiress.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,scruis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scubaenterdane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scudspulsedrail.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sculledoxygens.com,🛑 广告拦截
@@ -22521,14 +23234,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,scythealready.com,🛑 广告拦截
   - DOMAIN-SUFFIX,scythesandwiches.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sda.seesaa.jp,🛑 广告拦截
+  - DOMAIN-SUFFIX,sda.seksohub.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdasasyydd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdbvveonb1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sddan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdeiqmltglx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sdg.desihamster.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,sdg.fwtrck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdhfbvd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdkfjxjertertry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdmfyqkghzedvx.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sdnihyxlqiws.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdnygannce.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdprsvbnj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sdsttt.com,🛑 广告拦截
@@ -22553,6 +23268,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,searchingfor.lol,🛑 广告拦截
   - DOMAIN-SUFFIX,searchmulty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,searchsecurer.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,seasslinger.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,seatedparanoiaenslave.com,🛑 广告拦截
   - DOMAIN-SUFFIX,seatsrehearseinitial.com,🛑 广告拦截
   - DOMAIN-SUFFIX,seayipsex.com,🛑 广告拦截
@@ -22565,6 +23281,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,secprf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,secrecysatisfy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,secrefurther.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,secretionforbearace.com,🛑 广告拦截
   - DOMAIN-SUFFIX,secruz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,secthatlead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sectordisturb.com,🛑 广告拦截
@@ -22586,6 +23303,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,secureleadsrn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,securely-send.com,🛑 广告拦截
   - DOMAIN-SUFFIX,securemoney.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,securescoundrel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,securesmrt-dt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,securesurf.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,sedatecompulsiveout.com,🛑 广告拦截
@@ -22640,13 +23358,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,semifiboolongs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,semigh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,semiglorifyseek.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,seminartacticshiking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,semirawbatter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,semsicou.net,🛑 广告拦截
   - DOMAIN-SUFFIX,semupgrjbnlhi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,semwtaanx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sendmepush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sength.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,senistgracy.life,🛑 广告拦截
   - DOMAIN-SUFFIX,sensationaleducate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sensematernityexcitement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,senseresound.com,🛑 广告拦截
@@ -22662,13 +23379,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sentimentalconflict.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,sentimentfitful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sentimenthypocrisy.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sentphysically.com,🛑 广告拦截
   - DOMAIN-SUFFIX,senufocaviar.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,seo-overview.com,🛑 广告拦截
   - DOMAIN-SUFFIX,separate-sing.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,separate-tie.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,separatecolonist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,separationreverttap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sephur.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sepstough.com,🛑 广告拦截
   - DOMAIN-SUFFIX,septfd2em64eber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sepubl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sequelswosbird.com,🛑 广告拦截
@@ -22686,6 +23404,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,serpenspilgrim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serumalkillow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serumbosses.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,serumlisp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serv-selectmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serv01001.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,servanttowns.com,🛑 广告拦截
@@ -22700,7 +23419,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,servehub.info,🛑 广告拦截
   - DOMAIN-SUFFIX,servenobid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serverbid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,serverdownload.space,🛑 广告拦截
   - DOMAIN-SUFFIX,servereplacementcycle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,serverfritterdisability.com,🛑 广告拦截
   - DOMAIN-SUFFIX,serversmatrixaggregation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,servetraff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,servg1.net,🛑 广告拦截
@@ -22719,7 +23440,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,setopsdata.com,🛑 广告拦截
   - DOMAIN-SUFFIX,setsdowntown.com,🛑 广告拦截
   - DOMAIN-SUFFIX,setsspreadenable.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,settlecohort.com,🛑 广告拦截
   - DOMAIN-SUFFIX,settlenice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,settlepineapple.com,🛑 广告拦截
   - DOMAIN-SUFFIX,settrogens.com,🛑 广告拦截
@@ -22764,8 +23484,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sgftrrs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sgrupontihecliff.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sgsincentlyse.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,sgvdqykfjuk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sgzhg.pornlovo.co,🛑 广告拦截
   - DOMAIN-SUFFIX,sh0w-me-h0w.net,🛑 广告拦截
   - DOMAIN-SUFFIX,sh0w-me-how.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,shabaiks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shabsaco.net,🛑 广告拦截
   - DOMAIN-SUFFIX,shackapple.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shadesincreasingcontents.com,🛑 广告拦截
@@ -22832,6 +23555,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sheerdaulpusher.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sheerlyballute.website,🛑 广告拦截
   - DOMAIN-SUFFIX,sheeroop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sheertep.net,🛑 广告拦截
   - DOMAIN-SUFFIX,sheetchi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,sheetvibe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sheglach.net,🛑 广告拦截
@@ -22840,7 +23564,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,shenouth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shepeekr.net,🛑 广告拦截
   - DOMAIN-SUFFIX,shereeflivish.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,shermore.info,🛑 广告拦截
   - DOMAIN-SUFFIX,sheschemetraitor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shexawhy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,shidn.com,🛑 广告拦截
@@ -22871,6 +23594,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,shiverscissors.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shlyapajhd2kle8pnc09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoabsie.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,shoageep.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoagooy.net,🛑 广告拦截
   - DOMAIN-SUFFIX,shoahoom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoawhom.com,🛑 广告拦截
@@ -22882,6 +23606,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,shodeenvier.life,🛑 广告拦截
   - DOMAIN-SUFFIX,shodeoaters.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoecamep.one,🛑 广告拦截
+  - DOMAIN-SUFFIX,shoeingneurone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoemakerlosecommission.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shoepacpretone.website,🛑 广告拦截
   - DOMAIN-SUFFIX,shoesammonia.com,🛑 广告拦截
@@ -22932,6 +23657,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,showingdoppia.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,showkhussak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,showmebars.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,shredassortmentmood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shredvealdone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shrewdoscular.com,🛑 广告拦截
   - DOMAIN-SUFFIX,shrewrotl.com,🛑 广告拦截
@@ -22999,6 +23725,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,silentinevitable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,silklanguish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,silkyslyness.life,🛑 广告拦截
+  - DOMAIN-SUFFIX,sillagoalgae.website,🛑 广告拦截
   - DOMAIN-SUFFIX,sillinessinterfere.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sillinessowner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sillinesssomemended.com,🛑 广告拦截
@@ -23061,6 +23788,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,siresouthernpastime.com,🛑 广告拦截
   - DOMAIN-SUFFIX,siressdrawly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sireundermineoperative.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sirianlucet.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,siriusprocyon.top,🛑 广告拦截
   - DOMAIN-SUFFIX,siroupwu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sirpmqmrrett.xyz,🛑 广告拦截
@@ -23086,6 +23814,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sizeilksohs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,siziermamas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sizzlerisoflor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sjevdjqhdmlelo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sjhfnmfki.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sjomilbedwarf.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,sjtactic.com,🛑 广告拦截
@@ -23098,7 +23827,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,skeletal-if.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,skeletonemail.com,🛑 广告拦截
   - DOMAIN-SUFFIX,skenedomains.digital,🛑 广告拦截
-  - DOMAIN-SUFFIX,skepcaranx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sketbhang.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,sketchflutter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sketchinferiorunits.com,🛑 广告拦截
@@ -23114,6 +23842,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,skillpropulsion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,skillsombineu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,skilyake.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,skimgrieved.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,skinkerjeez.com,🛑 广告拦截
   - DOMAIN-SUFFIX,skinnedunsame.com,🛑 广告拦截
   - DOMAIN-SUFFIX,skinneroverturn.com,🛑 广告拦截
@@ -23147,7 +23876,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,slashstar.net,🛑 广告拦截
   - DOMAIN-SUFFIX,slatnea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,slaughtergarageparttime.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,slave.kbjfree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,slaveforgetfulsneak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,slaverylavatoryecho.com,🛑 广告拦截
   - DOMAIN-SUFFIX,slavesenviablegrammar.com,🛑 广告拦截
@@ -23193,9 +23921,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,slipperyinside.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,slobcarpstun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sloeri.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sloi1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sloto.live,🛑 广告拦截
   - DOMAIN-SUFFIX,sloughybucayo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,slourenrib.top,🛑 广告拦截
   - DOMAIN-SUFFIX,slowdn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,slowinghardboiled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,slowww.xyz,🛑 广告拦截
@@ -23215,6 +23943,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,smaato.net,🛑 广告拦截
   - DOMAIN-SUFFIX,smachnakittchen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,smadex.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,smalh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,smallanybody.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,smallelboswore.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,smallerfords.com,🛑 广告拦截
@@ -23228,7 +23957,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,smarttopchain.nl,🛑 广告拦截
   - DOMAIN-SUFFIX,smartytech.io,🛑 广告拦截
   - DOMAIN-SUFFIX,smashnewtab.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,smashseek.com,🛑 广告拦截
   - DOMAIN-SUFFIX,smathe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,smearedbin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,smellytorment.com,🛑 广告拦截
@@ -23273,8 +24001,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,snappedelusive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snappy-examination.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,snaprosery.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,snarlleadenpsychology.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sneakyinfected.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,snarewholly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snebbubbled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snicherchitra.space,🛑 广告拦截
   - DOMAIN-SUFFIX,snipersex.com,🛑 广告拦截
@@ -23288,8 +24015,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,snorefamiliarsiege.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snorkremiss.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snortedbingo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,snortsfunge.space,🛑 广告拦截
   - DOMAIN-SUFFIX,snowdayonline.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,snowmiracles.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,snrcmgqe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snsv.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,sntjim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snugglethesheep.com,🛑 广告拦截
@@ -23297,6 +24026,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,snugslackmakeup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,snurpsermon.space,🛑 广告拦截
   - DOMAIN-SUFFIX,snwpqybkb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,so1cool.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,so333o.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soaheeme.net,🛑 广告拦截
   - DOMAIN-SUFFIX,soakrumouropposition.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soalonie.com,🛑 广告拦截
@@ -23323,6 +24054,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,socialvone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,socids.com,🛑 广告拦截
   - DOMAIN-SUFFIX,societybedevildecay.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,societypromisedanyhow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sociocast.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sociomantic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,socket.streamable.com,🛑 广告拦截
@@ -23331,6 +24063,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sodallay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sodamash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sodamidhankie.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sodiumrampcubic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sofcryingfo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sofcryingforanyt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soffitsfermal.guru,🛑 广告拦截
@@ -23370,6 +24103,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,solemnvine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,solestudious.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soliads.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,solicitorviewer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,solideaved.com,🛑 广告拦截
   - DOMAIN-SUFFIX,solidindexes.com,🛑 广告拦截
   - DOMAIN-SUFFIX,solidlyrotches.guru,🛑 广告拦截
@@ -23396,14 +24130,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,someonei.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,somethingalbumexasperation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,somethingprecursorfairfax.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,sometimesfaith.com,🛑 广告拦截
   - DOMAIN-SUFFIX,somevermedea.com,🛑 广告拦截
   - DOMAIN-SUFFIX,somewhatwideslimy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,somvprqshxr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,son-in-lawmorbid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,songtopbrand.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soninlawalmighty.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sonlgagba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sonnerie.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,sonnetkeltics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sonniesabreact.website,🛑 广告拦截
   - DOMAIN-SUFFIX,sonnyadvertise.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sonobi.com,🛑 广告拦截
@@ -23434,6 +24169,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sorroaconcupy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sorrowfulchemical.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sorrowfulmaybe.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,sorrycarboncolorful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sorryfearknockout.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sorryparlor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sortingwild.com,🛑 广告拦截
@@ -23449,6 +24185,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sounct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soundelktemper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,soupevents.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,soupteep.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,souptrip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sourne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sourtophulsean.space,🛑 广告拦截
@@ -23463,6 +24200,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spaceshipads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spacetraveldin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spaciouslanentablelanentablepigs.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,spaciousnavigablehenceforward.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spadeballroom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spaderonium.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spancelwielded.com,🛑 广告拦截
@@ -23472,7 +24210,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spaped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spargedunhot.website,🛑 广告拦截
   - DOMAIN-SUFFIX,spargegytling.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sparidssimps.life,🛑 广告拦截
   - DOMAIN-SUFFIX,sparkle-industries-i-205.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,sparklespaghetti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sparkling-decision.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,sparkrainstorm.host,🛑 广告拦截
   - DOMAIN-SUFFIX,sparksne.com,🛑 广告拦截
@@ -23501,6 +24241,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,specimenspeekzone.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spectacularidentifiers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spectato.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,specut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spediumege.com,🛑 广告拦截
   - DOMAIN-SUFFIX,speeb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,speechfountaindigestion.com,🛑 广告拦截
@@ -23508,9 +24249,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,speedilycartrigeglove.com,🛑 广告拦截
   - DOMAIN-SUFFIX,speedsagesleepy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,speedsupermarketdonut.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,speenphorbin.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,speedybethurgently.com,🛑 广告拦截
   - DOMAIN-SUFFIX,speermoving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spellingboothcourthouse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,spellingorganicbile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spellingreasoningexamine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spellingunacceptable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spellsvolume.com,🛑 广告拦截
@@ -23520,7 +24262,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spewsserved.website,🛑 广告拦截
   - DOMAIN-SUFFIX,spewyelks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sphegidsephen.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,spialsimilor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spicarhamn.website,🛑 广告拦截
   - DOMAIN-SUFFIX,spicygirlshere.life,🛑 广告拦截
   - DOMAIN-SUFFIX,spideramebian.com,🛑 广告拦截
@@ -23535,10 +24276,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spinbox.net,🛑 广告拦截
   - DOMAIN-SUFFIX,spinbox1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spinna.online,🛑 广告拦截
+  - DOMAIN-SUFFIX,spinna.shop,🛑 广告拦截
+  - DOMAIN-SUFFIX,spinna.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,spinna.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,spinna.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,spinsterremnantstooped.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spiralewiverns.website,🛑 广告拦截
   - DOMAIN-SUFFIX,spiralstab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spiritsflaker.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,spiritualinstalled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spitefulif.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,spitzeslamprey.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,spklmis.com,🛑 广告拦截
@@ -23554,7 +24300,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,splittingpick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,splodgydossing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spnut.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,spokanbrine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spokesmanlinedmercury.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spongecell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spongewoodenheroism.com,🛑 广告拦截
@@ -23590,6 +24335,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spreebogbean.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sprengaivr.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,sprettyruckus.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,spriedfines.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sprigsrecon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,springjaywolf.org,🛑 广告拦截
   - DOMAIN-SUFFIX,springraptureimprove.com,🛑 广告拦截
@@ -23606,6 +24352,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,spuggysorbol.website,🛑 广告拦截
   - DOMAIN-SUFFIX,spunkyuntiled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spurproteinopaque.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,spurttucky.website,🛑 广告拦截
   - DOMAIN-SUFFIX,sputil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,spyaiwvhfqmcy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,spybuildsoccasional.com,🛑 广告拦截
@@ -23619,7 +24366,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,squeamarundo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,squeezemicrowave.com,🛑 广告拦截
   - DOMAIN-SUFFIX,squeezesharedman.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,squeezeutteredcertainty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,squhtdqggvpx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,squinbested.com,🛑 广告拦截
   - DOMAIN-SUFFIX,squineeyuck.com,🛑 广告拦截
@@ -23633,6 +24379,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,srgev.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sridujhkagpe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,srigbxxv.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,srivtnyxoemfe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,srkhbdjgxyys.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,srodicham.com,🛑 广告拦截
   - DOMAIN-SUFFIX,srsihavelearn.xyz,🛑 广告拦截
@@ -23649,9 +24396,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ssfultraightd.one,🛑 广告拦截
   - DOMAIN-SUFFIX,sshopee.beauty,🛑 广告拦截
   - DOMAIN-SUFFIX,ssiapawz.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ssindserving.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sskmnews.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,ssl-services.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssl2anyone5.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ssllink.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ssp-theheartbidnet.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,ssqyuvavse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssurvey2you.com,🛑 广告拦截
@@ -23660,6 +24409,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stabam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stabilecordy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stabilityvatinventory.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stackadapt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stackattacka.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stadiumembezzlementoil.com,🛑 广告拦截
   - DOMAIN-SUFFIX,staffsumptuouscovetous.com,🛑 广告拦截
@@ -23696,6 +24446,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stargamesaffiliate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,starkhousing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,starkshrewd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,starmobmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,starry-galaxy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,starrybitter.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,starrygaj.com,🛑 广告拦截
@@ -23740,6 +24491,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stbvip.co,🛑 广告拦截
   - DOMAIN-SUFFIX,stbvip.net,🛑 广告拦截
   - DOMAIN-SUFFIX,stdirection.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ste23allas5ri6va.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steadydonut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steadyscubaparachute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steakdeteriorate.com,🛑 广告拦截
@@ -23748,6 +24500,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stealingattentions.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stealingprovisions.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stealthlockers.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,steamdespicable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steamlargelyjustified.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steamsorrowabbey.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stedsous.xyz,🛑 广告拦截
@@ -23773,6 +24526,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stepmotherincomingpluck.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steppedremold.com,🛑 广告拦截
   - DOMAIN-SUFFIX,steppesshirvan.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stereosuspension.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sterilecute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sternlythese.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stethydelicat.com,🛑 广告拦截
@@ -23796,7 +24550,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stiffenshave.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stiflerivers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stifletunnelsang.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stiftood.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,stigat.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stihruojvag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stiksaud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stilaikr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stilbmolted.com,🛑 广告拦截
@@ -23806,6 +24562,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stinglackingrent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stinkcomedian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stinkyloadeddoctor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stinkyrepetition.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stinternoctuae.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stipelyaya.live,🛑 广告拦截
   - DOMAIN-SUFFIX,stipestilths.com,🛑 广告拦截
@@ -23814,8 +24571,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stipulenibber.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stirringdecoctiononly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stismiqlqj.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stited.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stitly.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,stitue.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stitor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stiwhugn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,stixeepou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stized.com,🛑 广告拦截
@@ -23874,7 +24632,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,strapnetdisk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strategicattacksstudied.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strategicperplexanswered.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,straticjustice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stream-all.com,🛑 广告拦截
   - DOMAIN-SUFFIX,streaming-illimite5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,streampsh.top,🛑 广告拦截
@@ -23882,16 +24639,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,streamtoclick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,streamvideobox.com,🛑 广告拦截
   - DOMAIN-SUFFIX,streamyourvid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,streenoutrove.life,🛑 广告拦截
   - DOMAIN-SUFFIX,streetcoddiffident.com,🛑 广告拦截
   - DOMAIN-SUFFIX,streetupwind.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stremanp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,strengk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,strenuoustarget.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stressfulproperlyrestrain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stressfulsplash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stressfulsurroundingcomeback.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stretchearomission.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stretchedbarbarian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stretchedcreepy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stretchingcognitioncommission.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,stretchingfervid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strettechoco.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strewjaunty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strickenenergetic.com,🛑 广告拦截
@@ -23908,10 +24668,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stroveraved.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strowedatellan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,strownstramp.cam,🛑 广告拦截
+  - DOMAIN-SUFFIX,stroyerunfiery.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,strubmola.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,strumascarman.life,🛑 广告拦截
   - DOMAIN-SUFFIX,strungglancedrunning.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stthykerewasn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stuchoug.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stuckencouragedscalpel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stucktimeoutvexed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,studads.com,🛑 广告拦截
@@ -23923,6 +24685,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stuffedodiousmargin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stuffedprofessional.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stuffedstudy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,stuffserve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stugsoda.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stulsh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stunninglover.com,🛑 广告拦截
@@ -23934,6 +24697,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stvkr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,stylliyote.com,🛑 广告拦截
   - DOMAIN-SUFFIX,styrianauf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sub.empressleak.biz,🛑 广告拦截
+  - DOMAIN-SUFFIX,sub.xxx-porn-tube.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sub2.avgle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,subdatejutties.com,🛑 广告拦截
   - DOMAIN-SUFFIX,subdo.torrentlocura.com,🛑 广告拦截
@@ -23947,7 +24712,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,subpenaveinery.com,🛑 广告拦截
   - DOMAIN-SUFFIX,subsaltracon.top,🛑 广告拦截
   - DOMAIN-SUFFIX,subscribestormyapprobation.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,subseaprinker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,subsectivexe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,subsistgrew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,subsor.com,🛑 广告拦截
@@ -23963,6 +24727,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,successfulpatience.com,🛑 广告拦截
   - DOMAIN-SUFFIX,successionflimsy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,successivebaby.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,suchasricew.info,🛑 广告拦截
   - DOMAIN-SUFFIX,sucter.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suctionautomobile.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suctionspelts.com,🛑 广告拦截
@@ -23986,7 +24751,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,suggestedhappyspun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suggestionwallpaperhump.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suicidechapterspartnership.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,suinglygaggler.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suitbelongingoccasion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suitcasesimbue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suitcasessheriffpilgrim.com,🛑 广告拦截
@@ -23997,19 +24761,23 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sullageprofre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sulrejclbehh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sulseerg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sultrymercury.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sumbalowen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sumbreta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,summaryvalued.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,summercovert.com,🛑 广告拦截
   - DOMAIN-SUFFIX,summitchafeperilous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,summitdangle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,summonedessencetrap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sumperhelder.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sumpingaksic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sunbowskraal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suncenturyautumn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sundaeekphore.life,🛑 广告拦截
   - DOMAIN-SUFFIX,sundayceremonytitanic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sundayscrewinsulting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sundersetrgh.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,sunflowerbright106.io,🛑 广告拦截
   - DOMAIN-SUFFIX,sunflowerinformed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sungarnonsane.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sunglassesmentallyproficient.com,🛑 广告拦截
@@ -24054,13 +24822,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,supply.upjers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,supplysuede.com,🛑 广告拦截
   - DOMAIN-SUFFIX,support.streamjav.top,🛑 广告拦截
-  - DOMAIN-SUFFIX,supportivedistrustuldistrustulmaturity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,supportiveworking.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,supposereduction.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suppressparticular.com,🛑 广告拦截
   - DOMAIN-SUFFIX,supranarchy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,suptur.online,🛑 广告拦截
   - DOMAIN-SUFFIX,surahsbimas.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,surclebodily.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,surecheapermoisture.com,🛑 广告拦截
   - DOMAIN-SUFFIX,surechieflyrepulse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,surediscourageconcerning.com,🛑 广告拦截
@@ -24071,6 +24839,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,surfedlattins.com,🛑 广告拦截
   - DOMAIN-SUFFIX,surfierunreel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,surfmdia.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,surfturbanillegible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,surge.systems,🛑 广告拦截
   - DOMAIN-SUFFIX,surgermystem.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,suricatchino.space,🛑 广告拦截
@@ -24130,6 +24899,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,swarmpush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swatad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swaycomplymishandle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,swayersnoance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swaypedigreeresolve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swearanalogous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sweaterwarmly.com,🛑 广告拦截
@@ -24161,6 +24931,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,swisherplacard.space,🛑 广告拦截
   - DOMAIN-SUFFIX,swisstoothpastelipstick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swivinglydite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,swlkdqlcx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swoezdra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,swoodlander.site,🛑 广告拦截
   - DOMAIN-SUFFIX,swoopreprehensiblehandled.com,🛑 广告拦截
@@ -24201,11 +24972,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,synthesisvariables.com,🛑 广告拦截
   - DOMAIN-SUFFIX,syphilohmmaging.site,🛑 广告拦截
   - DOMAIN-SUFFIX,syrill.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,syringaburan.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,syringeitch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,syrsple2se8nyu09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,syruphamster.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sysdmt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,system-notify.app,🛑 广告拦截
+  - DOMAIN-SUFFIX,systemengagedwisely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,systemhostess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,systemleadb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sywhytsln.xyz,🛑 广告拦截
@@ -24287,9 +25060,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,talerselrage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,talesapricot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,talipeshorst.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,talkingwinquarry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,talkmego.com,🛑 广告拦截
   - DOMAIN-SUFFIX,talliedhorrors.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,tallowstwangle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tallwhilstinventory.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tallyhoquires.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tallysaturatesnare.com,🛑 广告拦截
   - DOMAIN-SUFFIX,talrahot.net,🛑 广告拦截
@@ -24319,6 +25094,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tapprove.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,taprtopcldfa.co,🛑 广告拦截
   - DOMAIN-SUFFIX,taprtopcldfard.co,🛑 广告拦截
+  - DOMAIN-SUFFIX,taprtopcldfb.co,🛑 广告拦截
   - DOMAIN-SUFFIX,tapsirsa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,taraponrigodon.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,tareinlettartar.com,🛑 广告拦截
@@ -24348,6 +25124,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,taughtwandamazingly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taulajobarbe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taurinkimonos.uno,🛑 广告拦截
+  - DOMAIN-SUFFIX,taurse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tautcare.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,tautenstapetta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tauvoojo.net,🛑 广告拦截
@@ -24356,6 +25133,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tawpykheda.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tawrzic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taxedborley.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,taxmenredug.top,🛑 广告拦截
   - DOMAIN-SUFFIX,taxodiu2m2dis7tichum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taxpillsqueal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taxwaxhurlock.store,🛑 广告拦截
@@ -24368,6 +25146,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tcaadwa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tcadserver.rain-digital.ca,🛑 广告拦截
   - DOMAIN-SUFFIX,tcaochocskid.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tcaukthwaalsoex.info,🛑 广告拦截
   - DOMAIN-SUFFIX,tcgehkuyoblgg.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tchinaprecenta.info,🛑 广告拦截
   - DOMAIN-SUFFIX,tcjyhblfmcl.xyz,🛑 广告拦截
@@ -24447,9 +25226,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,telegramspun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,teleostrodmen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,telephoneinclination.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,telescopepigs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,telescopespinal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,televeniesuc.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,televoxretoast.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,telingabureaus.top,🛑 广告拦截
   - DOMAIN-SUFFIX,telinteredlmewhl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,telllwrite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tellmadeirafireplace.com,🛑 广告拦截
@@ -24489,6 +25270,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tentorycomales.space,🛑 广告拦截
   - DOMAIN-SUFFIX,teracent.net,🛑 广告拦截
   - DOMAIN-SUFFIX,teracreative.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,teraiwaxing.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,terbaru.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,terciogouge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terialnevitiesini.com,🛑 广告拦截
@@ -24499,6 +25281,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,terperbelomo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terra8nb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terraceevident.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,terracehypnotize.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terraclicks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terrainslive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,terralink.xyz,🛑 广告拦截
@@ -24526,8 +25309,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tffkroute.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tfiph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tfla.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,tfmkdrcjpcdf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tfosrv.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,tfovmbclzpekgb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tgandmotiv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tgandmotivat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tgfqtwlwts.com,🛑 广告拦截
@@ -24540,10 +25323,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thaickoo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thaidrix.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thaidsir.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,thaifteg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thaighee.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thaignax.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thaiguxu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thaistiboa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thaiwhou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thale-ete.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thalto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thalubse.net,🛑 广告拦截
@@ -24563,11 +25348,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thatobjective.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,thaudray.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thauftoa.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,thautept.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thautsie.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thauzauw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thaveksi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thawbootsamplitude.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thawheek.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thayed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thaz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thbum.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,theactualnewz.com,🛑 广告拦截
@@ -24598,7 +25385,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,theftreplica.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thegntabooed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thegoodcaster.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,theheartbiddotnetssp2022.monster,🛑 广告拦截
   - DOMAIN-SUFFIX,thehotposts.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thehypenewz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,theirsvendor.com,🛑 广告拦截
@@ -24646,12 +25432,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thetchaixoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thethesmah.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thethesmahat.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thetoptrust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,theusualsuspects.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,theusualsuspectz.biz,🛑 广告拦截
   - DOMAIN-SUFFIX,theweblocker.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thewhizmarketing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thewowfeed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thewscozier.uno,🛑 广告拦截
+  - DOMAIN-SUFFIX,theyenglory.guru,🛑 广告拦截
+  - DOMAIN-SUFFIX,thgebtibfyry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thibetamylum.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thick-ruin.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,thickbabysittinghandled.com,🛑 广告拦截
@@ -24676,6 +25465,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thirab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thiraq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,third-tracking.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thirdreasoncomplex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thirtmarie.website,🛑 广告拦截
   - DOMAIN-SUFFIX,thiscdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thiscombinationdecorated.com,🛑 广告拦截
@@ -24700,6 +25490,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thonggrassdependant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thongrooklikelihood.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thongsalhagi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thongwarily.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thoogleeds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thoomsay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thoorest.com,🛑 广告拦截
@@ -24718,12 +25509,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,thoughtfulcontroversy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thoughtleadr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thoughtsusta.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,thoughtthricecompress.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thouhoom.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thoupsou.net,🛑 广告拦截
   - DOMAIN-SUFFIX,thousandfalteralbeit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thousandfixedlyyawn.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,thrate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thraxgawks.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,threadbare-inspection.com,🛑 广告拦截
   - DOMAIN-SUFFIX,threatdetect.org,🛑 广告拦截
@@ -24732,8 +25521,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,threeinters.com,🛑 广告拦截
   - DOMAIN-SUFFIX,threwdownth.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,thrfqwvqvwidryh.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,thricemodestsuffix.com,🛑 广告拦截
   - DOMAIN-SUFFIX,thrillingblindly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,thrivenrewired.life,🛑 广告拦截
   - DOMAIN-SUFFIX,thriveradioactivecheers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,throgetfd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,throngsarseno.com,🛑 广告拦截
@@ -24769,9 +25558,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ti.tradetracker.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ti583.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tianmel.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,tiaraedmessing.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,tiarasorthose.website,🛑 广告拦截
   - DOMAIN-SUFFIX,tibacta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tibbujo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tibcpowpiaqv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tibertannoy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tic-tic-bam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tic-tic-toc.com,🛑 广告拦截
@@ -24789,11 +25580,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tictocswended.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tidaltv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tideairtight.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tidigrated.space,🛑 广告拦截
   - DOMAIN-SUFFIX,tidint.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,tidual.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tidy-mark.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tidyclient.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,tidyinglionesscoffee.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tidyingpreludeatonement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tierbignews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tiesmaritalkidnap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tiffanypinworm.tech,🛑 广告拦截
@@ -24835,6 +25628,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,timetoagree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,timingaskew.com,🛑 广告拦截
   - DOMAIN-SUFFIX,timingbitternessgreasy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,timot-cvk.info,🛑 广告拦截
   - DOMAIN-SUFFIX,timoteonager.com,🛑 广告拦截
   - DOMAIN-SUFFIX,timpanosheng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,timsxwvkrlit.com,🛑 广告拦截
@@ -24850,6 +25644,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tingshospical.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tinkerta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tinkerwidth.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tinmanernst.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tinsupposedlycinnamon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tinsus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tintedparticular.com,🛑 广告拦截
@@ -24883,9 +25678,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,titlerwilhelm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,titlin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,titoaktop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,titsandtits.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tittyptinoid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,titvrbob.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tiwhaiph.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,tizadumbed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tjavravj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tjgpeswdkrym.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tjhpsylyxdfov.xyz,🛑 广告拦截
@@ -24995,6 +25792,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tool.acces-vod.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toolsthwartgrim.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toolsyjejune.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,toolsyjejunen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toomeepi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,toonoost.net,🛑 广告拦截
   - DOMAIN-SUFFIX,toorebutheh.xyz,🛑 广告拦截
@@ -25027,6 +25825,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,topfreenewsfeeds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,topiccorruption.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toplinkz.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,topmoststramp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,topmusicalcomedy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,topnewadsgroup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,topnews-24.com,🛑 广告拦截
@@ -25103,9 +25902,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,toutingmatelow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tovanillitechan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tovespiquener.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,towardsmainlandpermissible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,towardsturtle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,towdpdn.store,🛑 广告拦截
-  - DOMAIN-SUFFIX,towmonterses.com,🛑 广告拦截
   - DOMAIN-SUFFIX,towtinsel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toxicrookie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toykifojsyufdba.xyz,🛑 广告拦截
@@ -25144,8 +25943,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trackad2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trackapi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,trackcapitalvane.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tracker-2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tracker-tds.info,🛑 广告拦截
   - DOMAIN-SUFFIX,tracker-tds.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,tracker-tds.top,🛑 广告拦截
   - DOMAIN-SUFFIX,tracker-tds2.site,🛑 广告拦截
   - DOMAIN-SUFFIX,tracker19875.space,🛑 广告拦截
   - DOMAIN-SUFFIX,tracker2.space,🛑 广告拦截
@@ -25158,7 +25959,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trackpush.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tracks20.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trackspeeder.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,trackstracker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tracksystem.online,🛑 广告拦截
+  - DOMAIN-SUFFIX,tracktds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tracktraf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trackvbmobs.click,🛑 广告拦截
   - DOMAIN-SUFFIX,trackvoluum.com,🛑 广告拦截
@@ -25192,6 +25995,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trafficmoose.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trafficportsrv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trafficshop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,traffictraders.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trafiq.loan,🛑 广告拦截
   - DOMAIN-SUFFIX,trafiq.stream,🛑 广告拦截
   - DOMAIN-SUFFIX,trafiq.trade,🛑 广告拦截
@@ -25207,12 +26011,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trainsrolldrunken.com,🛑 广告拦截
   - DOMAIN-SUFFIX,traiss.com,🛑 广告拦截
   - DOMAIN-SUFFIX,traitorpenthouse.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,trakaff.net,🛑 广告拦截
   - DOMAIN-SUFFIX,traktrafficflow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tramcontact.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tramemedea.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tramplayeranyd.info,🛑 广告拦截
   - DOMAIN-SUFFIX,tramshirethf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,trandlife.info,🛑 广告拦截
   - DOMAIN-SUFFIX,transactionlumber.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,transcriptobligegenerations.com,🛑 广告拦截
   - DOMAIN-SUFFIX,transformationwrecking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,transformignorant.com,🛑 广告拦截
   - DOMAIN-SUFFIX,transitionfrenchdowny.com,🛑 广告拦截
@@ -25226,7 +26033,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trappedtree.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trarie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trashyfindconfront.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,traung.com,🛑 广告拦截
   - DOMAIN-SUFFIX,traveladvertising.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,travelledelkremittance.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,travelledpropagandaconveniences.com,🛑 广告拦截
   - DOMAIN-SUFFIX,travelscream.com,🛑 广告拦截
   - DOMAIN-SUFFIX,traveltop.org,🛑 广告拦截
   - DOMAIN-SUFFIX,traversefloral.com,🛑 广告拦截
@@ -25247,6 +26057,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,treatycalculator.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trebghoru.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trecurlik.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,trecut.com,🛑 广告拦截
   - DOMAIN-SUFFIX,treehundredarmament.com,🛑 广告拦截
   - DOMAIN-SUFFIX,treenghsas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,treeoutcry.com,🛑 广告拦截
@@ -25274,6 +26085,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,triadmedianetwork.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tribalfusion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tribalstrived.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,trickerseasan.top,🛑 广告拦截
   - DOMAIN-SUFFIX,tricklesmartdiscourage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trickylongaffliction.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trickyneotits.com,🛑 广告拦截
@@ -25282,23 +26094,27 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trienestooth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trifaosmous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trifaouthits.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,triflecardslouse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trifletonightanguish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,triflinguncertainforensic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,triflingzenithenergetic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trigami.com,🛑 广告拦截
   - DOMAIN-SUFFIX,triggerfrontagefaultless.com,🛑 广告拦截
   - DOMAIN-SUFFIX,triggersinclude.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,triglyheiled.website,🛑 广告拦截
   - DOMAIN-SUFFIX,trikerboughs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trim-goal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trimbrushed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trimpur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trinitywishful.com,🛑 广告拦截
   - DOMAIN-SUFFIX,triodiaimprasa.live,🛑 广告拦截
+  - DOMAIN-SUFFIX,tripledeliveryinstance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tripsthorpelemonade.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tritat3.info,🛑 广告拦截
   - DOMAIN-SUFFIX,tritishnowy.live,🛑 广告拦截
   - DOMAIN-SUFFIX,triumphantplace.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trizonemellite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,trjxehoxjcbxvuc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,trk-aspernatur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trk-consulatu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trk-epicurei.com,🛑 广告拦截
@@ -25318,12 +26134,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trkrdel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trkrspace.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trks.us,🛑 广告拦截
+  - DOMAIN-SUFFIX,trktcmdqko.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trkunited.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trlxcf05.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trmit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trmnsite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trmobc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trodpigbays.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,troduc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trokemar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trolleydryerfunds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trollsvide.com,🛑 广告拦截
@@ -25331,15 +26149,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tromairiememasdaq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trombocrack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,troncomelets.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,tronkwansith.com,🛑 广告拦截
   - DOMAIN-SUFFIX,troolyhonks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,troozescript.store,🛑 广告拦截
   - DOMAIN-SUFFIX,tropinpodgily.life,🛑 广告拦截
   - DOMAIN-SUFFIX,tropylskins.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trothko.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,trotletekphore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,troubled-stress.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,trowingbannock.com,🛑 广告拦截
   - DOMAIN-SUFFIX,trpohkfedwway.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,trpop.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,trtjigpsscmv9epe10.com,🛑 广告拦截
@@ -25388,7 +26203,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tsml.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,tspops.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tssandycateup.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,tsuze.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tswmel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tsyndicate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ttbm.com,🛑 广告拦截
@@ -25429,23 +26243,26 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tuboaxen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tubroaffs.org,🛑 广告拦截
   - DOMAIN-SUFFIX,tubury.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tucess.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuckbos.lol,🛑 广告拦截
   - DOMAIN-SUFFIX,tuckedhoroscopeforms.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuckerheiau.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuench.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuesdayfetidlit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuffetenolize.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tufteraureous.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,tugarmyindistinct.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tugust.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuitionpancake.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tujajnatzbmo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tujourda.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,tukipasti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuleceti.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tulipsameedge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tumblebit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tumedhan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tummeddomicil.space,🛑 广告拦截
   - DOMAIN-SUFFIX,tummingfass.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,tummyunmovedfetch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tumri.net,🛑 广告拦截
   - DOMAIN-SUFFIX,tumultmarten.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tunedanludb.xyz,🛑 广告拦截
@@ -25458,7 +26275,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tunuhap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuquesrefuser.website,🛑 广告拦截
   - DOMAIN-SUFFIX,tur-tur-key.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,turacousequent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,turbanmadman.com,🛑 广告拦截
   - DOMAIN-SUFFIX,turboadv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,turbocap.net,🛑 广告拦截
@@ -25483,16 +26299,19 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tuxbpnne.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuxedochard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tv1s4d6klh4n.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,tvbsfmswrjap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tvprocessing.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tvqqrycnutpp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tvxetxjvobm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twangedcored.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,twaonhcjwoaouj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twazzyoidwlfe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twdjklxt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tweenydone.website,🛑 广告拦截
   - DOMAIN-SUFFIX,tweeseconable.website,🛑 广告拦截
   - DOMAIN-SUFFIX,twentyalight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twentycustomimprovement.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,twentyqueen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twerwew.org,🛑 广告拦截
   - DOMAIN-SUFFIX,twiggycosmoid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twinadsrv.com,🛑 广告拦截
@@ -25515,6 +26334,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,twomughakmpi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twpasol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,twtad.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,twwp3.top,🛑 广告拦截
   - DOMAIN-SUFFIX,txcmjo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,txouliypi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,txzaazmdhtw.com,🛑 广告拦截
@@ -25568,12 +26388,16 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ubsjyqfek.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ubuwwswnceqmjtg.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ubygsworlow.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ucationinin.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ucconn.live,🛑 广告拦截
   - DOMAIN-SUFFIX,ucdn.website,🛑 广告拦截
+  - DOMAIN-SUFFIX,ucgnawffqess.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ucheephu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uchkzmzehr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,uchxtxel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uckbcroqkb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uckbrokennailsa.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ucteqibnblrjhpb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ucvscfrtrnbr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,udarem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,udbaa.com,🛑 广告拦截
@@ -25618,6 +26442,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ugricmoist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ugripaid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ugroocuw.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,ugyeon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ugyplysh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uhdokoq5ocmk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uhedsplo.com,🛑 广告拦截
@@ -25628,6 +26453,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uhpdsplo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uhsmmaq4l2n5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uhxmyqyevkcvit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ui02.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uidhealth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uidsync.net,🛑 广告拦截
   - DOMAIN-SUFFIX,uigruwtql.com,🛑 广告拦截
@@ -25651,10 +26477,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ukfareputfea.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ukiyoyechromy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ukmlastityty.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,ukndaspiratioty.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,uknsyenergyfle.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ukouckik.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ukqgrxlxvockj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ukrait.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ukrkskillsombine.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,uktureukworekt.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ul8seok7w5al.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ulalrars.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ulathana.com,🛑 广告拦截
@@ -25668,7 +26497,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ulminicbawty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ulmoyc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ulmxelnonbeao.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,ulnarptilota.website,🛑 广告拦截
   - DOMAIN-SUFFIX,uloadeeksurvey.space,🛑 广告拦截
   - DOMAIN-SUFFIX,ulourgaz.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ulrzovfukgkljw.com,🛑 广告拦截
@@ -25683,7 +26511,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ulukaris.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ulukdliketobeparto.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ululateguereza.life,🛑 广告拦截
-  - DOMAIN-SUFFIX,ulvjmynx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ulyhadchos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,umedadelempanyi.info,🛑 广告拦截
   - DOMAIN-SUFFIX,umekana.ru,🛑 广告拦截
@@ -25701,6 +26528,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unaces.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unafeed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unanimouslyrejectproperly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unaptsullens.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unarbokor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unauthorizedblur.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unawakegaleus.com,🛑 广告拦截
@@ -25711,16 +26539,20 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unbeedrillom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unblentnitric.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unblock2303.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,unblock2304.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,unbraidbrot.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,unbriefnothous.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unbroidsubtend.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unbuiltsabana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unbuiltteuchit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unbungrappee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unburstballist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unbuttondeferinstalment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unbuttontumorbaloney.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uncannyuneaths.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uncertainimprovementsspelling.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uncheckluggies.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unciat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uncide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unciet.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uncipi.com,🛑 广告拦截
@@ -25768,8 +26600,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unfainfraseirs.org,🛑 广告拦截
   - DOMAIN-SUFFIX,unfaithfulmakeryearly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unfieryneutral.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unfina.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unfinishedheir.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unflamewandoo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unfolded-economics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unforgivablegrowl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ungloomnisnas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ungolbator.com,🛑 广告拦截
@@ -25801,6 +26635,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unitionistana.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uniusclaws.com,🛑 广告拦截
   - DOMAIN-SUFFIX,universalflaskshrimp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,universityeminenceloosen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,universityofinternetscience.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unjoincaper.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unjointbobbed.com,🛑 广告拦截
@@ -25812,7 +26647,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unlawful-clock.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,unlawful-inspector.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unleftbawly.uno,🛑 广告拦截
-  - DOMAIN-SUFFIX,unlikelybeside.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unlika.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unlinedcap.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,unloadpoetry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unluxioer.com,🛑 广告拦截
@@ -25834,6 +26669,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unpleasantconcrete.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unpleasantlaugh.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,unpluguraemic.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unpred.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unpredictablehateagent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unrade.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unregisteredgrasppistol.com,🛑 广告拦截
@@ -25858,7 +26694,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unshinykerite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unsigilyphor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unskilfulknowingservers.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,unskilfulpossession.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unsnakybrulot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unspeakablepurebeings.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unspinaraka.com,🛑 广告拦截
@@ -25870,6 +26705,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,untapedbernoo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untiat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untidy-struggle.pro,🛑 广告拦截
+  - DOMAIN-SUFFIX,untidybrink.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untidyquestion.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untiedecide.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untifa.com,🛑 广告拦截
@@ -25892,6 +26728,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,unvanilluxer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unvenomtoxoids.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unwartortlean.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unwice.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unwillingsnick.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unwisecommence.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unwitting-phrase.pro,🛑 广告拦截
@@ -25927,6 +26764,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,upholdobstacleanthony.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uphovelodha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,upkoffingr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,uplandstoat.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,upleaptnavally.com,🛑 广告拦截
   - DOMAIN-SUFFIX,upliftsearch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uplinecliency.com,🛑 广告拦截
@@ -25965,11 +26803,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uptownrecycle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uptuwhum.net,🛑 广告拦截
   - DOMAIN-SUFFIX,upuflvbrotb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,upupoidoutjazz.website,🛑 广告拦截
   - DOMAIN-SUFFIX,upush.co,🛑 广告拦截
+  - DOMAIN-SUFFIX,upwaftssoland.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,upwardsdecreasecommitment.com,🛑 广告拦截
   - DOMAIN-SUFFIX,upwardunderground.com,🛑 广告拦截
   - DOMAIN-SUFFIX,upwate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,upwelf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,uqtwjvbc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,urambled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uranismunshore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,urbard.com,🛑 广告拦截
@@ -25986,6 +26827,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,urmavite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,urmilan.info,🛑 广告拦截
   - DOMAIN-SUFFIX,urogramredfins.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,urotoxykerch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,urryjgwqjo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ursonewry.com,🛑 广告拦截
   - DOMAIN-SUFFIX,urswellsgrp.xyz,🛑 广告拦截
@@ -26005,6 +26847,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,usefulhall.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,usefulhead.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usegzydswt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,usehol.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uselnk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usemyreferral.link,🛑 广告拦截
   - DOMAIN-SUFFIX,usenet.world,🛑 广告拦截
@@ -26015,12 +26858,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ushoofop.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usinesmycete.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,usingswhoring.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,usjbwvtqwv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uslycoloursewo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usnese.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usnindioxime.website,🛑 广告拦截
   - DOMAIN-SUFFIX,usounoul.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ussive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ussord.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ust-ad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ustithoo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ustive.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usuade.com,🛑 广告拦截
@@ -26031,6 +26876,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,usuallyblack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usualt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,usucaptlardoon.life,🛑 广告拦截
+  - DOMAIN-SUFFIX,usurerspoind.life,🛑 广告拦截
   - DOMAIN-SUFFIX,usurv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uszaodwya.com,🛑 广告拦截
   - DOMAIN-SUFFIX,utaitlastwebe.com,🛑 广告拦截
@@ -26046,6 +26892,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,utilitypresent.com,🛑 广告拦截
   - DOMAIN-SUFFIX,utilizedshoe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,utillib.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,utl-1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,utlhaoyc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,utmany.com,🛑 广告拦截
   - DOMAIN-SUFFIX,utmostsecond.com,🛑 广告拦截
@@ -26065,6 +26912,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uuidksinc.net,🛑 广告拦截
   - DOMAIN-SUFFIX,uulvtpbx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uuuwhrxqnf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,uuzlytbpmmhfm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uvbyty.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uviticketway.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uvoovoachee.com,🛑 广告拦截
@@ -26074,12 +26922,15 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uwoaptee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uxdfxyepfow.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uxdwhatijun.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,uxpascal.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,uxwnqppdma.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uyfpmhmqh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uyojnhqeipyb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uzelruth.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uzoamtee.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uzouptel.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uzoutche.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,uzqtbthkrqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,v00ske77693f.com,🛑 广告拦截
   - DOMAIN-SUFFIX,v100homemade.com,🛑 广告拦截
   - DOMAIN-SUFFIX,v28games2fan.com,🛑 广告拦截
@@ -26146,6 +26997,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,valuesgloryprovocation.com,🛑 广告拦截
   - DOMAIN-SUFFIX,valuethemarkets.info,🛑 广告拦截
   - DOMAIN-SUFFIX,valvalnumbest.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,valvedreknow.top,🛑 广告拦截
   - DOMAIN-SUFFIX,valvyre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vampedcortine.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vampersmutuary.com,🛑 广告拦截
@@ -26208,10 +27060,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vatname.info,🛑 广告拦截
   - DOMAIN-SUFFIX,vatois.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vattingbalak.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vaugaiva.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vaugroar.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vaultwrite.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vauwhusa.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vavcashpop.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vavilisys.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vawsmoocah.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vawulu.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vax-boost.com,🛑 广告拦截
@@ -26250,7 +27104,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,velmedia.net,🛑 广告拦截
   - DOMAIN-SUFFIX,velocecdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,velocitycdn.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,velteels.net,🛑 广告拦截
   - DOMAIN-SUFFIX,velvetneutralunnatural.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vemflutuartambem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vempozah.net,🛑 广告拦截
@@ -26259,6 +27112,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vendigamus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vendimob.pl,🛑 广告拦截
   - DOMAIN-SUFFIX,vendnibtemp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vendorsfacture.com,🛑 广告拦截
   - DOMAIN-SUFFIX,veneeringextremely.com,🛑 广告拦截
   - DOMAIN-SUFFIX,veneeringimpenetrable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,venetrigni.com,🛑 广告拦截
@@ -26322,6 +27176,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vfvdsati.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vfyxjsclor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vg4u8rvq65t6.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vgfeuwrewzzmc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vgsjapnjykapgq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vgw35hwr4w6x.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vgwtjbeqfpesefn.xyz,🛑 广告拦截
@@ -26385,6 +27240,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vidforclips.mom,🛑 广告拦截
   - DOMAIN-SUFFIX,vidforclips.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vidforclips.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,vidghjlgkuyfk.site,🛑 广告拦截
   - DOMAIN-SUFFIX,vids-fun.online,🛑 广告拦截
   - DOMAIN-SUFFIX,vidsfun.info,🛑 广告拦截
   - DOMAIN-SUFFIX,vidsfun.online,🛑 广告拦截
@@ -26404,6 +27260,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vignerez.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vigraghe.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vihub.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,viibill.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viicasu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viidan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viienetik.com,🛑 广告拦截
@@ -26412,27 +27269,39 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,viiigle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viiithia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viiithie.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viiithin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viiithio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viijah.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viimsa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viimurakhi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viinsdap.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viinset.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viipurin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viipuris.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viipurit.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viiqqou.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viirsons.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viisemblin.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viispan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viitgb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viitsical.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viiturn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viivedun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viiyblva.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viiymfvi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,viizuusa.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vikrak.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilelaaccable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilercarpetfolk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilereasoning.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viliaff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilinswell.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,villaedeinos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,villageeatable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,villasquinttolerance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilnhoowpom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vilowhmrea.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vimpatace.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,vinalsmuffish.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vinculastags.store,🛑 广告拦截
   - DOMAIN-SUFFIX,vindicosuite.com,🛑 广告拦截
@@ -26473,6 +27342,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,visiblegains.com,🛑 广告拦截
   - DOMAIN-SUFFIX,visiblejoseph.com,🛑 广告拦截
   - DOMAIN-SUFFIX,visiblemeasures.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,visitationdependwrath.com,🛑 广告拦截
   - DOMAIN-SUFFIX,visitingdeandwell.com,🛑 广告拦截
   - DOMAIN-SUFFIX,visitmightyethnic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,visitplaywrightlyrical.com,🛑 广告拦截
@@ -26490,6 +27360,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vitiumcranker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vitrealmandola.com,🛑 广告拦截
   - DOMAIN-SUFFIX,viviendoefelizz.online,🛑 广告拦截
+  - DOMAIN-SUFFIX,vivuple.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,viwthopfoakr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vixoafte.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vizacasa.xyz,🛑 广告拦截
@@ -26505,6 +27376,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vkosaqcacra.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vlitag.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vlnk.me,🛑 广告拦截
+  - DOMAIN-SUFFIX,vlqllpeevoch.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vlry5l4j5gbn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vmmcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vmraahnmspzy.com,🛑 广告拦截
@@ -26517,6 +27389,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vnrherdsxr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vntsm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vntsm.io,🛑 广告拦截
+  - DOMAIN-SUFFIX,vnvqoihbwgjqpa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,voacheph.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,voadeezu.net,🛑 广告拦截
   - DOMAIN-SUFFIX,voaglazy.com,🛑 广告拦截
@@ -26527,6 +27400,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vocalconferencesinister.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vocalreverencepester.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vocath.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vodjnqarncm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vodobyve.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,voeunblk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vogmlpzlnrj.com,🛑 广告拦截
@@ -26543,7 +27417,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,volcanoimplement.com,🛑 广告拦截
   - DOMAIN-SUFFIX,voldarinis.com,🛑 广告拦截
   - DOMAIN-SUFFIX,volna2babla1dh1.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,volumeearthquakedozen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,volunteerboutique.com,🛑 广告拦截
   - DOMAIN-SUFFIX,volunteerbrash.com,🛑 广告拦截
   - DOMAIN-SUFFIX,voluth.com,🛑 广告拦截
@@ -26584,16 +27457,21 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vpotyflfox.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vpqpbgvgly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vprtrfc.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vprwamqmdd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vptadv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vptbn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vqcjmtorgexlxpg.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vqjfiuwbqpvwrn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vraatdwugla.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vrbmhngqjh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vrfupfyu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vrhorus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vriddhiabrege.live,🛑 广告拦截
+  - DOMAIN-SUFFIX,vrsyd.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,vrtzads.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vs3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vsdxwtvsxp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vsgfjfsmcewnuhx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vskfeduxg.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vskngnldyl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vsnpfmoxb.xyz,🛑 广告拦截
@@ -26606,6 +27484,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vtaos.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vtaov.lol,🛑 广告拦截
   - DOMAIN-SUFFIX,vtaov.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,vtbrcixnca.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vtiipxfdtnkaau.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vtjfplukwxolkgw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vtrnpueqtqke.xyz,🛑 广告拦截
@@ -26647,6 +27526,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vxvjgsgqyee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vxxizaan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vyazd.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vyazmi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vycyqxnbrwz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vydfijoiw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vydwjwbul.xyz,🛑 广告拦截
@@ -26657,6 +27537,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vyoksdtdoc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vytans.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vywoxptqyqgex.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vz.7vid.net,🛑 广告拦截
   - DOMAIN-SUFFIX,vzigttqgqx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vzoosjtwatu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,w00f.net,🛑 广告拦截
@@ -26689,7 +27570,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wagersinging.com,🛑 广告拦截
   - DOMAIN-SUFFIX,waggonerchildrensurly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wagnal.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,wagoapse.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wahahespecked.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,wahoha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,waihoz.xyz,🛑 广告拦截
@@ -26764,6 +27644,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,washdaycalmly.com,🛑 广告拦截
   - DOMAIN-SUFFIX,washedinmate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,washergnome.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,washincozing.space,🛑 广告拦截
   - DOMAIN-SUFFIX,washinexhaustible.com,🛑 广告拦截
   - DOMAIN-SUFFIX,washpiggyabdomen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wasoffspring.com,🛑 广告拦截
@@ -26808,6 +27689,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,waveysfumbled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,waviatacloche.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wavingteenagecandle.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wavysnarlfollow.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wawadoga.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wawlingcuba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,waxaimg.info,🛑 广告拦截
@@ -26827,6 +27709,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wbidder.online,🛑 广告拦截
   - DOMAIN-SUFFIX,wbidder2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wbidder3.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wbidder311072023.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wbidr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wbilvnmool.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wboptim.online,🛑 广告拦截
@@ -26878,7 +27761,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,webcontentassessor.com,🛑 广告拦截
   - DOMAIN-SUFFIX,webfeetdaidled.com,🛑 广告拦截
   - DOMAIN-SUFFIX,webhit-now.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,webmadeblog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,webmedrtb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,webpfy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,webpinp.com,🛑 广告拦截
@@ -26892,6 +27774,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,weby.aaas.org,🛑 广告拦截
   - DOMAIN-SUFFIX,weceofcfmxtd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wechoong.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wecjdqpinrpaugf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wecouldle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,weddingtunequench.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wedflossbecause.com,🛑 广告拦截
@@ -26923,12 +27806,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,welfarefit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wellhello.com,🛑 广告拦截
   - DOMAIN-SUFFIX,welllwrite.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wellmadeabroad.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,wellmendorrs.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,wellmov.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wellnesszap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wellworn-term.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,weltercampe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,welved.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wemfpbtd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wempooboa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wenhat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wenher.com,🛑 广告拦截
@@ -26999,6 +27884,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wheers.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wheeshoo.net,🛑 广告拦截
   - DOMAIN-SUFFIX,wheestop.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,wheetlemetreza.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wheftouw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,whelia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whelsumt.com,🛑 广告拦截
@@ -27016,6 +27902,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,whertinu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whethermondos.digital,🛑 广告拦截
   - DOMAIN-SUFFIX,whethobs.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,whetin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whiceega.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whicus.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whihauve.net,🛑 广告拦截
@@ -27025,6 +27912,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,whimsoplynx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whineshellcat.space,🛑 广告拦截
   - DOMAIN-SUFFIX,whiningconfessed.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,whipgos.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whippedfreezerbegun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whippedpuces.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,whirltoes.com,🛑 广告拦截
@@ -27047,7 +27935,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,whoavais.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whoavaud.net,🛑 广告拦截
   - DOMAIN-SUFFIX,whobabsaim.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,whodouth.net,🛑 广告拦截
   - DOMAIN-SUFFIX,whoevercloakroom.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,whoftits.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wholaums.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,whole-win.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,wholeactualjournal.com,🛑 广告拦截
@@ -27064,6 +27954,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wholenicenews.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wholesomemillennium.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wholewowblog.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,whompedcuorin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whoodseb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whoognoz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,whookroo.com,🛑 广告拦截
@@ -27122,9 +28013,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,widgets.oddschecker.com,🛑 广告拦截
   - DOMAIN-SUFFIX,widgets.progrids.com,🛑 广告拦截
   - DOMAIN-SUFFIX,widgets.tree.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,widore.com,🛑 广告拦截
   - DOMAIN-SUFFIX,widow5blackfr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,widton.com,🛑 广告拦截
   - DOMAIN-SUFFIX,widual.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wiediceberg.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,wiela-kig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wigetmedia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wigglewurm.com,🛑 广告拦截
@@ -27233,6 +28126,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wkjoehzlkl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wkqcnkstso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wkyfgxxabvu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,wl-cornholio.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wlafx4trk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wledconsi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wlimrvsnusyawk.com,🛑 广告拦截
@@ -27245,6 +28139,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wmober.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wmolgnjo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wmptctl.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wmpuem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wndvcmyrqwnbdy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wnjjhksaue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wnp.com,🛑 广告拦截
@@ -27255,6 +28150,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,woaneeti.com,🛑 广告拦截
   - DOMAIN-SUFFIX,woaneezy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,woathail.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,woathaiz.net,🛑 广告拦截
   - DOMAIN-SUFFIX,wobblyiroha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wobsneesty.space,🛑 广告拦截
   - DOMAIN-SUFFIX,wodycaha.com,🛑 广告拦截
@@ -27264,7 +28160,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wofulsensism.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wogglehydrae.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wokenoptionalcohabit.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,wokentractorfurnished.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wokfirsax.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wolaufie.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wolfedcedule.com,🛑 广告拦截
@@ -27358,11 +28253,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wossaung.net,🛑 广告拦截
   - DOMAIN-SUFFIX,woudaufe.net,🛑 广告拦截
   - DOMAIN-SUFFIX,woujoami.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,woukrkskillsom.info,🛑 广告拦截
+  - DOMAIN-SUFFIX,wouldmakefeag.info,🛑 广告拦截
   - DOMAIN-SUFFIX,wouldnotspea.info,🛑 广告拦截
   - DOMAIN-SUFFIX,woulin.com,🛑 广告拦截
   - DOMAIN-SUFFIX,woulsa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wounderfullife.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wountr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wouthula.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wouvista.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wovazaix.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wovensur.com,🛑 广告拦截
@@ -27402,6 +28300,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wreckingplain.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wrenchfavourablespear.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wrenchsound.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,wrenko.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wrestlingembroider.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wretcheddrunkard.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wriedwite.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,wrient.com,🛑 广告拦截
@@ -27446,7 +28346,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wubsauth.net,🛑 广告拦截
   - DOMAIN-SUFFIX,wuckaity.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wudr.net,🛑 广告拦截
-  - DOMAIN-SUFFIX,wuepo.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,wuidtethhkcko.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wukbgater.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,wukoopicee.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wuksaiho.net,🛑 广告拦截
@@ -27459,12 +28359,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wuqconn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wurstsmikael.life,🛑 广告拦截
   - DOMAIN-SUFFIX,wussucko.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wutrroqixat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wutzibapqf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wuwutnnyedlhvr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wuzbhjpvsf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wvhba6470p.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wvjzbijwbsegqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wvtnccld.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wvwxjfjjytaf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wvxcdtuhcagistb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ww2.imgadult.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ww2.imgtaxi.com,🛑 广告拦截
@@ -27477,9 +28379,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wwoww.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wwowww.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wwpon365.ru,🛑 广告拦截
+  - DOMAIN-SUFFIX,wwpush22.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wwrpfevyca.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wwry.xyz,🛑 广告拦截
-  - DOMAIN-SUFFIX,wwsercher.biz,🛑 广告拦截
+  - DOMAIN-SUFFIX,www6.hentai-zone.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,www8.upload-pics.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wwwadcntr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wwwowww.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wwwpromoter.com,🛑 广告拦截
@@ -27537,6 +28441,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xcelltech.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xcelsiusadserver.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xclicks.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,xcowuheclvwryh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xctignum.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,xcvhhgdbyqk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xcvsdrqagn.com,🛑 广告拦截
@@ -27546,6 +28451,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xdkvvtucvbqhv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xdmanage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xdserv.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xduvqslud.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xebadu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xegluwate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xel-xel-fie.com,🛑 广告拦截
@@ -27553,6 +28459,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xenosmussal.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xepkfd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xeuswz.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xfcpdigfsx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xfileload.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xfimwjibh.top,🛑 广告拦截
   - DOMAIN-SUFFIX,xfwblpomxc.com,🛑 广告拦截
@@ -27567,6 +28474,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xhykikamxas.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xhzz3moj1dsd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaomengxiong.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xibilitukydteam.info,🛑 广告拦截
   - DOMAIN-SUFFIX,xidx.org,🛑 广告拦截
   - DOMAIN-SUFFIX,xijgedjgg5f55.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xijojwonz.com,🛑 广告拦截
@@ -27588,8 +28496,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xkpbcd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xksdqikwbwat.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xksqb.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xliirdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xlirdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xlivrdr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xlmygeuxtv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xlow.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xlrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xlrm-tech.com,🛑 广告拦截
@@ -27623,10 +28533,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xoalt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xobr219pa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xoemvfgjhpwea.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xoimmmhfha.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xoktditxsmr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xoyuxostayam.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpctraffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpectthatmy.shop,🛑 广告拦截
+  - DOMAIN-SUFFIX,xpimupaqnanl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpkftctvei.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpollo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xporn.in,🛑 广告拦截
@@ -27640,6 +28552,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xsjc4smhbyjf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xsrs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xstreamsoftwar3x.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xsvcouvr.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,xszcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xtasattazv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xtlvjnyd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xtneqpole.xyz,🛑 广告拦截
@@ -27665,6 +28579,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xvderylqps.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xvika.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xviperonec.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xvjrveks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xvpqmcgf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xvuslink.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xvwebllndr.com,🛑 广告拦截
@@ -27679,6 +28594,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xxltr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xxmaqoupnd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xxodleylnfhyi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xxofygygumf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xxxbannerswap.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xxxex.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xxxiijmp.com,🛑 广告拦截
@@ -27698,6 +28614,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xyjaewocysv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xylansudra.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,xylaoppress.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xylenylyetapa.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,xyleticfrette.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xylrvmiyjdtnqij.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xyz0k4gfs.xyz,🛑 广告拦截
@@ -27757,7 +28674,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yearlingpreferablyperiods.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yearlylight.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yearnwillowconsumption.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,yearthpsyllid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yeesdiapase.website,🛑 广告拦截
   - DOMAIN-SUFFIX,yelledvotable.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yellow-record.pro,🛑 广告拦截
@@ -27801,6 +28717,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yieldselect.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yieldtraffic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yieldx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,yifsntub.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,yike20230306.live,🛑 广告拦截
   - DOMAIN-SUFFIX,yim3eyv5.top,🛑 广告拦截
   - DOMAIN-SUFFIX,yingforthemoo.info,🛑 广告拦截
@@ -27829,9 +28746,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ylx-2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ylx-3.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ylx-4.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ylzkfpzqffqon.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ym-a.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,ym8p.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ymchcohvncak.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ymuitydkdoy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yneationsliee.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ynklendr.online,🛑 广告拦截
   - DOMAIN-SUFFIX,ynoymse4.xhamster.com,🛑 广告拦截
@@ -27907,6 +28826,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yoxepo.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,yoyadsdom.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yozyboqyiy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ypdfpvwxwxkkga.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ypgpjvfv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,yphdrphx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ypmadserver.com,🛑 广告拦截
@@ -27929,6 +28849,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ysuchtjhwasp.info,🛑 广告拦截
   - DOMAIN-SUFFIX,ytbzqtrog.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ytfezzava.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ytgzz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ythjhk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ytimm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ytndjaefvan.xyz,🛑 广告拦截
@@ -27961,6 +28882,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ywyeetvrjx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,yx-ads6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yxajqsrsij.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,yxguqmcemyjiwb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yxkhpk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yxpoprve.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yy9s51b2u05z.com,🛑 广告拦截
@@ -27969,6 +28891,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yydtbpms8tf4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yydwkkxhjb.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yygszlgor.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,yyjngvuaqrdgghs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yyjvimo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yyptyrrjba.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,yyselrqpyu.com,🛑 广告拦截
@@ -28022,10 +28945,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zcsnjbjlwn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zdajdudqfq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zdjljvsi.com,🛑 广告拦截
-  - DOMAIN-SUFFIX,zdsfnagupwkztl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zdxblxwjoees.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zeads.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zealeddrizzly.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zealfulhaired.life,🛑 广告拦截
+  - DOMAIN-SUFFIX,zealousstraitcommit.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zealpickup.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zealso.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zebeaa.click,🛑 广告拦截
@@ -28052,6 +28976,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zelrulte.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zemewitted.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zemteksu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,zemydreamsa.info,🛑 广告拦截
   - DOMAIN-SUFFIX,zendplace.pro,🛑 广告拦截
   - DOMAIN-SUFFIX,zenkreka.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zenoviaexchange.com,🛑 广告拦截
@@ -28083,10 +29008,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zfoxhovh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zgazgluy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zhej78i1an8w6ceu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zhfvwkkftg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zhhxxnfuxn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zhmpqpqna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zhmzsjvkii.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zhould.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zhqmctfwip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zi8ivy4b0c7l.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ziaratjs.tech,🛑 广告拦截
   - DOMAIN-SUFFIX,zibaweva.com,🛑 广告拦截
@@ -28114,6 +29041,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ziphoumt.net,🛑 广告拦截
   - DOMAIN-SUFFIX,zippyswacken.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zircongalanas.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zirdough.net,🛑 广告拦截
   - DOMAIN-SUFFIX,zirdrax.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zirgogoo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,zisboombah.net,🛑 广告拦截
@@ -28172,19 +29100,25 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zprelandappslab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zprelanding.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zprelandings.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zqfbsrldaeawna.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zquent.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zqwe.ru,🛑 广告拦截
   - DOMAIN-SUFFIX,zrav2wkbrs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zrialhgkanuk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zrszxrummjaci.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zrvnhlwypqpwjw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zrwpporp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zsbwoqpcxj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zscwdu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zsfjpbnxyyx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zskuvehuihkusp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zsxrhkrfwwv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zt-0304.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,ztrack.online,🛑 广告拦截
   - DOMAIN-SUFFIX,ztulkecpeo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ztyqrwinqpvque.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zubivu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zubxukxkuot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zucks.net,🛑 广告拦截
   - DOMAIN-SUFFIX,zudaichy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zufoloodylize.com,🛑 广告拦截
@@ -28211,6 +29145,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zuzodoad.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zvetokr2hr8pcng09.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zvhednrza.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zvjvkjereleaz.top,🛑 广告拦截
   - DOMAIN-SUFFIX,zvkytbjimbhk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zvwhrc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zwaar.net,🛑 广告拦截
@@ -28223,6 +29158,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zxcdn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zxr9gpxf7j.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zxwmmswtnoh.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zxxgoikbqyiu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zy16eoat1w.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zybrdr.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zybsky.com,🛑 广告拦截
@@ -28250,11 +29186,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - IP-CIDR,23.109.248.14/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.29/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.125/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,23.109.248.129/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.130/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.135/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,23.109.248.139/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.149/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.183/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.109.248.229/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,34.102.137.201/32,🛑 广告拦截,no-resolve
   - IP-CIDR,35.227.234.222/32,🛑 广告拦截,no-resolve
   - IP-CIDR,35.232.188.118/32,🛑 广告拦截,no-resolve
   - IP-CIDR,37.1.209.213/32,🛑 广告拦截,no-resolve
@@ -28277,6 +29216,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - IP-CIDR,142.91.159.139/32,🛑 广告拦截,no-resolve
   - IP-CIDR,142.91.159.147/32,🛑 广告拦截,no-resolve
   - IP-CIDR,142.91.159.164/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,142.91.159.169/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,142.91.159.179/32,🛑 广告拦截,no-resolve
   - IP-CIDR,142.91.159.201/32,🛑 广告拦截,no-resolve
   - IP-CIDR,142.91.159.223/32,🛑 广告拦截,no-resolve
   - IP-CIDR,142.91.159.244/32,🛑 广告拦截,no-resolve
@@ -28286,18 +29227,29 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - IP-CIDR,172.255.6.2/32,🛑 广告拦截,no-resolve
   - IP-CIDR,172.255.6.137/32,🛑 广告拦截,no-resolve
   - IP-CIDR,172.255.6.139/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,172.255.6.150/32,🛑 广告拦截,no-resolve
   - IP-CIDR,172.255.6.152/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,172.255.6.199/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,172.255.6.248/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,172.255.6.254/32,🛑 广告拦截,no-resolve
   - IP-CIDR,188.42.84.21/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,188.42.84.23/32,🛑 广告拦截,no-resolve
   - IP-CIDR,188.42.84.110/32,🛑 广告拦截,no-resolve
   - IP-CIDR,188.42.84.162/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.0/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.1/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.11/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.24/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.28/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.29/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.34/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.36/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.40/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.46/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.72/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.74/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.103/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,203.195.121.134/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.195/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.209/32,🛑 广告拦截,no-resolve
   - IP-CIDR,203.195.121.217/32,🛑 广告拦截,no-resolve
@@ -28444,8 +29396,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,123456.asia,🛑 广告拦截
   - DOMAIN-SUFFIX,123hala.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1258999.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1267a.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,1338999.com,🛑 广告拦截
   - DOMAIN-SUFFIX,1368999.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,1379a.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,1381a.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,1383a.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,1385a.xyz,🛑 广告拦截
@@ -28585,6 +29539,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,47zoz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,480image.com,🛑 广告拦截
   - DOMAIN-SUFFIX,480img.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,4asfgyx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,4bds.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,4cjh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,4excel.cn,🛑 广告拦截
@@ -28612,6 +29567,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,51zgjs.mobi,🛑 广告拦截
   - DOMAIN-SUFFIX,5251m.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,528791725.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,52acc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,52kuwang.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,52sq.shop,🛑 广告拦截
   - DOMAIN-SUFFIX,52tushuo.com,🛑 广告拦截
@@ -28744,6 +29700,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,874547.men,🛑 广告拦截
   - DOMAIN-SUFFIX,876920.com,🛑 广告拦截
   - DOMAIN-SUFFIX,87uq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,8861198.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8861200.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8861201.com,🛑 广告拦截
   - DOMAIN-SUFFIX,8861202.com,🛑 广告拦截
@@ -28905,8 +29862,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,a5jf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,a666.one,🛑 广告拦截
   - DOMAIN-SUFFIX,a78wt.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,a8age.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a907907.com,🛑 广告拦截
   - DOMAIN-SUFFIX,a962m.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,a9able.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aa.gushiwen.org,🛑 广告拦截
   - DOMAIN-SUFFIX,aa.xiangxiangmf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,aa665588aa.com,🛑 广告拦截
@@ -29107,6 +30066,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aliyune.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,aliyuni.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,aliyunsupercdn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,allcp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,allicinarenig.com,🛑 广告拦截
   - DOMAIN-SUFFIX,almabelen.com,🛑 广告拦截
   - DOMAIN-SUFFIX,am.szhome.com,🛑 广告拦截
@@ -29232,6 +30192,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,baihbw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,baimbw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,baishui.me,🛑 广告拦截
+  - DOMAIN-SUFFIX,baitaiz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,baitu1llbkotsfthllcjeg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,baixkw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,baizbw.cn,🛑 广告拦截
@@ -29254,11 +30215,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bas.boshi.tv,🛑 广告拦截
   - DOMAIN-SUFFIX,batiao20221209.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,baucdngb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bavde1.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bavxxf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,baytfede.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bb-bbjsyuming.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,bbads.vip,🛑 广告拦截
   - DOMAIN-SUFFIX,bbazhaheiv.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,bbges.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bbhktv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bcb9.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,bchina-1.xsfaya.com,🛑 广告拦截
@@ -29362,8 +30325,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,betgdr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bfdaawe.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bfsqtsn.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,bftqdd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bg04y.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bgbyzv.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bgdizsay.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bgnlaigv.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,bh2q.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,bhaoea.cn,🛑 广告拦截
@@ -29382,6 +30347,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bibotsays.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bicid.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,biedawo1004.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bifyeldv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bihaipack.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bikannovel.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bili96.co,🛑 广告拦截
@@ -29417,6 +30383,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bmjs.xzw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bmmogb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bnbvd.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,bnds8.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,bnfyzszm.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bnhxxj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bnl2bii.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bnlg.fun,🛑 广告拦截
@@ -29437,6 +30405,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,borlsbla.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,boshao666.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bovhzz.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,boyvtr8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bpbpxv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bpewo.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,bqcxgbm.cn,🛑 广告拦截
@@ -29454,6 +30423,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,brfgbn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,brfvyrrp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bridalplums.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bridgetnbe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,brkxgfs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,brkzczn.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,brysogsiv.uno,🛑 广告拦截
@@ -29466,8 +30436,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bsnoownmv.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,bt1.patexplorer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,btc440.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,btescs.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,btn.onlylady.com,🛑 广告拦截
   - DOMAIN-SUFFIX,btn.pchome.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,btsvad8.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,bttazsyk.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bu1.duba.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bu1.vvvdj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,bufan.space,🛑 广告拦截
@@ -29489,6 +30462,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bwandlv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bwogldv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,bwwlw.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,bxackzj.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,bxlidv.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,bxoiksm.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,bxzm9a.icu,🛑 广告拦截
@@ -29512,6 +30486,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,c1.chajiaotong.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c1.china.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,c1.czcol.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,c4d4.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,c6.friok.com,🛑 广告拦截
   - DOMAIN-SUFFIX,c9cc.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,c9tt3jj.top,🛑 广告拦截
@@ -29525,6 +30500,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,caleblindsaydawson.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,camep.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cangnews.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,canser1.top,🛑 广告拦截
   - DOMAIN-SUFFIX,canser8.top,🛑 广告拦截
   - DOMAIN-SUFFIX,canser9.top,🛑 广告拦截
   - DOMAIN-SUFFIX,caomeixz7.xyz,🛑 广告拦截
@@ -29547,6 +30523,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ccio6rope.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ccl1.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,cclw.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ccnim.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ccpufcj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,cctg.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,ccymzg.cn,🛑 广告拦截
@@ -29556,6 +30533,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,cdgfa.ifeng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdgtw3.guapaijia.com,🛑 广告拦截
   - DOMAIN-SUFFIX,cdkke.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,cdmjur.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn-99-pic.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn-go.net,🛑 广告拦截
   - DOMAIN-SUFFIX,cdn-xinghuatupian-cdn.com,🛑 广告拦截
@@ -29698,6 +30676,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,csekct.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,csgw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,csh253.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,cslbahf.top,🛑 广告拦截
   - DOMAIN-SUFFIX,cspb1.5w5w.com,🛑 广告拦截
   - DOMAIN-SUFFIX,csqiulong.com,🛑 广告拦截
   - DOMAIN-SUFFIX,css.huvmi.com,🛑 广告拦截
@@ -29783,6 +30762,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dadzz.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,daede.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,daenf.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,dafdf.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dagamemisdeed.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dagft.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dagwi.cn,🛑 广告拦截
@@ -29810,6 +30790,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dakeshi.top,🛑 广告拦截
   - DOMAIN-SUFFIX,daliantong.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dalingjia.ren,🛑 广告拦截
+  - DOMAIN-SUFFIX,dalld.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dameyuan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,damhixs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,damow.cn,🛑 广告拦截
@@ -29828,6 +30809,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dbixooy.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dblcs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dbmcmhh.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,dbnwlp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbtojr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dbwmpqd.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dbxok6uo.icu,🛑 广告拦截
@@ -29847,12 +30829,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ddlipf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ddqkqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ddtx.fun,🛑 广告拦截
+  - DOMAIN-SUFFIX,ddush.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dduu.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,ddxolb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ddxs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,de.as.pptv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deansent.top,🛑 广告拦截
   - DOMAIN-SUFFIX,dedcrfvdj.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,dehaer.site,🛑 广告拦截
   - DOMAIN-SUFFIX,dehua.ixinfan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,deliver.ifeng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,delivery.playallvideos.com,🛑 广告拦截
@@ -29888,12 +30872,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dfzv25.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dgbaozhuang.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dgfqqq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,dghhot.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dgozp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dgvkrt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dharkyu.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dhaxhsa325.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dheear.site,🛑 广告拦截
   - DOMAIN-SUFFIX,dherea.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,dhjrvj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dhkipdsc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dhl.135320.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dhl4.xyz,🛑 广告拦截
@@ -29965,6 +30951,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dnzmhr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dobwll.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,doccd.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,dojyiu8.com,🛑 广告拦截
   - DOMAIN-SUFFIX,domain1.chahaoba.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,domddcut.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,donchen501.cn,🛑 广告拦截
@@ -30029,6 +31016,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,dycxkj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,dydab.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dydujb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,dyeperd.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,dyhnbgtsl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,dyuadask.com,🛑 广告拦截
   - DOMAIN-SUFFIX,dyxsmj.net,🛑 广告拦截
@@ -30089,9 +31077,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eitb7.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ej65.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ejjek.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,ejolul.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ejunshi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ejyvgq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ekdbfu.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,ekdky.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ekhnbwe.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ekqfkk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,elsmom.xyz,🛑 广告拦截
@@ -30108,6 +31098,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,endio.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,enennsa.gushiwen.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,enews10.yxlady.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,enhad.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ennde.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ent1.12584.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ent1.qunchua.cn,🛑 广告拦截
@@ -30121,6 +31112,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eotglx.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ep6a.top,🛑 广告拦截
   - DOMAIN-SUFFIX,epmf4.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,epoid.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,epoun.top,🛑 广告拦截
   - DOMAIN-SUFFIX,eqghuu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,eqknlsw.xyz,🛑 广告拦截
@@ -30134,9 +31126,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,erhsxv.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ermao20230220.live,🛑 广告拦截
   - DOMAIN-SUFFIX,erop.store,🛑 广告拦截
+  - DOMAIN-SUFFIX,ertgbme.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ertjo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,erwgj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,esanciw.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,esgher.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,esgher.site,🛑 广告拦截
   - DOMAIN-SUFFIX,esiws.com,🛑 广告拦截
   - DOMAIN-SUFFIX,esjzj.cyou,🛑 广告拦截
@@ -30165,6 +31159,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ewadakesw.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ewahj.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ewandlw.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,ewfsef.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ewmvim.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ewogldw.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ewrwf.com,🛑 广告拦截
@@ -30219,6 +31214,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fcied.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fcpnxx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fdbskb.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,fddxbn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fdfghgfdd.yunqishi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,fdgem.com,🛑 广告拦截
   - DOMAIN-SUFFIX,fdrxdr.xyz,🛑 广告拦截
@@ -30230,6 +31226,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feifcgx.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,feifei.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,feild.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,feiln.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,feiyuchuanmei.love,🛑 广告拦截
   - DOMAIN-SUFFIX,felzfr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fengbalo.fun,🛑 广告拦截
@@ -30250,6 +31247,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fgre9.top,🛑 广告拦截
   - DOMAIN-SUFFIX,fhddnh.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fhfgg.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,fhglcpf.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,fhhvdzr.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,fhiiyi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,fhpjoqi.cn,🛑 广告拦截
@@ -30332,6 +31330,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fvtrx.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,fvzljv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fweia.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,fwepd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,fwrpq.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,fwwjbvz.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,fwzvlp.xyz,🛑 广告拦截
@@ -30427,6 +31426,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gg72a1.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gg86.pinggu.org,🛑 广告拦截
   - DOMAIN-SUFFIX,ggdm1.nhaidu.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,ggdrfh5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ggglxue.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,gggppp666.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ggjs.d17.cc,🛑 广告拦截
@@ -30442,12 +31442,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ghghgf.51dongshi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghghgf.xuexiwa.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ghhtt.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,ghland.site,🛑 广告拦截
   - DOMAIN-SUFFIX,ghost.wang,🛑 广告拦截
   - DOMAIN-SUFFIX,ghsnhjk.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ghwsuoe.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,giold.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gisp6piot.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,gixhlii.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,gjipd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gjmqqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,gjohvhf.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,gk1.582582.com,🛑 广告拦截
@@ -30488,6 +31490,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,godie.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,godloveme.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,godlu.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,godni.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gogfhq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,goiagm.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,goikbnjksdf.com,🛑 广告拦截
@@ -30517,6 +31520,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gr0z6.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,gralfusnzpo006.top,🛑 广告拦截
   - DOMAIN-SUFFIX,grduswfx.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,greatnumeric.com,🛑 广告拦截
   - DOMAIN-SUFFIX,grecoi.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,greenhouseglobal.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,greenxcx.com,🛑 广告拦截
@@ -30543,6 +31547,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,guge.red,🛑 广告拦截
   - DOMAIN-SUFFIX,guigankj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,guizhouxinsheng.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,guke.name,🛑 广告拦截
   - DOMAIN-SUFFIX,guode.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,guominziben.com,🛑 广告拦截
   - DOMAIN-SUFFIX,guqsqfmi.com,🛑 广告拦截
@@ -30635,6 +31640,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hdapp1003-a.akamaihd.net,🛑 广告拦截
   - DOMAIN-SUFFIX,hdapp1008-a.akamaihd.net,🛑 广告拦截
   - DOMAIN-SUFFIX,hdc.maxli.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hdfdsdaw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdgzta.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hdherpc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hdminfeng.com,🛑 广告拦截
@@ -30646,6 +31652,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,healthcare.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,hefei64.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hefrpv.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,hegk03a.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hegk09a.top,🛑 广告拦截
   - DOMAIN-SUFFIX,heha2cpoe.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,hehehe.buzz,🛑 广告拦截
@@ -30680,6 +31687,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hfk7j.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hflssy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hfqdipw.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hgehse.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,hgf8hck.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hghjks2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hgiafe.site,🛑 广告拦截
   - DOMAIN-SUFFIX,hgibbei.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,hgpdoa.cn,🛑 广告拦截
@@ -30700,6 +31710,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,himeneko.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,hioek.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,hiqrnyn.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hiqua.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hitubt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hjgrc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hjjkk66.xyz,🛑 广告拦截
@@ -30708,6 +31719,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hk6kn.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hkbzl.hk,🛑 广告拦截
   - DOMAIN-SUFFIX,hkfuy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hkkeafj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hladalliance.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hlbbn6ii.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,hldwdz.xyz,🛑 广告拦截
@@ -30730,10 +31742,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hnzhengtongkj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hnzls8.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ho3ia.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hohmaryt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hohpdld.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hoiea.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,homebao.me,🛑 广告拦截
   - DOMAIN-SUFFIX,hongruikt.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hongteng.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hontont.com,🛑 广告拦截
   - DOMAIN-SUFFIX,houbaotech.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hozzs.hk,🛑 广告拦截
@@ -30748,6 +31762,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hq390.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hqcqz2.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hqdfh.mobi,🛑 广告拦截
+  - DOMAIN-SUFFIX,hqgearb.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,hqoqbs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hqqpw.mobi,🛑 广告拦截
   - DOMAIN-SUFFIX,hqycr.cn,🛑 广告拦截
@@ -30756,6 +31771,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hrrbc.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hsadeg.site,🛑 广告拦截
   - DOMAIN-SUFFIX,hskzoab.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hslbahu.top,🛑 广告拦截
   - DOMAIN-SUFFIX,hsrgnac.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hssebb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hstbrt.xyz,🛑 广告拦截
@@ -30776,6 +31792,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,huanleshijie.top,🛑 广告拦截
   - DOMAIN-SUFFIX,huaweinnd.top,🛑 广告拦截
   - DOMAIN-SUFFIX,huayange.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,hubiazhi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hudqrn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hufkzv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,huhai.cdwz8.cn,🛑 广告拦截
@@ -30786,6 +31803,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,huishij.net,🛑 广告拦截
   - DOMAIN-SUFFIX,huiying.shop,🛑 广告拦截
   - DOMAIN-SUFFIX,huiyutz.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,hujunhao.name,🛑 广告拦截
   - DOMAIN-SUFFIX,humgrww.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hunlimd.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,huodiyun.cn,🛑 广告拦截
@@ -30810,6 +31828,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,hxtiojs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hy.huangye88.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hy.huangye88.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,hyeqp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,hyfumxc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,hyhfimgg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,hyk9.xyz,🛑 广告拦截
@@ -30902,6 +31921,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iknwqdpo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ikoplvp.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,iktree.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ilade.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ildopxge.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ilinxi.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,iljhbdp.cn,🛑 广告拦截
@@ -30957,6 +31977,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,iprpe.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ipssss.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ipyud.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,iqede.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,iqmbao.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,iqybys.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,irqqwqk.cn,🛑 广告拦截
@@ -30967,6 +31988,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,isdfbvkvsc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ishanggao.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ishuoshuo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,islbaho.top,🛑 广告拦截
   - DOMAIN-SUFFIX,isroeiq.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,iswgnn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,iszbxqps.com,🛑 广告拦截
@@ -31019,6 +32041,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,j721s.top,🛑 广告拦截
   - DOMAIN-SUFFIX,j8jp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jab88.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jakid.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,janwzsqi.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,jaowd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,japsmna.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,jatytuo.cn,🛑 广告拦截
@@ -31063,6 +32087,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jh001.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,jh16csf.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jhgtf.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jhlazsot.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,jhlxfw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,jhxcld.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jhzfwl.cn,🛑 广告拦截
@@ -31111,14 +32136,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jiutou20230210.live,🛑 广告拦截
   - DOMAIN-SUFFIX,jiwekawe.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jiyan.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,jjade.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jjdk33.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jjfopb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jjkiahh.icu,🛑 广告拦截
+  - DOMAIN-SUFFIX,jjklrcw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jjnrqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jkasn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jke1.jianke.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jkk7777.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,jklhs7u.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jknmsdpo.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,jknnjk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jkvbiry.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,jkxty.mobi,🛑 广告拦截
   - DOMAIN-SUFFIX,jkxvvv.xyz,🛑 广告拦截
@@ -31137,12 +32166,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jndczg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jndfrqz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jngapkf.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,jnhgm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jnkangnuo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,jnkmwr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jnmaeun.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jnmami.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,jntxvf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jnwq.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,jochenanabata.guru,🛑 广告拦截
   - DOMAIN-SUFFIX,joh4t.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,johtzj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,joiakit.com,🛑 广告拦截
@@ -31157,6 +32188,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jpnbhyba.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jpqed.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jpqgxy.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,jpvrbt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jpzsmbp.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,jq6b.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jqnggnsa.fun,🛑 广告拦截
@@ -31219,6 +32251,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,juringupstage.com,🛑 广告拦截
   - DOMAIN-SUFFIX,just4kira.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,justasimple.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,jutwzssh.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,juuhe.com,🛑 广告拦截
   - DOMAIN-SUFFIX,juvtpeb.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,juyqiolna.cyou,🛑 广告拦截
@@ -31249,7 +32282,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jyt58.top,🛑 广告拦截
   - DOMAIN-SUFFIX,jyxfvp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jz8b.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,jzdgn.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,jzixypd.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,jzngisya.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,jzxpxj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,jzzuwdn.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,k0lksy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,k1.dancihu.com,🛑 广告拦截
@@ -31270,6 +32306,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kanshu.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,kapsmnd.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,kart2ks.icu,🛑 广告拦截
+  - DOMAIN-SUFFIX,kasiklz.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,kayzqar.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,kb5ke.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kba8i.icu,🛑 广告拦截
@@ -31287,6 +32324,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kdkwe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kdqika.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kdsnw.today,🛑 广告拦截
+  - DOMAIN-SUFFIX,kdvmnn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ke4x.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kecms.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,keeearl.top,🛑 广告拦截
@@ -31336,11 +32374,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kkgytur.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,kkkqi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,kkkqo.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,kklpe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kkmbbvz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kl87n.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kl91ccp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,klbvqqqj.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kldtmki.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,kljslku.com,🛑 广告拦截
   - DOMAIN-SUFFIX,klsnckalualkcn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,klsynmld.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,kltxw.xyz,🛑 广告拦截
@@ -31353,12 +32393,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kmpjrjz.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,kmvbre.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kmzayrt.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,knjmhmk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,knk95.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,knmwrkw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,knr1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,knxvwxe.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,knyjes.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,koatkm.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,kodfn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,koekd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,koksin.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,kopde.xyz,🛑 广告拦截
@@ -31403,6 +32445,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kuwoyy.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kuxinqi.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kuyw.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,kv8899.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kvbgoc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kveff.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kvhcc.com,🛑 广告拦截
@@ -31420,6 +32463,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kxp7.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kybzkiw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,kydb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,kyplpw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,kyq3hky.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,kyq3xch.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,kyqbifz.cn,🛑 广告拦截
@@ -31457,6 +32501,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lbazhaheil.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lbjc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lbk7p.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,lbnqnp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lbprjdi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,lbzx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lc442.com,🛑 广告拦截
@@ -31468,6 +32513,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,leabd.douguo.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leadc7.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,ledni.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,legdeh.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,leiersuqd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leirsw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,leiwo.xyz,🛑 广告拦截
@@ -31491,6 +32537,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lh54.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lhare.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lhdlbp.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,lhiefl.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lhot.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lianfu.shop,🛑 广告拦截
   - DOMAIN-SUFFIX,lianfuhuang.cn,🛑 广告拦截
@@ -31532,6 +32579,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lkdhlp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lkidke.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lkjrx.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,lkmhn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lkmxqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lknmnnr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lkqyqwk.xyz,🛑 广告拦截
@@ -31542,6 +32590,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ll.k743.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ll38.com,🛑 广告拦截
   - DOMAIN-SUFFIX,llhhbb.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,llpuhx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,llsynmll.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,llvphz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,llyhbqn.cn,🛑 广告拦截
@@ -31552,6 +32601,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lm995.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lmlmvip.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lmlzht.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,lmnpd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lmx7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lmxzlb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lnaevr.fun,🛑 广告拦截
@@ -31581,6 +32631,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lr6e.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lrah0.top,🛑 广告拦截
   - DOMAIN-SUFFIX,lrkporm.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,lrlsrz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lrysogsil.uno,🛑 广告拦截
   - DOMAIN-SUFFIX,lrzsksw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,lsancil.top,🛑 广告拦截
@@ -31601,6 +32652,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,luyouxi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,lv.myapks.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lvjtiaa.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,lvrvdn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lvy0.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,lw0mp.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,lwandll.top,🛑 广告拦截
@@ -31619,6 +32671,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lxrhw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lxting.com,🛑 广告拦截
   - DOMAIN-SUFFIX,lxyl66.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,lycjsix.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,lydrnj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lyewe.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,lynr.com,🛑 广告拦截
@@ -31728,6 +32781,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mhysbwo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,micfu.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,mifeng.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,mifyeldx.top,🛑 广告拦截
   - DOMAIN-SUFFIX,mihouse.pw,🛑 广告拦截
   - DOMAIN-SUFFIX,milk.yesky.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,miludata.com,🛑 广告拦截
@@ -31739,6 +32793,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,minwear.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,minzhouxinxi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,misafnix.space,🛑 广告拦截
+  - DOMAIN-SUFFIX,misapopait.com,🛑 广告拦截
   - DOMAIN-SUFFIX,miuspzkmn.bar,🛑 广告拦截
   - DOMAIN-SUFFIX,miyou.info,🛑 广告拦截
   - DOMAIN-SUFFIX,mjxtiht.cn,🛑 广告拦截
@@ -31751,6 +32806,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mm.nwell.net,🛑 广告拦截
   - DOMAIN-SUFFIX,mm.paizi.net,🛑 广告拦截
   - DOMAIN-SUFFIX,mm3t.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,mmead.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mmfusheng.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mnbfs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mnbvbrow.xyz,🛑 广告拦截
@@ -31797,6 +32853,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mross011.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mross022.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mross033.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mrqbuf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mrruuov.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,mrrw.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mryshl.com,🛑 广告拦截
@@ -31809,6 +32866,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,msqdqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mssdkrt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mt.64foot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,mt4v4.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mt66g.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mtawcy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mttty.top,🛑 广告拦截
@@ -31827,6 +32885,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mvbtp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mvdwq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mvfrcio.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,mvgucp.com,🛑 广告拦截
   - DOMAIN-SUFFIX,mvusq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,mwandlx.top,🛑 广告拦截
   - DOMAIN-SUFFIX,mwogldx.top,🛑 广告拦截
@@ -31898,6 +32957,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,neg2zos.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,neiod.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,neipa.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,nektonsrutate.com,🛑 广告拦截
   - DOMAIN-SUFFIX,netrf.wang,🛑 广告拦截
   - DOMAIN-SUFFIX,networkname.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,new.htcui.com,🛑 广告拦截
@@ -31913,11 +32973,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ngmnhc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ngnlaigc.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,nhgds.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,nhjkm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nhjwh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nhtieoo.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,nhyvhmvw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ni87.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nieae.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,nifyeldc.top,🛑 广告拦截
   - DOMAIN-SUFFIX,nihuwo.asia,🛑 广告拦截
   - DOMAIN-SUFFIX,niik9494.top,🛑 广告拦截
   - DOMAIN-SUFFIX,nijj990.xyz,🛑 广告拦截
@@ -31934,6 +32996,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,niunai.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,niuspykmn.bar,🛑 广告拦截
   - DOMAIN-SUFFIX,njcengpianwang.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,njogejt.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,njslx.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,njtprv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nkelyhz.cn,🛑 广告拦截
@@ -31942,8 +33005,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nlsynmlc.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,nmfww.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nmhte.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,nmkghh.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nmtibv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nmwbank.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,nnfyxd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nntsdp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nogff.top,🛑 广告拦截
   - DOMAIN-SUFFIX,nohcff.xyz,🛑 广告拦截
@@ -31958,6 +33023,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,npdkdb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,npmeingm7.shop,🛑 广告拦截
   - DOMAIN-SUFFIX,nqcacox.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,nqdufv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nqezlls.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,nqfrhd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nqnggnsc.fun,🛑 广告拦截
@@ -31972,6 +33038,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nsnoownmc.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,nsweq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nt6f.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,ntozchv.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,ntozr.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ntppyc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ntsibo.com,🛑 广告拦截
@@ -31980,6 +33047,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nucld.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nujian.asia,🛑 广告拦截
   - DOMAIN-SUFFIX,numnxwvv.ink,🛑 广告拦截
+  - DOMAIN-SUFFIX,nunxhv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nurahf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nuubi.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,nuucmzuc.com,🛑 广告拦截
@@ -31997,6 +33065,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,nwogldc.top,🛑 广告拦截
   - DOMAIN-SUFFIX,nwrazu.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,nwuidsbjak.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,nxhwvt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,nxl791.com,🛑 广告拦截
   - DOMAIN-SUFFIX,nxlidc.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,nxxyjn.com,🛑 广告拦截
@@ -32063,6 +33132,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,okdi.top,🛑 广告拦截
   - DOMAIN-SUFFIX,okew.top,🛑 广告拦截
   - DOMAIN-SUFFIX,okkkk.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,okmhmkjnm.com,🛑 广告拦截
   - DOMAIN-SUFFIX,okmwfq.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,okoc.top,🛑 广告拦截
   - DOMAIN-SUFFIX,okod.top,🛑 广告拦截
@@ -32115,6 +33185,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,osnignsk.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,osnoownmk.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,osp45qr.site,🛑 广告拦截
+  - DOMAIN-SUFFIX,ossfile001.com,🛑 广告拦截
   - DOMAIN-SUFFIX,otantgi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,othoj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,otjedg.xyz,🛑 广告拦截
@@ -32138,6 +33209,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,owandlk.top,🛑 广告拦截
   - DOMAIN-SUFFIX,owdfxgc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,owihyg.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,owlinggnomist.com,🛑 广告拦截
   - DOMAIN-SUFFIX,owogldk.top,🛑 广告拦截
   - DOMAIN-SUFFIX,oxmun.com,🛑 广告拦截
   - DOMAIN-SUFFIX,oxneww.co,🛑 广告拦截
@@ -32156,6 +33228,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,p1.chinakaoyan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,p1.qxzsw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,p1.zhongyoo.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,p11q.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,p23jac.top,🛑 广告拦截
   - DOMAIN-SUFFIX,p2oh1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,p3tt.com,🛑 广告拦截
@@ -32172,6 +33245,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,panruo.net.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,panyh123456.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,paradisemall.net,🛑 广告拦截
+  - DOMAIN-SUFFIX,parnett55.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,payoneok.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pazz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pb.shuxigua.com,🛑 广告拦截
@@ -32182,6 +33256,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pc768.com,🛑 广告拦截
   - DOMAIN-SUFFIX,pclsueo.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,pcmtf.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,pcqsajr.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,pcvzpj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pcxtvr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pddbtn.xyz,🛑 广告拦截
@@ -32206,6 +33281,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pfjfj45.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pflhnpu.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,pfpmmxa.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,pfqwbqs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,pftdmmc.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net,🛑 广告拦截
   - DOMAIN-SUFFIX,pgccaoy.cn,🛑 广告拦截
@@ -32321,6 +33397,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pyjqhb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pyntr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,pyyhkn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,pzjizsyf.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,pzlxnd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,q1.yyxwzx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,q1zcp.com,🛑 广告拦截
@@ -32363,6 +33440,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qectme.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qehaxkl.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,qerbert78.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,qezpjlp.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,qf1d.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qfblqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qfdtqq.com,🛑 广告拦截
@@ -32495,6 +33573,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,qwahk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qwandly.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qwcqqw.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,qwdbsjnql.com,🛑 广告拦截
   - DOMAIN-SUFFIX,qwogldy.top,🛑 广告拦截
   - DOMAIN-SUFFIX,qwrdj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,qwrot.cyou,🛑 广告拦截
@@ -32514,6 +33593,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,r75tia.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ra1.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rabc1.iteye.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,rabuagc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,radish-cake.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ranlisgz.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,rardi.cyou,🛑 广告拦截
@@ -32546,6 +33626,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,reffnik.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,regrfg33.com,🛑 广告拦截
   - DOMAIN-SUFFIX,relafp.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,remfebd.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,renameking.com,🛑 广告拦截
   - DOMAIN-SUFFIX,renfs.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rengbali.fun,🛑 广告拦截
@@ -32571,7 +33652,9 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,rhxwnd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ribffmg.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,richh.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,rifyeldz.top,🛑 广告拦截
   - DOMAIN-SUFFIX,rikqo.cc,🛑 广告拦截
+  - DOMAIN-SUFFIX,rilwzsit.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,riqnhxq.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,risafniz.space,🛑 广告拦截
   - DOMAIN-SUFFIX,risrauj.cn,🛑 广告拦截
@@ -32580,11 +33663,13 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,riy9qqfushop.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rizgtf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rjnjjin.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,rjzqtz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,rka1.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,rksnqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,rkv9.top,🛑 广告拦截
   - DOMAIN-SUFFIX,rljjt.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,rlojitu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,rlqoyht.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,rlsynmlz.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,rlsyuulz.cam,🛑 广告拦截
   - DOMAIN-SUFFIX,rm4b.top,🛑 广告拦截
@@ -32699,6 +33784,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,sbazhaheib.top,🛑 广告拦截
   - DOMAIN-SUFFIX,sbb8w.top,🛑 广告拦截
   - DOMAIN-SUFFIX,sbbd1.qulishi.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,sbeaje.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sbehgm.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,sbpb1.chuiyue.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sbpb1.qulishi.com,🛑 广告拦截
@@ -32713,6 +33799,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,scsdcsdcs.top,🛑 广告拦截
   - DOMAIN-SUFFIX,scswuliu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sd1f.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,sdchb2.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdd.hi1718.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdfafds6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,sdfg68.com,🛑 广告拦截
@@ -32876,12 +33963,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ss2a.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ssancib.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ssb.ah499.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ssdfgq7.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssdp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ssgg.chazidian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssio6xepo.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,ssjiancai.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssjuxsc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ssnignsb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ssnnn.net,🛑 广告拦截
   - DOMAIN-SUFFIX,ssnoownmb.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,ssp.21ic.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ssp.hinet.net,🛑 广告拦截
@@ -32967,6 +34056,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,taobc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,taotaogeren.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,taoxiehui.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,tarqk5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tb3t.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tbazhaheii.top,🛑 广告拦截
   - DOMAIN-SUFFIX,tbcgumkadc.xyz,🛑 广告拦截
@@ -32996,6 +34086,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tfprivacy.live,🛑 广告拦截
   - DOMAIN-SUFFIX,tfptlgrw.co,🛑 广告拦截
   - DOMAIN-SUFFIX,tfptlgrw.live,🛑 广告拦截
+  - DOMAIN-SUFFIX,tftran.shop,🛑 广告拦截
+  - DOMAIN-SUFFIX,tfttbd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tfzozf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tg0qu.top,🛑 广告拦截
   - DOMAIN-SUFFIX,tgbevv.xyz,🛑 广告拦截
@@ -33043,6 +34135,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tk.504pk.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tkd777.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,tlhlpcb.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,tlprlf.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tlsynmli.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,tmea116.oss-cn-beijing.aliyuncs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tmochyf.cn,🛑 广告拦截
@@ -33050,6 +34143,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tmwbszn.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,tnarzc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tnebxv.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,toastspinner.com,🛑 广告拦截
   - DOMAIN-SUFFIX,toijr.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tokendomain.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tomuwlf.cn,🛑 广告拦截
@@ -33067,6 +34161,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tpqokqi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,tprwnvk.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,tptp001.buzz,🛑 广告拦截
+  - DOMAIN-SUFFIX,tpvuxt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tqdctl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tqdpqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tqnggnsi.fun,🛑 广告拦截
@@ -33110,6 +34205,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,turifb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tututu666.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tuyqiolni.cyou,🛑 广告拦截
+  - DOMAIN-SUFFIX,tvdpebx.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,tvrshv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,tvszazx.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,tvxqdp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,twadakesi.cyou,🛑 广告拦截
@@ -33136,6 +34233,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,txphjl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,txzlc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ty-baidu.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,ty8bz.com,🛑 广告拦截
   - DOMAIN-SUFFIX,tyrsn6di.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,tzjovzs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,tzlit.cn,🛑 广告拦截
@@ -33163,6 +34261,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,u1.shuaiku.com,🛑 广告拦截
   - DOMAIN-SUFFIX,u1010.com,🛑 广告拦截
   - DOMAIN-SUFFIX,u1011.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,u1022.com,🛑 广告拦截
   - DOMAIN-SUFFIX,u1033.com,🛑 广告拦截
   - DOMAIN-SUFFIX,u1055.com,🛑 广告拦截
   - DOMAIN-SUFFIX,u1077.com,🛑 广告拦截
@@ -33240,6 +34339,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uiuspakmn.bar,🛑 广告拦截
   - DOMAIN-SUFFIX,ujfqohk.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ujiasm.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,ujnkn.com,🛑 广告拦截
   - DOMAIN-SUFFIX,ukutuy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ulojlvmejkaem.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,ulsynmlt.fun,🛑 广告拦截
@@ -33256,6 +34356,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,union.china.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,union.yihaodian.com,🛑 广告拦截
   - DOMAIN-SUFFIX,uniway.cn.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,unjld.com,🛑 广告拦截
   - DOMAIN-SUFFIX,unmnkkq.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,unpfqc9.com,🛑 广告拦截
   - DOMAIN-SUFFIX,untitled.dwstatic.com,🛑 广告拦截
@@ -33306,6 +34407,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,uwumr.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,uxcnhsf.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,uxlidt.ink,🛑 广告拦截
+  - DOMAIN-SUFFIX,uxtruz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uxwkiyp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,uygckiy.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,uyjhbawd.xyz,🛑 广告拦截
@@ -33358,6 +34460,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vgimer.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,vgxhvt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vh5g.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,vhjxrj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vhyvkx.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vi1.souid.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vi7a.top,🛑 广告拦截
@@ -33384,6 +34487,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vmax-ktv.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vmewz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vmsolxc.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,vnfsbl.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vnlqcod.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,vnq3.top,🛑 广告拦截
   - DOMAIN-SUFFIX,vnvmif.cn,🛑 广告拦截
@@ -33398,6 +34502,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vqhifd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vreephay.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vrffwbf.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,vrlvnz.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vrmgwvz.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,vt3a.top,🛑 广告拦截
   - DOMAIN-SUFFIX,vtvnnl.xyz,🛑 广告拦截
@@ -33411,15 +34516,18 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,vupload.duowan.com,🛑 广告拦截
   - DOMAIN-SUFFIX,vuxxtn.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vv1.pyhfxdm.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,vvdzucs.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,vvfht.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,vvsbwny.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,vvtztj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vvv.ieduw.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,vvwuqxp.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,vw66i.top,🛑 广告拦截
   - DOMAIN-SUFFIX,vwtjvd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vwvjzd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vx2e.top,🛑 广告拦截
   - DOMAIN-SUFFIX,vx4n.icu,🛑 广告拦截
+  - DOMAIN-SUFFIX,vxhtxt.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vxvtzx.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vydbvp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,vydqknuy.xyz,🛑 广告拦截
@@ -33465,6 +34573,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wcdc5.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wcknxoy.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wdasa.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,wddsva0.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wdmdejd.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wdswgjn.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wduwvjd.cn,🛑 广告拦截
@@ -33548,6 +34657,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wmeng.feihuadns.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wmmty.top,🛑 广告拦截
   - DOMAIN-SUFFIX,wneia.iaskhot.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,wnzle.com,🛑 广告拦截
   - DOMAIN-SUFFIX,woaiseo.com.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wocexaa.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wocoqs.xyz,🛑 广告拦截
@@ -33624,6 +34734,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,wyynike.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,wyzq.rehuwang.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wz8g.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,wzctuv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wzdy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,wzjs1.oss-accelerate.aliyuncs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,wzkxke.xyz,🛑 广告拦截
@@ -33654,6 +34765,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xccadc.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xcf-bd-js.chuimg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xcjwq.world,🛑 广告拦截
+  - DOMAIN-SUFFIX,xckj0623.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xckyqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xcmno.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xcvdd.xyz,🛑 广告拦截
@@ -33668,9 +34780,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xdw9.top,🛑 广告拦截
   - DOMAIN-SUFFIX,xdyjt.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xecner.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,xeghes.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,xeiatmf.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xeiyt.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,xengbale.fun,🛑 广告拦截
+  - DOMAIN-SUFFIX,xeynozl.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,xf2pf.top,🛑 广告拦截
   - DOMAIN-SUFFIX,xfn1688.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xfzyun.com,🛑 广告拦截
@@ -33703,6 +34817,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xiaoshuoyun.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaosss.ren,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaoxiuapp.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xiaoy.name,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaoyunong13.top,🛑 广告拦截
   - DOMAIN-SUFFIX,xiaozengyyds.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xiatian.buzz,🛑 广告拦截
@@ -33736,6 +34851,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xjpphoto.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xjpsrb.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xjwrq.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,xjzyhp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xk3b.top,🛑 广告拦截
   - DOMAIN-SUFFIX,xkbinj.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xkd.hk,🛑 广告拦截
@@ -33762,6 +34878,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xn--2quv4et7i4yno8fbua.xn--fiqs8s,🛑 广告拦截
   - DOMAIN-SUFFIX,xn--2qux23cwrdmnaz3gj3w.xn--fiqs8s,🛑 广告拦截
   - DOMAIN-SUFFIX,xn--wxtr9fwyxk9co4hbua.xn--fiqs8s,🛑 广告拦截
+  - DOMAIN-SUFFIX,xn--zw0autp42d.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xne1ocient87zxz.360doc.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xni.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,xnjvn1.com,🛑 广告拦截
@@ -33771,11 +34888,14 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xokcaxw.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xopew.cyou,🛑 广告拦截
   - DOMAIN-SUFFIX,xorlsblw.cyou,🛑 广告拦截
+  - DOMAIN-SUFFIX,xpcwrgy.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xpdjsd.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,xpicj1.cc,🛑 广告拦截
   - DOMAIN-SUFFIX,xpj08.oss-cn-beijing.aliyuncs.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpqy.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xpynqq.com,🛑 广告拦截
   - DOMAIN-SUFFIX,xpysozb.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,xqblnei.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xqcjfcb.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xrewo.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xrkadslmgg.xyz,🛑 广告拦截
@@ -33787,6 +34907,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xsjh001.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xsjh002.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xswape.top,🛑 广告拦截
+  - DOMAIN-SUFFIX,xtbzff.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xthrdyi.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,xtpez.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,xtpwfb.xyz,🛑 广告拦截
@@ -33896,6 +35017,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yh20230625tu.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yhbdrnr.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,yhgumcr.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,yhhnjg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yhjccj.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,yhjh04.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yhsfsdv03.com,🛑 广告拦截
@@ -33989,6 +35111,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yueyuego.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yuggcd.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yuguo.shop,🛑 广告拦截
+  - DOMAIN-SUFFIX,yuifgh.fun,🛑 广告拦截
   - DOMAIN-SUFFIX,yulidianshang.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yuliglsd.space,🛑 广告拦截
   - DOMAIN-SUFFIX,yumingroot.xyz,🛑 广告拦截
@@ -34019,6 +35142,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,yyrgz.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,yyttm.top,🛑 广告拦截
   - DOMAIN-SUFFIX,yytxzct.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,yyuivw6.com,🛑 广告拦截
   - DOMAIN-SUFFIX,yyujke.top,🛑 广告拦截
   - DOMAIN-SUFFIX,yyupphb.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,yywccbdy.cyou,🛑 广告拦截
@@ -34100,6 +35224,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zeookuv.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,zerolcp.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,zetcul.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,zexfzson.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,zfcdirf.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,zffymmdg.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zfmtyv.buzz,🛑 广告拦截
@@ -34107,6 +35232,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zfnclk.buzz,🛑 广告拦截
   - DOMAIN-SUFFIX,zfood029.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zfteiv.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,zfvltd.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,zg.mmyuer.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zgctig.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,zgfckf.mobi,🛑 广告拦截
@@ -34141,6 +35267,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zhuxin.link,🛑 广告拦截
   - DOMAIN-SUFFIX,zhvo.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ziedwr.com,🛑 广告拦截
+  - DOMAIN-SUFFIX,zifyeldq.top,🛑 广告拦截
   - DOMAIN-SUFFIX,ziling.ink,🛑 广告拦截
   - DOMAIN-SUFFIX,zipeyrp.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,ziravd.xyz,🛑 广告拦截
@@ -34176,6 +35303,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,znfg6677.top,🛑 广告拦截
   - DOMAIN-SUFFIX,znllfp.xyz,🛑 广告拦截
   - DOMAIN-SUFFIX,znnodl.xyz,🛑 广告拦截
+  - DOMAIN-SUFFIX,znyjmbh.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,zo6g.top,🛑 广告拦截
   - DOMAIN-SUFFIX,zobesmu.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,zodvlr.xyz,🛑 广告拦截
@@ -34244,6 +35372,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zxfas56.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zxgko.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,zxptw.cn,🛑 广告拦截
+  - DOMAIN-SUFFIX,zxrcfw.com,🛑 广告拦截
   - DOMAIN-SUFFIX,zxtkfvm.cn,🛑 广告拦截
   - DOMAIN-SUFFIX,zyauopr.icu,🛑 广告拦截
   - DOMAIN-SUFFIX,zypzzv.xyz,🛑 广告拦截
@@ -34260,6 +35389,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zzzhuoxiaqu.online,🛑 广告拦截
   - IP-CIDR,23.89.50.180/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.91.3.114/32,🛑 广告拦截,no-resolve
+  - IP-CIDR,23.231.151.252/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.234.217.11/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.234.217.12/32,🛑 广告拦截,no-resolve
   - IP-CIDR,23.244.43.212/32,🛑 广告拦截,no-resolve
@@ -34554,6 +35684,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,a.perfumesclub.pl,🛡️ 隐私防护
   - DOMAIN-SUFFIX,a.perfumesclub.pt,🛡️ 隐私防护
   - DOMAIN-SUFFIX,a.pickme.lk,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,a.pikabu.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,a.pork.org,🛡️ 隐私防护
   - DOMAIN-SUFFIX,a.pourquoidocteur.fr,🛡️ 隐私防护
   - DOMAIN-SUFFIX,a.remy.world,🛡️ 隐私防护
@@ -36930,7 +38061,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,analytics.dev.htmedia.in,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.dev.springboardvideo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.developer.riotgames.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,analytics.digitalpfizer.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.disneyinternational.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.dvidshub.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.eggoffer.com,🛡️ 隐私防护
@@ -36992,6 +38122,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,analytics.kkb.com.tr,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.klickly.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.kongregate.io,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,analytics.kooapp.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.krieselreihe.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.laregione.ch,🛡️ 隐私防护
   - DOMAIN-SUFFIX,analytics.lifestyledemocracy.com,🛡️ 隐私防护
@@ -37213,6 +38344,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,api.elliehuxtable.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,api.fuck.education,🛡️ 隐私防护
   - DOMAIN-SUFFIX,api.nobeta.com.br,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,api.privacyguides.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,api.ryanyao.design,🛡️ 隐私防护
   - DOMAIN-SUFFIX,api.wipmania.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,apis.4bn.xyz,🛡️ 隐私防护
@@ -37603,6 +38735,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,auforex.americanexpress.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,auntants.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,aurora-d3.herokuapp.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,aurum.tirto.id,🛡️ 隐私防护
   - DOMAIN-SUFFIX,aus.amexforbusiness.com.au,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ausclh.castlery.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,auspiciousyard.com,🛡️ 隐私防护
@@ -37759,7 +38892,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bcsjcj.nasdaq.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bdj5.terrassesmontecarlosbm.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bdqzcj.micuento.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,bdt.123rf.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bdzcck.stadiumgoods.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,be-go.experian.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,be.ourhdc.com,🛡️ 隐私防护
@@ -37795,14 +38927,12 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,beacons.mediamelon.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beadbears.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beagle.prod.tda.link,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,beam.bankrate.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beam.mjhlifesciences.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beam.telex.hu,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beamincrease.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beamvolcano.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bears.daigostudio.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beastbeef.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,beat.socialblade.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beat.yourtv.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,beautifulhobbies.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,becanium.com,🛡️ 隐私防护
@@ -37855,7 +38985,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,bikini.hasdukmerahputih.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bikini.indonesiya.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,billowybead.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,bin.vinted.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,binocule21c.merriam-webster.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bint.openapp.link,🛡️ 隐私防护
   - DOMAIN-SUFFIX,bio.chups.co,🛡️ 隐私防护
@@ -38697,6 +39826,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,collector.automote.co.nz,🛡️ 隐私防护
   - DOMAIN-SUFFIX,collector.cint.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,collector.clareity.net,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,collector.dmp.cnna.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,collector.fiverr.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,collector.getyourguide.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,collector.github.com,🛡️ 隐私防护
@@ -39051,6 +40181,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,crta.metro.co.uk,🛡️ 隐私防护
   - DOMAIN-SUFFIX,crumbs.robinhood.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,crwdcntrl.net,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,cryo.socialblade.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,crypto.egghead.link,🛡️ 隐私防护
   - DOMAIN-SUFFIX,cs.nakanohito.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,cs0010sbeda.theory-clinic.com,🛡️ 隐私防护
@@ -39219,6 +40350,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,d.shareaholic.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,d.shopprecouriers.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,d.skk.moe,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,d.sondakika.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,d.sourcepoint.capitalfm.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,d.tv-asahi.co.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,d.uni-medias.com,🛡️ 隐私防护
@@ -39244,6 +40376,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,da.maif.fr,🛡️ 隐私防护
   - DOMAIN-SUFFIX,da.netease.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,da.rabobank.nl,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,da29e6b8-f018-490f-b25f-39a887fc95e7.xyz,🛡️ 隐私防护
   - DOMAIN-SUFFIX,damageddistance.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,damagedroll.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,damdoor.com,🛡️ 隐私防护
@@ -39338,6 +40471,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,data.nexxt.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,data.notificaciones.ficohsa.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,data.notifications.portal.cooperlighting.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,data.nrk.no,🛡️ 隐私防护
   - DOMAIN-SUFFIX,data.onlyyou.palladiumhotelgroup.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,data.ouigo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,data.pepephone.com,🛡️ 隐私防护
@@ -40715,7 +41849,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,feedme.use-beez.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fek1.fnactickets.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,feldman.net.anwalt.de,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,fennec.atp.fox,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fetch.gethuan.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,🛡️ 隐私防护
@@ -40817,6 +41950,8 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fourfork.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fourier.taobao.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fourmtagservices.appspot.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,fourtimessmelly.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,fp.heavybit.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fp.mandatumlife.fi,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fp.mandatumtrader.fi,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fp.measure.office.com,🛡️ 隐私防护
@@ -40845,11 +41980,11 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,fpc.utexas.edu,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fpcdn.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fpghll.rossmann.hu,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,fpnpmcdn.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fpt.inxinternational.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fpt.microsoft.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fptls.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fptls2.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,fptls3.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fpxewa.ilmeteo.it,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fq9vy0muyqi3.www.madrigalmaps.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,fqcqnb.dwr.com,🛡️ 隐私防护
@@ -41479,6 +42614,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,gracefulsock.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,grado.ufv.es,🛡️ 隐私防护
   - DOMAIN-SUFFIX,gramombird.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,grandfatherguitar.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,grandioseguide.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,grandmotherunit.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,grayoranges.com,🛡️ 隐私防护
@@ -41774,6 +42910,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,icaubf.casamundo.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,icebergindigo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,icmakp.united-arrows.tw,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,iconmediapixel.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,iconnode.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,icu.getstorybox.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,id5-sync.com,🛡️ 隐私防护
@@ -42389,7 +43526,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ip.up66.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ip2c.landscape.co.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,ipapi.tmbi.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ipcfgw.pieces.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ipcheck.blogsys.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ipixsi.aboutyou.fi,🛡️ 隐私防护
@@ -42452,6 +43588,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jaomlf.giftmall.co.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,jas.indeednps.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,javascriptcounter.appspot.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,jcmonitor.xcar.com.cn,🛡️ 隐私防护
   - DOMAIN-SUFFIX,jcpclick.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,jcplzp.lancel.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,jcr3.onlyyouhotels.com,🛡️ 隐私防护
@@ -42632,7 +43769,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,kjjuuy.icaniwill.fi,🛡️ 隐私防护
   - DOMAIN-SUFFIX,kjmaoi.babor.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,kkzpde.aboutyou.lt,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,klm-ea.jscrambler.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,kn81kivjwwc7.www.logology.co,🛡️ 隐私防护
   - DOMAIN-SUFFIX,knorzj.wearfigs.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,knotkettle.com,🛡️ 隐私防护
@@ -42684,7 +43820,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,l.civic.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,l.coastapp.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,l.create.canva.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,l.ctrl.blog,🛡️ 隐私防护
   - DOMAIN-SUFFIX,l.cultgear.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,l.du.coach,🛡️ 隐私防护
   - DOMAIN-SUFFIX,l.e.domain.com.au,🛡️ 隐私防护
@@ -43399,7 +44534,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,livelylaugh.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,livelyreward.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,livestats.kaltura.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,livestats.la7.tv,🛡️ 隐私防护
   - DOMAIN-SUFFIX,livestats.matrix.it,🛡️ 隐私防护
   - DOMAIN-SUFFIX,liveviewer.ez.no,🛡️ 隐私防护
   - DOMAIN-SUFFIX,liveyield.com,🛡️ 隐私防护
@@ -43525,7 +44659,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,longinglettuce.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,longingtrees.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,looseloaf.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,lore.circulate.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,lorenzourban.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,losslace.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,lotte.myomee.com,🛡️ 隐私防护
@@ -43671,7 +44804,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,ma.redhat.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ma.register.it,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ma.revideco.se,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,ma.tarnkappe.info,🛡️ 隐私防护
   - DOMAIN-SUFFIX,macmorin.net.anwalt.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,maddeningpowder.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,maggieeatstheangel.com,🛡️ 隐私防护
@@ -44895,6 +46027,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,metrics1.thankyou.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,metricsishare.rediff.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,metricssecure.northwesternmutual.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,metrika.kontur.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,metrix.emagister.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,metrix.publix.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,metroaverage.com,🛡️ 隐私防护
@@ -44966,6 +46099,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mixedreading.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mixomniture.rbs.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mixpanel-proxy.ted.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,mj-snowplow-static-js.s3.amazonaws.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mjca-yijws.global.ssl.fastly.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mjnpya.marktplaats.nl,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mjwnxc.julbie.com,🛡️ 隐私防护
@@ -45179,6 +46313,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,mypowur.eyecue.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,myprofile.panasonic.eu,🛡️ 隐私防护
   - DOMAIN-SUFFIX,myprofile.technics.eu,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,mysingleromance.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mysite.webroot.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mysteriousmonth.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,mywebpage.ni.com,🛡️ 隐私防护
@@ -45687,11 +46822,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,p.gazeta.pl,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.hentaiforce.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.ianmjones.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,p.kolplay.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.logbox.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.marqueplace.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.meilentrio.de,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,p.milliyet.com.tr,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,p.metrilo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.neil.gg,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.nqueue.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,p.pagesjaunes.fr,🛡️ 隐私防护
@@ -45893,6 +47027,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pgs.farmprogress.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pgt1.voyage-prive.es,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ph.roturadepantalla.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,ph.thenextweb.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,phadia.thermo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,phadia.thermofisher.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,phdinc.actonservice.com,🛡️ 隐私防护
@@ -46179,6 +47314,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,plbcsd.vidaxl.se,🛡️ 隐私防护
   - DOMAIN-SUFFIX,ple.pearlinsurance.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pleasantpump.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,plenty.vidio.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,plo.pearlinsurance.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,plotparent.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,plotrabbit.com,🛡️ 隐私防护
@@ -46192,6 +47328,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,plv.geocomply.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pm.boostintegrated.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pm.dailykos.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,pm.geniusmonkey.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pm.pmu.fr,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pnekru6pxrum-a.akamaihd.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pnhesw.jtb.co.jp,🛡️ 隐私防护
@@ -46286,6 +47423,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,procroanalytics.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,prod-events.nykaa.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,prod.ew.srp.navigacloud.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,prod.fennec.atp.fox,🛡️ 隐私防护
   - DOMAIN-SUFFIX,prod.nitrosniffer.ottogroup.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,prod.tracking.refinitiv.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,prodhome1analyticslistener.mysoluto.com,🛡️ 隐私防护
@@ -46380,7 +47518,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,puffypurpose.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,puiwrs.misterspex.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pulsar.ebay.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,pulsarback.mail.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pumlmb.netcologne.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pumpedpancake.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,pumpkin.abine.com,🛡️ 隐私防护
@@ -46489,6 +47626,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,quantum.actonservice.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,quarterbean.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,qubitanalytics.appspot.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,query.petametrics.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,quesid.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,questintegrity.actonservice.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,questionableobservation.com,🛡️ 隐私防护
@@ -46531,7 +47669,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,r.rover.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,r.sax.sina.com.cn,🛡️ 隐私防护
   - DOMAIN-SUFFIX,r.skimresources.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,r.stripe.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,r1ztni.oui.sncf,🛡️ 隐私防护
   - DOMAIN-SUFFIX,r42tag.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,r4nds.absorba.com,🛡️ 隐私防护
@@ -46680,6 +47817,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,remarketing.oncourselearning.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,remnkv.doda.jp,🛡️ 隐私防护
   - DOMAIN-SUFFIX,removeads.workers.dev,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,remp.nv.ua,🛡️ 隐私防护
   - DOMAIN-SUFFIX,rent.mgrc.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,renting.aldautomotive.es,🛡️ 隐私防护
   - DOMAIN-SUFFIX,repeatsweater.com,🛡️ 隐私防护
@@ -47925,6 +49063,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,shesubscriptions.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,shinesavage.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,shinestuart.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,shirtsidewalk.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,shiveringspot.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,shiverscissors.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,shockinggrass.com,🛡️ 隐私防护
@@ -50277,6 +51416,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,staging-go.getsquire.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,staging-link.docyt.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,staging-links.thriveglobal.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,staging-pt.ispot.tv,🛡️ 隐私防护
   - DOMAIN-SUFFIX,staging-refer.rooam.co,🛡️ 隐私防护
   - DOMAIN-SUFFIX,staging.narrateapp.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,staging.refer.wagr.us,🛡️ 隐私防护
@@ -50359,7 +51499,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stat.ouedkniss.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stat.ovh,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stat.pet,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,stat.ppstream.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stat.pravmir.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stat.pubhtml5.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stat.ringier.sk,🛡️ 隐私防护
@@ -50515,6 +51654,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stats.byma.com.br,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.byterocket.dev,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.cable.tech,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,stats.calcalist.co.il,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.callnowbutton.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.canadapost-postescanada.ca,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.canadapost.ca,🛡️ 隐私防护
@@ -50877,7 +52017,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,stats.mt.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.muchbetteradventures.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.multiply.cloud,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,stats.myangular.life,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.navedislam.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.nddmed.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,stats.nebula.fi,🛡️ 隐私防护
@@ -51443,6 +52582,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,t-test.esvdigital.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.12thman.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.360.audion.fm,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,t.360playvid.info,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.3hentai.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.91syun.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.9gag.com,🛡️ 隐私防护
@@ -51575,6 +52715,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,t.mashable.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.meangreensports.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.menepe.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,t.metrilo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.mgoblue.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.miamihurricanes.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.msuspartans.com,🛡️ 隐私防护
@@ -51633,6 +52774,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,t.southernmiss.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.splicky.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.spot.im,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,t.syosetu.org,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.texasperformingarts.org,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.texassports.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,t.texastech.com,🛡️ 隐私防护
@@ -51777,6 +52919,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tbunkv.chineselaundry.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tc.europcar.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tc.europcar.com.au,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,tc.geniusmonkey.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tc2.hometogo.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tcdata.fnac.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tce.alicdn.com,🛡️ 隐私防护
@@ -51992,6 +53135,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,threetruck.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,throattrees.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,thrombus.net.anwalt.de,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,thtk.temu.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,thumbs.net.anwalt.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,thumos.fileside.app,🛡️ 隐私防护
   - DOMAIN-SUFFIX,thunderingrose.com,🛡️ 隐私防护
@@ -53336,21 +54480,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,track.noddus.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,track.nopaperforms.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,track.noz.de,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.ae,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.ca,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.co.th,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.co.uk,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.com.au,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.com.mx,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.de,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.es,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.hk,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.ie,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.it,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.jp,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.nl,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,track.opentable.sg,🛡️ 隐私防护
   - DOMAIN-SUFFIX,track.pexi.nl,🛡️ 隐私防护
   - DOMAIN-SUFFIX,track.pnicnik.live,🛡️ 隐私防护
   - DOMAIN-SUFFIX,track.pricespider.com,🛡️ 隐私防护
@@ -53451,7 +54580,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tracker.timesgroup.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracker.tolvnow.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracker.tubecj.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,tracker.tv.sohu.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracker.unbxdapi.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracker.wigzopush.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracker.winload.de,🛡️ 隐私防护
@@ -53495,7 +54623,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tracking.bankofoklahoma.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.bankoftexas.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.base.de,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,tracking.bd4travel.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.behaarteladies.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.bettingexpert.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.bizarrladies.de,🛡️ 隐私防护
@@ -53532,6 +54659,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,tracking.deutscheladies.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.devoteladies.de,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.dfinsolutions.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,tracking.diginetica.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.digitalocean.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.direxion.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,tracking.dominanteladies.de,🛡️ 隐私防护
@@ -54010,6 +55138,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,trk.thebenchfactory.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,trk.themspsummit.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,trk.thomaspumps.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,trk.tirto.id,🛡️ 隐私防护
   - DOMAIN-SUFFIX,trk.trashcontainers.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,trk.treetopproducts.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,trk.tricontinent.com,🛡️ 隐私防护
@@ -54297,6 +55426,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,v.adblockultimate.net,🛡️ 隐私防护
   - DOMAIN-SUFFIX,v.angha.me,🛡️ 隐私防护
   - DOMAIN-SUFFIX,v.cameo.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,v.ctrl.blog,🛡️ 隐私防护
   - DOMAIN-SUFFIX,v.oui.sncf,🛡️ 隐私防护
   - DOMAIN-SUFFIX,v.topya.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,valdes.net.anwalt.de,🛡️ 隐私防护
@@ -54379,7 +55509,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,visit.lifeblood.com.au,🛡️ 隐私防护
   - DOMAIN-SUFFIX,visit.sendheirloom.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,visit.tafensw.edu.au,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,visit.webhosting.yahoo.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,visit.xchina.pics,🛡️ 隐私防护
   - DOMAIN-SUFFIX,visitor-microservice.ext.p-a.im,🛡️ 隐私防护
   - DOMAIN-SUFFIX,visitorcenter.srwild.com,🛡️ 隐私防护
@@ -54740,6 +55869,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,why3.inseec.education,🛡️ 隐私防护
   - DOMAIN-SUFFIX,wiar9wff0ma9.ping.t3.gg,🛡️ 隐私防护
   - DOMAIN-SUFFIX,widget-pixels.outbrain.com,🛡️ 隐私防护
+  - DOMAIN-SUFFIX,widget.educationdynamics.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,widgetbe.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,wigglygeese.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,wigglyindustry.com,🛡️ 隐私防护
@@ -55290,7 +56420,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xovq5nemr.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,xray.mail.ru,🛡️ 隐私防护
   - DOMAIN-SUFFIX,xseedwealth.actonservice.com,🛡️ 隐私防护
-  - DOMAIN-SUFFIX,xstats.evoload.io,🛡️ 隐私防护
   - DOMAIN-SUFFIX,xuc.monteleone.fr,🛡️ 隐私防护
   - DOMAIN-SUFFIX,xvantage.ingrammicro.com,🛡️ 隐私防护
   - DOMAIN-SUFFIX,xwsbxv.noracora.com,🛡️ 隐私防护
@@ -55585,6 +56714,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
   - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+  - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
   - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
   - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -55767,6 +56897,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - IP-CIDR,192.173.64.0/18,🎥 奈飞视频,no-resolve
   - IP-CIDR,198.38.96.0/19,🎥 奈飞视频,no-resolve
   - IP-CIDR,198.45.48.0/20,🎥 奈飞视频,no-resolve
+  - IP-CIDR,203.75.84.0/24,🎥 奈飞视频,no-resolve
   - IP-CIDR,207.45.72.0/22,🎥 奈飞视频,no-resolve
   - IP-CIDR,208.75.76.0/22,🎥 奈飞视频,no-resolve
   - DOMAIN,bahamut.akamaized.net,📺 巴哈姆特
@@ -55877,6 +57008,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
   - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+  - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
@@ -56063,6 +57195,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
   - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
+  - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
@@ -58475,6 +59608,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,greenreadings.com,🚀 节点选择
   - DOMAIN-SUFFIX,greenvpn.net,🚀 节点选择
   - DOMAIN-SUFFIX,greenvpn.org,🚀 节点选择
+  - DOMAIN-SUFFIX,grindr.com,🚀 节点选择
   - DOMAIN-SUFFIX,grotty-monday.com,🚀 节点选择
   - DOMAIN-SUFFIX,grow.google,🚀 节点选择
   - DOMAIN-SUFFIX,gs-discuss.com,🚀 节点选择
@@ -58855,6 +59989,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,imb.org,🚀 节点选择
   - DOMAIN-SUFFIX,imdb.com,🚀 节点选择
   - DOMAIN-SUFFIX,img.ly,🚀 节点选择
+  - DOMAIN-SUFFIX,imgasd.com,🚀 节点选择
   - DOMAIN-SUFFIX,imgchili.net,🚀 节点选择
   - DOMAIN-SUFFIX,imgmega.com,🚀 节点选择
   - DOMAIN-SUFFIX,imgur.com,🚀 节点选择
@@ -58939,7 +60074,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,israbox.com,🚀 节点选择
   - DOMAIN-SUFFIX,issuu.com,🚀 节点选择
   - DOMAIN-SUFFIX,istars.co.nz,🚀 节点选择
-  - DOMAIN-SUFFIX,istarshine.com,🚀 节点选择
   - DOMAIN-SUFFIX,istef.info,🚀 节点选择
   - DOMAIN-SUFFIX,istiqlalhewer.com,🚀 节点选择
   - DOMAIN-SUFFIX,istockphoto.com,🚀 节点选择
@@ -59340,6 +60474,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,lzjscript.com,🚀 节点选择
   - DOMAIN-SUFFIX,lzmtnews.org,🚀 节点选择
   - DOMAIN-SUFFIX,m-sport.co.uk,🚀 节点选择
+  - DOMAIN-SUFFIX,m-team.cc,🚀 节点选择
   - DOMAIN-SUFFIX,m.me,🚀 节点选择
   - DOMAIN-SUFFIX,macgamestore.com,🚀 节点选择
   - DOMAIN-SUFFIX,macrovpn.com,🚀 节点选择
@@ -61912,6 +63047,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,xiaohexie.com,🚀 节点选择
   - DOMAIN-SUFFIX,xiaolan.me,🚀 节点选择
   - DOMAIN-SUFFIX,xiaoma.org,🚀 节点选择
+  - DOMAIN-SUFFIX,xiaomi.eu,🚀 节点选择
   - DOMAIN-SUFFIX,xiaxiaoqiang.net,🚀 节点选择
   - DOMAIN-SUFFIX,xiezhua.com,🚀 节点选择
   - DOMAIN-SUFFIX,xihua.es,🚀 节点选择
@@ -68715,6 +69851,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
   - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+  - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
   - DOMAIN-SUFFIX,cn,🎯 全球直连
   - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
   - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -69035,130 +70172,6 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
-  - DOMAIN-KEYWORD,announce,🎯 全球直连
-  - DOMAIN-KEYWORD,torrent,🎯 全球直连
-  - DOMAIN-KEYWORD,tracker,🎯 全球直连
-  - DOMAIN-KEYWORD,announce,🎯 全球直连
-  - DOMAIN-KEYWORD,torrent,🎯 全球直连
-  - DOMAIN-KEYWORD,tracker,🎯 全球直连
-  - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
-  - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
-  - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
-  - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
-  - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
-  - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
-  - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
-  - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
-  - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
-  - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
-  - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
-  - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
-  - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
-  - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
-  - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
-  - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
-  - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
-  - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
-  - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
-  - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
-  - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
-  - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
-  - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
-  - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
-  - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
-  - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
-  - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
-  - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
-  - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
-  - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
-  - DOMAIN-SUFFIX,et8.org,🎯 全球直连
-  - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
-  - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
-  - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
-  - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
-  - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
-  - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
-  - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
-  - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
-  - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
-  - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
-  - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
-  - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
-  - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
-  - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
-  - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
-  - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
-  - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
-  - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
-  - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
-  - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
-  - DOMAIN-SUFFIX,j99.info,🎯 全球直连
-  - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
-  - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
-  - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
-  - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
-  - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
-  - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
-  - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
-  - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
-  - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
-  - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
-  - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
-  - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
-  - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
-  - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
-  - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
-  - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
-  - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
-  - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
-  - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,open.cd,🎯 全球直连
-  - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
-  - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
-  - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
-  - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
-  - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
-  - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
-  - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
-  - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
-  - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
-  - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
-  - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
-  - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
-  - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
-  - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
-  - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
-  - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
-  - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
-  - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
-  - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
-  - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
-  - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
-  - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
-  - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
-  - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
-  - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
-  - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
-  - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
-  - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
   - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
   - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
   - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
@@ -69173,6 +70186,10 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
   - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
   - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
+  - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
+  - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
+  - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
   - DOMAIN-SUFFIX,10010.com,🎯 全球直连
   - DOMAIN-SUFFIX,115.com,🎯 全球直连
   - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -69237,6 +70254,7 @@ cache="""  - DOMAIN-KEYWORD,openai,🤖 ChatBot
   - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
   - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
   - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+  - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
   - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
   - DOMAIN-SUFFIX,fang.com,🎯 全球直连
   - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
